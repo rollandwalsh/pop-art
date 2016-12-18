@@ -1,0 +1,24 @@
+# Keep these files out of the repo
+/wp-content/themes/twenty*
+/wp-content/upgrade
+/wp-content/uploads
+/sitemap.*
+/wp-config.php
+*.sql
+
+# Hidden files
+*.DS_Store
+*Thumbs.db
+*.sass-cache*
+*~imageoptim*
+*.log
+
+# Theme files
+/wp-content/themes/pop-art-theme/node_modules/
+/wp-content/themes/pop-art-theme/assets/stylesheets/
+/wp-content/themes/pop-art-theme/assets/components/
+/wp-content/themes/pop-art-theme/assets/javascript/vendor/
+/wp-content/themes/pop-art-theme/assets/javascript/foundation.js
+/wp-content/themes/pop-art-theme/assets/javascript/custom/demosite.js
+/wp-content/themes/pop-art-theme/packaged/
+/wp-content/themes/pop-art-theme/wpcs/
