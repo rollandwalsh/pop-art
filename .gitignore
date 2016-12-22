@@ -12,10 +12,11 @@
 *.sass-cache*
 *~imageoptim*
 *.log
+*.htaccess
 
 # Theme files
 /wp-content/themes/pop-art-theme/node_modules/
-/wp-content/themes/pop-art-theme/assets/stylesheets/
+/wp-content/themes/pop-art-theme/assets/fonts/fontawesome*
 /wp-content/themes/pop-art-theme/assets/components/
 /wp-content/themes/pop-art-theme/assets/javascript/vendor/
 /wp-content/themes/pop-art-theme/assets/javascript/foundation.js
