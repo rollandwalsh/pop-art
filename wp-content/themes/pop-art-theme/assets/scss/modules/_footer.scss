@@ -1,18 +1,54 @@
 #footer-container {
-  max-width: 100%;
-  width: 100%;
-  margin: 0 auto;
-  border-top: 1px solid #ccc;
-  margin-top: rem-calc(60);
-
-  #footer {
-    @include grid-row();
-    padding: rem-calc(30) 0;
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-    }
-  }
+	background: map-get($foundation-palette, tertiary);
+	
+	margin: 0 auto;
+	max-width: 100%;
+	width: 100%;
+	
+	.logo {
+		width: rem-calc(160); // Set size of logo
+	}
+	
+	#footer {
+		@include grid-row();
+		
+		color: $white;
+		
+		padding: ($global-padding * 3) 0;
+		
+		.columns:first-of-type {
+			padding: 0 ($global-padding / 2); // Differnt padding for logo container
+		}
+		
+		h6,
+		a {
+			font-weight: 600;
+		}
+		
+		ul {
+			margin: 0 0 $global-padding; // Added margin to bottom for mobile view
+			padding: 0;
+			list-style: none;
+			
+			a {
+				color: $medium-gray;
+				font-size: rem-calc(14);
+			}
+		}
+		
+		.f-privacy {
+			font-size: rem-calc(14);
+			font-weight: 600;
+			
+			margin-top: $global-padding * 2;
+			
+			display: flex;
+			justify-content: space-between;
+			
+			a {
+				color: $medium-gray;
+				padding-left: $global-padding / 2;
+			}
+		}
+	}
 }

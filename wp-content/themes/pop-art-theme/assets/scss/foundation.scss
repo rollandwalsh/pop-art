@@ -27,7 +27,7 @@
 
 // Individual foundation components
 @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-forms;
 @include foundation-button;
@@ -63,7 +63,7 @@
 @include foundation-top-bar;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-// @include foundation-flex-classes;
+@include foundation-flex-classes;
 
 // Motion UI
 @include motion-ui-transitions;
@@ -86,6 +86,7 @@
 @import "components/featured-image";
 @import "components/dividers";
 @import "components/links";
+@import "components/extras";
 
 // Templates
 @import "templates/front";
@@ -93,4 +94,5 @@
 @import "templates/page-default";
 @import "templates/page-sidebar-left";
 @import "templates/page-full-width";
+@import "templates/page-home";
 @import "templates/single-post";

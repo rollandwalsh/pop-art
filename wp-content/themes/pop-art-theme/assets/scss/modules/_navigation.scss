@@ -1,12 +1,63 @@
 // Navigation breakpoints
 .desktop-menu, .top-bar-left {
-  @include show-for(medium);
+	@include show-for(medium);
 }
 
 #mobile-menu, .title-bar {
-  @include hide-for(medium);
+	@include hide-for(medium);
 }
 
+.site-header {
+	width: 100%;
+}
+
+.top-bar {
+	height: calc(#{rem-calc(80)} - 2rem);
+	
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu > li {
+	> a {
+		transition: 200ms ease-in-out all;
+	}
+}
+
+.top-bar-left {
+	.menu > li {
+		img {
+			width: rem-calc(200);
+		}
+	}
+	
+	@include breakpoint(medium) {
+		flex: 0 1 auto !important;
+	}
+}
+
+.top-bar-right .menu > li {
+	> a {
+		color: $black;
+		font-weight: 400;
+		
+		&:hover {
+			font-weight: 600;
+		}
+	}
+}
+
+.social-nav .menu > li {
+	> a {
+		color: $dark-gray;
+		
+		&:hover {
+			color: map-get($foundation-palette, primary);
+		}
+	}
+}
+
+/*
 // Mobile menu
 .off-canvas {
   > ul.menu {
@@ -95,3 +146,4 @@
 
 .nav-previous { float:left; }
 .nav-next { float:right; }
+*/
