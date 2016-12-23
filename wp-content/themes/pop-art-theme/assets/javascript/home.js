@@ -35,7 +35,6 @@ function checkSlide() {
 		const elementBottom = sliderElement.offsetTop + sliderElement.offsetHeight;
 		const isThirdShown = slideInAt > sliderElement.offsetTop;
 		const isNotScrolledPast = window.scrollY < elementBottom;
-		console.log(slideInAt);
 		if (isThirdShown && isNotScrolledPast) {
 			sliderElement.classList.add('active');
 		} else {
