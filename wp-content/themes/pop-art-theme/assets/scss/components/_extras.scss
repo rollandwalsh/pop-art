@@ -23,16 +23,16 @@
 }
 
 .cta {
-	background: map-get($foundation-palette, tertiary);
+	background: map-get($foundation-palette, secondary);
 	border-top-right-radius: .25rem; 
 	border-top-left-radius: .25rem; 
 	color: $white;
-	font-size: rem-calc(12);
+	font-size: rem-calc(14);
 	font-weight: 600;
 	line-height: 1;
 	text-transform: uppercase;
 	
-	padding: ($global-padding / 2) $global-padding;
+	padding: rem-calc(10) $global-padding ($global-padding / 2);
 	
 	position: fixed;
 	bottom: 0;

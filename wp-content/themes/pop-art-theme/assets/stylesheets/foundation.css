@@ -8464,15 +8464,15 @@ body#tinymce {
     opacity: 1; }
 
 .cta {
-  background: #343434;
+  background: #0099ff;
   border-top-right-radius: .25rem;
   border-top-left-radius: .25rem;
   color: #ffffff;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  padding: 0.5rem 1rem;
+  padding: 0.625rem 1rem 0.5rem;
   position: fixed;
   bottom: 0;
   right: 2rem;
