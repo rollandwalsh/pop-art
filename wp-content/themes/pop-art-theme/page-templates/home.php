@@ -41,53 +41,53 @@ get_header(); ?>
 		<h2>Recent Projects</h2>
 		
 		<article class="home-rp parallax slide-element">
-			<div class="home-rp-main" style="background-image: url(http://198.199.108.211/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Yogi_a.png)">
+			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/yogi.png)">
 				<span class="home-rp-category">Project Spotlight</span>
 				<p class="home-rp-headline"><span>Marketing Zen. Yogi Tea converts</span> <span>social media love into ROI.</span></p>
 			</div>
 			
 			<div class="home-rp-hover purple">
 				<h3>Yogi Tea</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Yogi tea, having garnered an enviable social media following, was anxious to convert that enthusiasm into sales.   We developed a simple drag and drop tool called “Inspirations” that lets Yogi gather and curate fan photos and link them to purchasing menus on their e-commerce site.</p>
 				<a href="#"><i class="fa fa-eye"></i> View Product</a>
 			</div>
 		</article>
 		
 		<article class="home-rp parallax slide-element">
-			<div class="home-rp-main" style="background-image: url(http://198.199.108.211/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_Onboarding_Assist_a.png)">
+			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/onboarding_assist.png)">
 				<span class="home-rp-category">Project Spotlight</span>
 				<p class="home-rp-headline"><span>An H.R. Story. New hires onboarded</span> <span>in less than 5 minutes.</span></p>
 			</div>
 			
 			<div class="home-rp-hover green">
 				<h3>Onboarding Assist</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>We helped Daimler streamline onboarding with a custom checklist style interface that assigns work spaces, computers, phones, work buddies and first-day agendas, etc.  Managers can run through the checklist in less than 5 minutes, note and address outstanding requests, and launch new hires to a pivotal a great start.</p>
 				<a href="#"><i class="fa fa-eye"></i> View Product</a>
 			</div>
 		</article>
 		
 		<article class="home-rp parallax slide-element">
-			<div class="home-rp-main" style="background-image: url(http://198.199.108.211/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_SmartSource_a.png)">
+			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/smartsource.png)">
 				<span class="home-rp-category">Project Spotlight</span>
 				<p class="home-rp-headline"><span>A Sales Tale. Freightliner</span> <span>mobilizes deal closing assets</span></p>
 			</div>
 			
 			<div class="home-rp-hover blue">
 				<h3>Smartsource</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Freightliner deals in highly customizable configurations, with hundreds of exterior, interior and drive-train decisions. Together we created a leading-edge mobile app that puts real-time specs, competitive charts, even 3D renderings of over 6000 configurations in field rep’s hands, updated in real time by an asset management system.</p>
 				<a href="#"><i class="fa fa-eye"></i> View Product</a>
 			</div>
 		</article>
 		
 		<article class="home-rp parallax slide-element">
-			<div class="home-rp-main" style="background-image: url(http://198.199.108.211/wp-content/themes/popart/assets/images/Spotlight_599x598/PA_BAM_a.png)">
+			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bam.png)">
 				<span class="home-rp-category">Software Spotlight</span>
 				<p class="home-rp-headline"><span>BAM Platform. From asset chaos</span> <span>to asset clout.</span></p>
 			</div>
 			
 			<div class="home-rp-hover red">
 				<h3>BAM</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>BAM!, our proprietary shortcut to digital asset management, organizes and mobilizes your assets, ensuring the right content is where, and when, it’s needed.  Easy to use and intuitive, it’s readily adopted - saving time, money and aligning everyone on the same real-time page.</p>
 				<a href="#"><i class="fa fa-eye"></i> View Product</a>
 			</div>
 		</article>
@@ -134,14 +134,14 @@ get_header(); ?>
 			
 		<div class="row align-center">
 			<div class="large-4 medium-6 columns">
-				<img src="http://198.199.108.211/wp-content/themes/popart/assets/images/Rocket_icon.svg" alt="New Business" class="parallax grow-element active" style="height: 2.25rem">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rocket_icon.svg" alt="New Business" class="parallax grow-element active" style="height: 2.25rem">
 				<h4>New Business</h4>
 				<span class="home-lwt-phone">+1(503)347 4700</span>
 				<a href="#">hello@popart.com</a>
 			</div>
 			
 			<div class="large-4 medium-6 columns">
-				<img src="http://198.199.108.211/wp-content/themes/popart/assets/images/Star_icon.svg" alt="Join Our Team" class="parallax grow-element active" style="height: 2rem">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/star_icon.svg" alt="Join Our Team" class="parallax grow-element active" style="height: 2rem">
 				<h4>Join Our Team</h4>
 				<span class="home-lwt-phone">+1(503)242 4292</span>
 				<a href="#">career@popart.com</a>
