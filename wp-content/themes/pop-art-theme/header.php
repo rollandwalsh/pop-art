@@ -32,7 +32,7 @@
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
 	<div data-sticky-container>
-	  	<div data-sticky data-options="marginTop:0;" style="width:100%; background-color: #fff; padding: 1rem 0;">
+		<div data-sticky data-options="marginTop:0;" style="width:100%; background-color: #fff; padding: 1rem 0;">
 			<div class="row">
 				<header id="masthead" class="site-header" role="banner">
 					<div class="title-bar" data-responsive-toggle="site-navigation">
@@ -66,7 +66,7 @@
 					</nav>
 				</header>
 			</div>
-	  	</div>
+		</div>
 	</div>
 
 	<section class="container">
