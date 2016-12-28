@@ -32,7 +32,7 @@
 }
 
 .home-hero-color {	
-	background-color: rgba(darken(map-get($foundation-palette, secondary), 25%), .85); // Overlay video with blue color
+	background-color: rgba(3, 43, 171, .6); // Overlay video with blue color (custom blue selected for this element to match comp)
 	
 	height: 100%;
 	width: 100%;
@@ -46,23 +46,27 @@
 
 #pageHome {
 	.main-content {
+		@include grid-column(12);
+		
 		text-align: center;
 		
-		margin: rem-calc(200) auto;
+		height: 100vh;
+		margin: 0 auto;
 		
-		@include breakpoint(small) {
-			@include grid-column(12);
-		}
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 		
 	h2 {
-		font-size: rem-calc(34);
+		font-size: rem-calc(28);
 		font-weight: 600;
 	}
 	
 	h5 {
 		font-size: rem-calc(28);
-		font-weight: 600;
+		font-weight: 300;
 		
 		@include breakpoint(large) {
 			span {
@@ -143,7 +147,7 @@
 	}
 	
 	.home-rp-headline {
-		font-size: rem-calc(27);
+		font-size: rem-calc(24);
 		font-weight: 600;
 		line-height: 1.2;
 		
@@ -206,14 +210,15 @@
 }
 
 .home-tw-timestamp {
-	font-weight: 600;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	
 	display: block;
 }
 
 .home-tw-content {
-	font-size: rem-calc(22);
+	color: map-get($foundation-palette, gray);
+	font-size: rem-calc(28);
 	
 	margin: ($global-padding * 3) auto;
 	
