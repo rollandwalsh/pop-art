@@ -1,22 +1,124 @@
 // HERO
 
-#homeHero {	
-	height: calc(100vh - #{rem-calc(80)}); // Full screen height minus nav height
+#solutionsHero {
+	background-position: center center;
+	background-size: cover;
+	
+	height: rem-calc(380);
 }
 
-.home-hero-color {	
-	background-color: rgba(3, 43, 171, .6); // Overlay video with blue color (custom blue selected for this element to match comp)
-	
-	height: 100%;
-	width: 100%;
+// ACCORDION
 
-	align-items: center; // Center content vertically
-	display: flex;
-	justify-content: center; // Center content horizontally
+.solutions-accordion {
+	.accordion-title {
+		align-items: center; // Vertically center link text whether on one line or more
+		display: flex; // Allow for centering
+		
+		@include breakpoint(medium) {
+			height: rem-calc(90); // Fixed height for larger screens
+		}
+		
+		&:hover,
+		&:focus {
+			color: $white; // Overwrite default
+		}
+		
+		> span {
+			margin: 0 auto; // Center link text horizontally
+			max-width: $global-width; // Give max-width to match site width
+			padding-right: 2rem; // Padding to give space for +/- element
+			width: 100%;
+			
+			display: block; // Overwrite default span setting
+		}
+		
+		&:before {
+			font-size: rem-calc(50);
+			text-align: right;
+			
+			margin-top: -1.5rem;
+			margin-right: auto;
+			margin-left: auto;
+			max-width: $global-width;
+			width: calc(100% - 1rem); // Give space for right offset
+			
+			left: 0;
+		}
+	}
+	
+	.is-active > .accordion-title {
+		&:before {
+			margin-top: -1.75rem; // Different height for '-' element
+		}
+	}
+	
+	.accordion-content {
+		@include breakpoint(medium) {
+			padding: rem-calc(112 0);
+		}
+		
+		a {
+			color: get-color(secondary);
+			
+			&:hover,
+			&:focus {
+				color: scale-color(get-color(secondary), $lightness: -14%)
+			}
+		}
+	}
+	
+	p,
+	ul,
+	img,
+	blockquote {
+		@include breakpoint(medium) {
+			margin-bottom: rem-calc(100);
+		}
+	}
+	
+	h3 {
+		color: $black;
+		font-size: rem-calc(20);
+		font-weight: 600;
+		text-transform: uppercase;
+		
+		margin-bottom: 1rem;
+	}
+	
+	img {
+		width: 100%;
+	}
+	
+	blockquote {
+		border: none; // Overwrite default
+		color: get-color(green);
+		font-weight: 600;
+		
+		padding: 0; // Overwrite default
+	}
+	
+	cite {
+		color: #636363; // Overwrite default / match <p> color for accordion
+		font-style: normal;
+		
+		margin-top: .5rem;
+		
+		&:before {
+			content: '';
+		}
+	}
+	
+	hr {
+		border-bottom: 2px solid get-color(green);
+		
+		margin-left: 0; // Overwrite horizontal center default
+		width: 33%;
+	}
 }
 
 // CONTENT
 
+/*
 #pageHome {
 	.main-content {
 		@include grid-column(12);
@@ -137,10 +239,10 @@
 .home-rp-hover {
 	top: 100%; // Hide down by default
 	
-	&.purple {background-color: get-color(purple);}
-	&.green {background-color: get-color(green);}
-	&.blue {background-color: get-color(blue);}
-	&.red {background-color: get-color(red);}
+	&.purple {background-color: map-get($foundation-palette, purple);}
+	&.green {background-color: map-get($foundation-palette, green);}
+	&.blue {background-color: map-get($foundation-palette, blue);}
+	&.red {background-color: map-get($foundation-palette, red);}
 	
 	h3 {
 		font-size: rem-calc(16);
@@ -170,7 +272,7 @@
 	margin: rem-calc(90) 0;
 	
 	i {
-		color: get-color(secondary);
+		color: map-get($foundation-palette, secondary);
 		
 		margin: $global-padding auto;
 		
@@ -178,7 +280,7 @@
 	}
 	
 	a {
-		color: get-color(secondary);
+		color: map-get($foundation-palette, secondary);
 	}
 }
 
@@ -190,7 +292,7 @@
 }
 
 .home-tw-content {
-	color: get-color(gray);
+	color: map-get($foundation-palette, gray);
 	font-size: rem-calc(28);
 	
 	margin: ($global-padding * 3) auto;
@@ -201,7 +303,7 @@
 // LETS WORK TOGETHER
 
 .home-lwt {
-	background: get-color(secondary);
+	background: map-get($foundation-palette, secondary);
 	color: $white;
 	text-align: center;
 	
@@ -245,3 +347,4 @@
 	
 	display: block;
 }
+*/

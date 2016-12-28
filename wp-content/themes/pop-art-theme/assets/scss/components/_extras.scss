@@ -23,7 +23,7 @@
 }
 
 .cta {
-	background: map-get($foundation-palette, secondary);
+	background: get-color(secondary);
 	border-top-right-radius: .25rem; 
 	border-top-left-radius: .25rem; 
 	color: $white;
@@ -42,7 +42,7 @@
 	transition: 200ms ease-in-out all;
 	
 	&:hover {
-		background-color: darken(map-get($foundation-palette, secondary), 12%);
+		background-color: darken(get-color(secondary), 12%);
 		color: $white;
 	}
 }

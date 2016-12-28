@@ -6,7 +6,7 @@ get_header(); ?>
 
 <a class="cta" id="homeCTA">Get In Touch</a>
 
-<header id="homeHero" role="banner">
+<header id="homeHero" class="page-hero" role="banner">
 	<div class="home-hero-color">
 		<div class="row align-center">
 			<div class="large-12 columns">
@@ -16,8 +16,6 @@ get_header(); ?>
 		</div>
 	</div>
 </header>
-
-<?php get_template_part( 'template-parts/featured-image' ); ?>
 
 <div id="pageHome" role="main">
 	<section class="row parallax slide-element">
@@ -48,7 +46,7 @@ get_header(); ?>
 			
 			<div class="home-rp-hover purple">
 				<h3>Yogi Tea</h3>
-				<p>Yogi tea, having garnered an enviable social media following, was anxious to convert that enthusiasm into sales.   We developed a simple drag and drop tool called “Inspirations” that lets Yogi gather and curate fan photos and link them to purchasing menus on their e-commerce site.</p>
+				<p>Yogi tea, having garnered an enviable social media following, was anxious to convert that enthusiasm into sales. We developed a simple drag and drop tool called “Inspirations” that lets Yogi gather and curate fan photos and link them to purchasing menus on their e-commerce site.</p>
 				<a href="#"><i class="fa fa-eye"></i> View Product</a>
 			</div>
 		</article>
@@ -61,7 +59,7 @@ get_header(); ?>
 			
 			<div class="home-rp-hover green">
 				<h3>Onboarding Assist</h3>
-				<p>We helped Daimler streamline onboarding with a custom checklist style interface that assigns work spaces, computers, phones, work buddies and first-day agendas, etc.  Managers can run through the checklist in less than 5 minutes, note and address outstanding requests, and launch new hires to a pivotal a great start.</p>
+				<p>We helped Daimler streamline onboarding with a custom checklist style interface that assigns work spaces, computers, phones, work buddies and first-day agendas, etc. Managers can run through the checklist in less than 5 minutes, note and address outstanding requests, and launch new hires to a pivotal a great start.</p>
 				<a href="#"><i class="fa fa-eye"></i> View Product</a>
 			</div>
 		</article>
@@ -87,7 +85,7 @@ get_header(); ?>
 			
 			<div class="home-rp-hover red">
 				<h3>BAM</h3>
-				<p>BAM!, our proprietary shortcut to digital asset management, organizes and mobilizes your assets, ensuring the right content is where, and when, it’s needed.  Easy to use and intuitive, it’s readily adopted - saving time, money and aligning everyone on the same real-time page.</p>
+				<p>BAM!, our proprietary shortcut to digital asset management, organizes and mobilizes your assets, ensuring the right content is where, and when, it’s needed. Easy to use and intuitive, it’s readily adopted - saving time, money and aligning everyone on the same real-time page.</p>
 				<a href="#"><i class="fa fa-eye"></i> View Product</a>
 			</div>
 		</article>
@@ -159,6 +157,7 @@ $.getJSON('<?php echo get_template_directory_uri(); ?>/assets/javascript/tweets_
 });
 </script>
 
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/page.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/home.js"></script>
 
 <?php get_footer();

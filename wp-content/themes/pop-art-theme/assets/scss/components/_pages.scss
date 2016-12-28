@@ -1,0 +1,36 @@
+// HERO
+
+.page-hero {
+	color: $white;
+	text-align: center;
+	
+	.row {
+		height: 100%; // Fill height of hero parent
+		
+		align-items: center; // Center content vertically
+	}
+
+	h1,
+	h5 {
+		opacity: 0; // Hide for initial state (JS fade's in)
+		transform: translateY(25%); // Low inital state (JS raises)
+		transition: 900ms ease-in-out all;
+	}
+
+	h1 {
+		font-size: rem-calc(40);
+		font-weight: 600;
+		text-transform: capitalize;
+	}
+	
+	h5 {
+		font-size: rem-calc(22);
+		font-weight: 400;
+		
+		@include breakpoint(large) {
+			span {
+				display: block; // Hard wrap text for large screens
+			}
+		}
+	}
+}
