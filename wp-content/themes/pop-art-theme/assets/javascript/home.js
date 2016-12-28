@@ -56,12 +56,3 @@ $(window).scroll(function() {
 	   $('#homeCTA').fadeIn(750);
    }
 });
-
-$(document).ready(function(){
-	$('#homeTwitterSlider').slick({
-		dots: true,
-		autoplay: true,
-		autoplaySpeed: 4500,
-		speed: 1500
-	});
-});	

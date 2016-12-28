@@ -41,7 +41,7 @@ get_header(); ?>
 		<h2>Recent Projects</h2>
 		
 		<article class="home-rp parallax slide-element">
-			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/yogi.png)">
+			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/recent-projects/yogi.jpg)">
 				<span class="home-rp-category">Project Spotlight</span>
 				<p class="home-rp-headline"><span>Marketing Zen. Yogi Tea converts</span> <span>social media love into ROI.</span></p>
 			</div>
@@ -54,7 +54,7 @@ get_header(); ?>
 		</article>
 		
 		<article class="home-rp parallax slide-element">
-			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/onboarding_assist.png)">
+			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/recent-projects/onboarding_assist.png)">
 				<span class="home-rp-category">Project Spotlight</span>
 				<p class="home-rp-headline"><span>An H.R. Story. New hires onboarded</span> <span>in less than 5 minutes.</span></p>
 			</div>
@@ -67,7 +67,7 @@ get_header(); ?>
 		</article>
 		
 		<article class="home-rp parallax slide-element">
-			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/smartsource.png)">
+			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/recent-projects/smartsource.jpg)">
 				<span class="home-rp-category">Project Spotlight</span>
 				<p class="home-rp-headline"><span>A Sales Tale. Freightliner</span> <span>mobilizes deal closing assets</span></p>
 			</div>
@@ -80,7 +80,7 @@ get_header(); ?>
 		</article>
 		
 		<article class="home-rp parallax slide-element">
-			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/bam.png)">
+			<div class="home-rp-main" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/recent-projects/bam.jpg)">
 				<span class="home-rp-category">Software Spotlight</span>
 				<p class="home-rp-headline"><span>BAM Platform. From asset chaos</span> <span>to asset clout.</span></p>
 			</div>
@@ -98,28 +98,7 @@ get_header(); ?>
 			<div class="large-8 medium-11 columns">
 				<i class="fa fa-2x fa-twitter parallax slide-element"></i>
 				
-				<div id="homeTwitterSlider">
-					<div>
-						<span class="home-tw-timestamp">1:27 pm - 10 Oct 2016</span>
-						<span class="home-tw-content">Lorem ipsum dolor sit amet, <a href="#" tabindex="0">consectetur adipiscing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
-					</div>
-					<div>
-						<span class="home-tw-timestamp">1:27 pm - 10 Oct 2016</span>
-						<span class="home-tw-content">Lorem ipsum dolor sit amet, <a href="#" tabindex="0">consectetur adipiscing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
-					</div>
-					<div>
-						<span class="home-tw-timestamp">1:27 pm - 10 Oct 2016</span>
-						<span class="home-tw-content">Lorem ipsum dolor sit amet, <a href="#" tabindex="0">consectetur adipiscing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
-					</div>
-					<div>
-						<span class="home-tw-timestamp">1:27 pm - 10 Oct 2016</span>
-						<span class="home-tw-content">Lorem ipsum dolor sit amet, <a href="#" tabindex="0">consectetur adipiscing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
-					</div>
-					<div>
-						<span class="home-tw-timestamp">1:27 pm - 10 Oct 2016</span>
-						<span class="home-tw-content">Lorem ipsum dolor sit amet, <a href="#" tabindex="0">consectetur adipiscing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> 
-					</div>
-				</div>
+				<div id="homeTwitterSlider"></div>
 			</div>
 		</div>
 	</section>
@@ -149,6 +128,36 @@ get_header(); ?>
 		</div>
 	</section>
 </div>
+
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/tweets_json.php?count=5&screen_name=popart"></script>
+
+<script>
+$.getJSON('<?php echo get_template_directory_uri(); ?>/assets/javascript/tweets_json.php?count=5&screen_name=popart', function(data){
+	$.each(data, function(key, value){
+		var tweet = document.createElement('div');
+		
+		var date = document.createElement('span');
+		date.classList.add('home-tw-timestamp');
+		date.appendChild(document.createTextNode(value.created_at));
+		
+		var text = document.createElement('span');
+		text.classList.add('home-tw-content');
+		text.appendChild(document.createTextNode(value.text));
+		
+		tweet.appendChild(date);
+		tweet.appendChild(text);
+		
+		document.getElementById('homeTwitterSlider').appendChild(tweet);
+	});
+}).done(function(){
+	$('#homeTwitterSlider').slick({
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 4500,
+		speed: 1500
+	});
+});
+</script>
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/home.js"></script>
 
