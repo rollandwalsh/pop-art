@@ -62,6 +62,7 @@ $foundation-palette: (
   blue: #002157,
   red: #f24949,
   gray: #464646,
+  white: #ffffff,
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cccccc;
@@ -77,7 +78,7 @@ $global-margin: 1rem;
 $global-padding: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+$global-radius: 3px;
 $global-text-direction: ltr;
 $global-flexbox: true;
 $print-transparent-backgrounds: true;
@@ -248,7 +249,7 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 0.85em 1em;
+$button-padding: 0.75em 2em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
 $button-background: $primary-color;
@@ -259,7 +260,7 @@ $button-radius: $global-radius;
 $button-sizes: (
   tiny: 0.6rem,
   small: 0.75rem,
-  default: 0.9rem,
+  default: 0.8125rem,
   large: 1.25rem,
 );
 $button-palette: $foundation-palette;

@@ -10,6 +10,10 @@
 // ACCORDION
 
 .solutions-accordion {
+	.accordion {
+		margin-bottom: 0; // Overwright default
+	}
+	
 	.accordion-title {
 		align-items: center; // Vertically center link text whether on one line or more
 		display: flex; // Allow for centering
@@ -65,58 +69,184 @@
 				color: scale-color(get-color(secondary), $lightness: -14%)
 			}
 		}
-	}
-	
-	p,
-	ul,
-	img,
-	blockquote {
-		@include breakpoint(medium) {
-			margin-bottom: rem-calc(100);
+		
+		p,
+		ul,
+		img,
+		blockquote {
+			@include breakpoint(medium) {
+				margin-bottom: rem-calc(100);
+			}
 		}
-	}
 	
-	h3 {
-		color: $black;
-		font-size: rem-calc(20);
-		font-weight: 600;
-		text-transform: uppercase;
-		
-		margin-bottom: 1rem;
-	}
-	
-	img {
-		width: 100%;
-	}
-	
-	blockquote {
-		border: none; // Overwrite default
-		color: get-color(green);
-		font-weight: 600;
-		
-		padding: 0; // Overwrite default
-	}
-	
-	cite {
-		color: #636363; // Overwrite default / match <p> color for accordion
-		font-style: normal;
-		
-		margin-top: .5rem;
-		
-		&:before {
-			content: '';
+		h3 {
+			color: $black;
+			font-size: rem-calc(20);
+			font-weight: 600;
+			text-transform: uppercase;
+			
+			margin-bottom: 1rem;
 		}
-	}
-	
-	hr {
-		border-bottom: 2px solid get-color(green);
 		
-		margin-left: 0; // Overwrite horizontal center default
-		width: 33%;
+		img {
+			max-width: rem-calc(280);
+			width: 100%;
+		}
+		
+		blockquote {
+			border: none; // Overwrite default
+			color: get-color(green);
+			font-weight: 600;
+			
+			padding: 0; // Overwrite default
+		}
+		
+		cite {
+			color: #636363; // Overwrite default / match <p> color for accordion
+			font-style: normal;
+			
+			margin-top: .5rem;
+			
+			&:before {
+				content: '';
+			}
+		}
+		
+		hr {
+			border-bottom: 2px solid get-color(green);
+			
+			margin-left: 0; // Overwrite horizontal center default
+			width: 33%;
+		}
 	}
 }
 
-// CONTENT
+// FORM
+
+.solutions-form {
+	background: $light-gray;
+	text-align: center;
+	
+	padding: $global-padding;
+	
+	@include breakpoint(medium) {
+		padding: rem-calc(50);
+	}
+	
+	> .row {
+		background: $white;
+		
+		padding-top: $global-padding * 2;
+		padding-bottom: $global-padding * 2;
+		
+		@include breakpoint(medium) {
+			padding-top: rem-calc(100);
+			padding-bottom: rem-calc(100);
+		}
+	}
+	
+	h2 {
+		font-size: rem-calc(34);
+	}
+	
+	h5 {
+		font-size: rem-calc(22);
+	}
+}
+
+// FORM
+
+.solutions-contact {
+	background: get-color(secondary);
+	color: $white;
+	text-align: center;
+	
+	.row {
+		padding-top: $global-padding * 2;
+		padding-bottom: $global-padding * 2;
+		
+		@include breakpoint(medium) {
+			padding-top: rem-calc(100);
+			padding-bottom: rem-calc(100);
+		}
+	}
+	
+	h2 {
+		font-size: rem-calc(34);
+	}
+	
+	h5 {
+		font-size: rem-calc(22);
+		
+		@include breakpoint(large) {
+			span {
+				display: block; // Hard wrap text for large screens
+			}
+		}
+	}
+	
+	.button {
+		font-weight: 600;
+		
+		margin-top: $global-padding;
+		
+		@include breakpoint(medium) {
+			margin-top: $global-padding * 3;
+		}
+	}
+}
+	
+#issueFormContent {
+	margin: $global-padding 0;
+	
+	align-items: baseline;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	
+	@include breakpoint(medium) {
+		margin: rem-calc(50) 0;
+	}
+	
+	> * {
+		padding: 0 $global-padding;
+	}
+	
+	span {
+		font-size: rem-calc(24);
+		font-weight: 600;
+		
+		@include breakpoint(small only) {
+			&:last-of-type {
+				display: none;
+			}
+		}
+		
+		@include breakpoint(large) {
+			font-size: rem-calc(30);
+		}
+	}
+	
+	input {
+		border-radius: 0;
+		border-width: 0 0 1px 0;
+		box-shadow: none;
+		font-style: italic;
+		text-align: center;
+		
+		height: auto;
+		
+		@include breakpoint(medium) {
+			width: rem-calc(160);
+		}
+		
+		@include breakpoint(large) {
+			font-size: rem-calc(20);
+			
+			width: rem-calc(240);
+		}
+	}
+}
 
 /*
 #pageHome {
