@@ -230,9 +230,9 @@ get_header(); ?>
 							<span>is driving me</span><input type="text" placeholder="something typed here">
 							<span>.</span>
 						</div>
-						<div class="small-12 columns">
-							<a class="hollow button gray">Your Name</a>
-							<a class="hollow button gray">Email</a>
+						<div class="small-12 columns" id="issueFormSubmit">
+							<input type="text" placeholder="Your Name">
+							<input type="email" placeholder="Email">
 							<a class="button secondary">Submit</a>
 						</div>
 					</div>

@@ -234,17 +234,40 @@
 		font-style: italic;
 		text-align: center;
 		
-		height: auto;
-		
 		@include breakpoint(medium) {
+			height: auto;
 			width: rem-calc(160);
 		}
 		
 		@include breakpoint(large) {
-			font-size: rem-calc(20);
-			
 			width: rem-calc(240);
 		}
+	}
+}
+
+#issueFormSubmit {
+	align-items: center;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	
+	> * {
+		@include breakpoint(medium) {
+			margin-right: $global-padding / 4;
+			margin-left: $global-padding / 4;
+		}
+	}
+	
+	input {
+		text-align: center;
+		
+		@include breakpoint(medium) {
+			width: rem-calc(180);
+		}
+	}
+	
+	.button {
+		color: $white;
 	}
 }
 
