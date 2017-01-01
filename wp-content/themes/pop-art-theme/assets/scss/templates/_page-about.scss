@@ -1,0 +1,137 @@
+// HERO
+
+#aboutHero {
+	background-position: center center;
+	background-size: cover;
+	
+	height: rem-calc(690);
+}
+
+// Capabilities
+
+.about-capabilities {
+	background: get-color(tertiary);
+	color: $light-gray;
+	
+	@include breakpoint(medium) {
+		padding: rem-calc(120) 0;
+	}
+	
+	@include breakpoint(small) {
+		padding: $global-padding 0;
+	}
+	
+	> div {
+		@include flex-grid-row();
+	}
+	
+	h2 {
+		font-size: rem-calc(32);
+		
+		@include breakpoint(small only) {
+			text-align: center;
+			
+			margin-bottom: $global-padding *2;
+		}
+		
+		@include breakpoint(medium) {
+			margin-bottom: $global-padding * 3;
+			padding-left: $global-padding * 3; // Aligns to the <li> content while shown
+		}
+	}
+	
+	ol {
+		list-style: none; // Removes default numbers
+		margin: 0; // Removes default spacing
+		padding: 0; // Removes default spacing 
+		
+		@include breakpoint(small only) {
+			display: none;
+		}
+		
+		li {
+			padding: ($global-padding / 2) 0;
+			
+			counter-increment: customlistcounter; // Sets new counter
+			
+			&:first-of-type {
+				counter-reset: customlistcounter; // Starts counter on first <li>
+			}
+			
+			&:before {
+				text-align: right;
+				
+				padding-right: $global-padding * 1.5;
+				width: $global-padding * 3;
+				
+				display: inline-block; // Allows numbers to justify right
+				
+				content: "0" counter(customlistcounter); // Gives each number a leading '0'
+			}
+			
+			&:hover {
+				cursor: pointer;
+			}
+			
+			&.active {
+				font-weight: 600;
+				
+				&:before {
+					color: get-color(secondary);
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
+
+#aboutCapabilitiesContent {
+	@include breakpoint(medium) {
+		position: relative;
+	}
+	
+	> div {
+		@include breakpoint(small only) {
+			border-top: 1px solid get-color(gray);
+			
+			margin-bottom: $global-padding;
+			padding-top: $global-padding;
+		}
+		
+		@include breakpoint(medium) {
+			position: absolute;
+			
+			visibility: hidden;
+			opacity: 0;
+			transition: visibility 0s, opacity 0.5s linear;
+		}
+		
+		&.active {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+	
+	img {
+		max-width: 100%;
+		
+		@include breakpoint(medium) {
+			margin-bottom: $global-padding * 3;
+		}
+		
+		@include breakpoint(small only) {
+			margin: 0 auto ($global-padding * 2);
+			
+			display: block; // Allow img to center horizontally
+		}
+	}
+	
+	h3 {
+		color: get-color(secondary);
+		font-size: rem-calc(24);
+		
+		margin-bottom: $global-padding * 1.5;
+	}
+}
+
+
