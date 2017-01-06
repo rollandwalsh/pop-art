@@ -9929,6 +9929,55 @@ button {
   .about-contact p {
     margin-bottom: 2rem; }
 
+#pageAbout .main-content {
+  width: 100%;
+  float: left;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media print, screen and (min-width: 40em) {
+    #pageAbout .main-content {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem; } }
+  #pageAbout .main-content:last-child:not(:first-child) {
+    float: right; }
+  @media print, screen and (min-width: 40em) {
+    #pageAbout .main-content {
+      padding-top: 7.5rem;
+      padding-bottom: 7.5rem; } }
+  @media screen and (max-width: 39.9375em) {
+    #pageAbout .main-content {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+  #pageAbout .main-content h2 {
+    font-size: 1.75rem;
+    font-weight: 600; }
+  #pageAbout .main-content h5 {
+    font-size: 1.25rem;
+    font-weight: 400; }
+
+@media print, screen and (min-width: 64em) {
+  #pageAbout h5 span {
+    display: block; } }
+
+.bam-benefits {
+  background: #f24949;
+  color: #ffffff; }
+
 #single-post {
   max-width: 75rem;
   margin-right: auto;

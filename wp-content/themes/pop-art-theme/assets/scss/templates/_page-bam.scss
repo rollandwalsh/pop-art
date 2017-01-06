@@ -1,0 +1,59 @@
+
+
+// CONTENT
+
+#pageAbout {
+	.main-content {
+		@include grid-column(12);
+		
+		text-align: center;
+		
+		margin: 0 auto;
+		
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	
+		@include breakpoint(medium) {
+			padding-top: rem-calc(120);
+			padding-bottom: rem-calc(120);
+		}
+		
+		@include breakpoint(small only) {
+			padding-top: rem-calc(32);
+			padding-bottom: rem-calc(32);
+		}
+		
+		h2 {
+			font-size: rem-calc(28);
+			font-weight: 600;
+		}
+		
+		h5 {
+			font-size: rem-calc(20);
+			font-weight: 400;
+		}
+	}
+	
+	h5 {
+		@include breakpoint(large) {
+			span {
+				display: block; // Hard wrap text for large screens
+			}
+		}
+	}
+}
+
+// DAM
+
+.bam-dam {
+	
+}
+
+// BENEFITS
+
+.bam-benefits {
+	background: get-color(primary);
+	color: $white;
+}
