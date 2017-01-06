@@ -1,42 +1,39 @@
+// SOFTWARE BREADCRUMBS
 
+.software-breadcrumbs {
+	@include flex-grid-row();
+	
+	font-size: rem-calc(14);
+	
+	ul {
+		margin: 0;
+		padding: 0;
+		
+		list-style: none;
+		
+		display: flex;
+	}
+	
+	li {
+		padding: $global-padding ($global-padding / 4);
+	}
+	
+	a {
+		color: $medium-gray;
+	}
+}
 
 // CONTENT
 
-#pageAbout {
-	.main-content {
-		@include grid-column(12);
-		
-		text-align: center;
-		
-		margin: 0 auto;
-		
-		align-items: center;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
+.bam-overview {
+	background: $light-gray;
+	text-align: center;
 	
-		@include breakpoint(medium) {
-			padding-top: rem-calc(120);
-			padding-bottom: rem-calc(120);
-		}
-		
-		@include breakpoint(small only) {
-			padding-top: rem-calc(32);
-			padding-bottom: rem-calc(32);
-		}
-		
-		h2 {
-			font-size: rem-calc(28);
-			font-weight: 600;
-		}
-		
-		h5 {
-			font-size: rem-calc(20);
-			font-weight: 400;
-		}
-	}
+	padding: ($global-padding * 5) 0;
 	
-	h5 {
+	p {
+		font-size: rem-calc(18);
+		
 		@include breakpoint(large) {
 			span {
 				display: block; // Hard wrap text for large screens
@@ -45,10 +42,56 @@
 	}
 }
 
+#pageBAM {
+	.main-content {
+		@include grid-column(12);
+	}
+}
+
 // DAM
 
 .bam-dam {
+	text-align: center;
 	
+	padding: rem-calc(80) 0;
+	
+	h2 {
+		font-size: rem-calc(34);
+		font-weight: 600;
+		
+		margin-bottom: 0;
+	}
+	
+	img {
+		margin: rem-calc(74) auto rem-calc(56);
+	}
+	
+	h4 {
+		font-size: rem-cacl(24);
+		font-weight: 600;
+	}
+	
+	p {
+		font-size: rem-calc(14);
+		
+		margin-bottom: $global-padding * 2;
+		
+		@include breakpoint(large) {
+			span {
+				display: block; // Hard wrap text for large screens
+			}
+		}
+	}
+	
+	.button {
+		color: $white;
+		font-size: rem-calc(13);
+		font-weight: 700;
+		
+		&:hover {
+			color: $white;
+		}
+	}
 }
 
 // BENEFITS

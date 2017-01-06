@@ -15,30 +15,34 @@ get_header(); ?>
 </header>
 
 <nav class="software-breadcrumbs">
-	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/software">Software</a></li>
-		<li>BAM!</li>
-	</ul>
+	<div class="small-12 columns">
+		<ul>
+			<li><a href="/">Home <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="/software">Software <i class="fa fa-angle-right"></i></a></li>
+			<li>BAM!</li>
+		</ul>
+	</div>
 </nav>
 
 <div id="pageBAM" role="main">
-	<section class="row">
-		<?php do_action( 'foundationpress_before_content' ); ?>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
-				<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-				<div class="entry-content">
-					<?php the_content(); ?>
-				</div>
-			</article>
-		<?php endwhile;?>
-		<?php do_action( 'foundationpress_after_content' ); ?>
+	<section class="bam-overview">
+		<div class="row">
+			<?php do_action( 'foundationpress_before_content' ); ?>
+			<?php while ( have_posts() ) : the_post(); ?>
+				<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+					<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
+					<div class="entry-content">
+						<?php the_content(); ?>
+					</div>
+				</article>
+			<?php endwhile;?>
+			<?php do_action( 'foundationpress_after_content' ); ?>
+		</div>
 	</section>
 	
 	<section class="bam-dam">
 		<h2>Data Asset Managment. Ease is the new state-of-the-art.</h2>
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/dam-overview.jpg" alt="DAM">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/dam-overview.png" alt="DAM">
 		<h4>Content humanly organized, readily accessed.</h4>
 		<p><span>BAM combines the best of DAM technologies to corral today’s influx of digital content. Employing intuitive</span> <span>hierarchies and user-friendly interfaces, it organizes images, photos, video, documents, files, presentations, whatever,</span> <span>in common-sense ways stakeholders actually use. Everything, for everyone, in one place.</span> <span>Aligned. Secure. Locally. Globally. At the desk. In the field.</span></p>
 		<a href="#" class="button secondary">Start Demo</a>
