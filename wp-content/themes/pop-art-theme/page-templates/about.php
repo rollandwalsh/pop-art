@@ -175,6 +175,21 @@ get_header(); ?>
 			<p>We help you author your own brand. On a global canvas. At digital speed.</p>
 		</div>
 	</section>
+	
+	<section class="about-blog-strip">
+		<div class="row align-middle">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pop-art-spark_icon.png" alt="Pop Art">
+			<p>Looking for more great content? <a href="/blog">Check out our blog</a>.</p>
+		</div>
+	</section>
+	
+	<section class="about-contact">
+		<div class="small-12 columns">
+			<h2>Contact Us</h2>
+			<p>Send us your email and, if you wish, a word or two about your company and challenges.<br>There's no cost, no obligation, and a world of possibility.</p>
+			<a class="button hollow tertiary" href="/contact">Get in Touch</a>
+		</div>
+	</section>
 </div>
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/page.js"></script>

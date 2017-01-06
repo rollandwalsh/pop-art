@@ -364,5 +364,55 @@
 	
 	.blue {
 		color: get-color(secondary);
+		font-weight: 600;
+	}
+}
+
+// BLOG STRIP
+
+.about-blog-strip {
+	background: get-color(primary);
+	color: $white;
+	
+	.row {
+		@include flex-grid-row();
+		
+		flex-wrap: nowrap;
+	}
+	
+	img {
+		flex: 0 0 auto;
+	}
+	
+	p {
+		font-size: rem-calc(18);
+		text-align: center;
+		
+		margin-bottom: 0;
+		
+		flex: 1 1 auto;
+	}
+	
+	a {
+		color: $white;
+		font-weight: 600;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+// CONTACT
+
+.about-contact {
+	@include flex-grid-row();
+	
+	text-align: center;
+	
+	padding: ($global-padding * 4) 0;
+	
+	p {
+		margin-bottom: $global-padding * 2;
 	}
 }
