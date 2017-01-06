@@ -34,7 +34,6 @@ get_header(); ?>
 		<?php do_action( 'foundationpress_after_content' ); ?>
 	</section>
 	
-	
 	<section class="home-rps">
 		<h2>Recent Projects</h2>
 		

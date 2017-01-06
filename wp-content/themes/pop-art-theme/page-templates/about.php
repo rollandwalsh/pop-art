@@ -83,38 +83,96 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="solutions-form">
+	<section class="row">
+		<?php do_action( 'foundationpress_before_content' ); ?>
+		<?php while ( have_posts() ) : the_post(); ?>
+			<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+				<header>
+					<h2 class="entry-title">Our Approach</h2>
+				</header>
+				<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
+				<div class="entry-content">
+					<?php the_content(); ?>
+				</div>
+			</article>
+		<?php endwhile;?>
+		<?php do_action( 'foundationpress_after_content' ); ?>
+	</section>
+	
+	<section class="about-management-team">
 		<div class="row">
-			<div class="small-12 columns">
-				<h2>What's Bogging You Down?</h2>
-				<h5>Toss us an issue. An inefficiency. (We all have them). It'll start a discussion.<br>That could lead to a solution. Besides, venting feels good.</h5>		
-				
-				<form>
-					<div class="row">
-						<div class="small-12 columns" id="issueFormContent">
-							<span>Help! My</span>
-							<input type="text" placeholder="something typed here">
-							<span>is driving me</span><input type="text" placeholder="something typed here">
-							<span>.</span>
-						</div>
-						<div class="small-12 columns" id="issueFormSubmit">
-							<input type="text" placeholder="Your Name">
-							<input type="email" placeholder="Email">
-							<a class="button secondary">Submit</a>
-						</div>
-					</div>
-				</form>
+			<div class="large-12 columns">
+				<h2>Management Team</h2>
+				<h5><span>To our thinking, deep and engaged beats wide and remote. We seek long resumes</span> <span>and unique skill sets. And upper management doesn't up and disappear.</span> <span>Pop Art is a pretty personal experience, starting here.</span></h5>
+			</div>
+		</div>
+		
+		<div class="about-management-team-members align-spaced">
+			<div class="about-management-team-member" data-name="tom">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/tom-paul-portrait.png" alt="Tom Paul">
+				<h4>Tom Paul</h4>
+				<h6>CEO</h6>
+			</div>
+			
+			<div class="about-management-team-bio" data-name="tom">
+				<p>Tom has a corner office. That’s pretty much where the formality ends. He’s deeply involved in asking, listening and shaping long-term vision and strategy. Tom brings diverse experience with results-driven technology and marketing solutions to bear. He’s around, deeply connected with all active projects and the primary contact for new partnerships and opportunities.</p>
+				<p>Tom was Chief Operating Officer at Pop Art from 2008 until 2015, forging the agency’s vision while guiding Pop Art to a variety of industry awards. We proudly remain on the “best places to work in Oregon” roster. In 2015 he completed the purchase of a majority of the company’s stock to become its sole director. He continues to solidify client relationships while strengthening Pop Art’s across the board systems: project management, human resources, finance and operations.</p>
+				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
+			</div>
+			
+			<div class="about-management-team-member" data-name="ethan">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/ethan-brown-portrait.png" alt="Ethan Brown">
+				<h4>Ethan Brown</h4>
+				<h6>Director of Engineering</h6>
+			</div>
+			
+			<div class="about-management-team-bio" data-name="ethan">
+				<p>Ethan Brown joined Pop Art as a Software Engineer in 2011 and quickly fell in love with the pace of innovation. Starting with Freightliner, Pacific Natural Foods, Skedco and the RoseyAwards, he began engineering client websites and web applications.</p>
+				<p>In 2014 his book “Web Development with Node and Express” was published, earning high ratings on both O’Reilly and Amazon websites. Thanks to its success, a second book, “Learning JavaScript, 3 rd edition” was commissioned and published in 2016.</p>
+				<p>Amidst these banner years, Pop Art recognized Ethan’s unique skills and commitment by promoting him to Director of Engineering. Meanwhile, he’s scheduled to complete an MBA program later this year, adding a business framework to his engineering acumen.</p>
+				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
+			</div>
+			
+			<div class="about-management-team-member" data-name="noah">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/noah-oken-berg-portrait.png" alt="Noah Oken-Berg">
+				<h4>Noah Oken-Berg</h4>
+				<h6>Director of Business Development</h6>
+			</div>
+			
+			<div class="about-management-team-bio" data-name="noah">
+				<p>Noah serves as liaison and ambassador for Pop Art’s expanding client, supplier and collaborator networks to bridge gaps and drive efficiency. He has a proven record of aligning multiple stakeholders on complex issues toward high yield, happy outcomes. He strives, in a nutshell, to make relationships and software hum.</p>
+				<p>He brings an innate passion for both technology and business, starting with programming games on the family Apple and sweeping raffle sales prizes in elementary school. He’s been guided through a string of entrepreneurial successes by one driving principal: “help technology connect the natural world in ways previously impossible, then get the heck out the way.”</p>
+				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
 			</div>
 		</div>
 	</section>
 	
-	<section class="solutions-contact">
-		<div class="row">
-			<div class="small-12 columns">
-				<h2>Contact Us Today</h2>
-				<h5><span>Send us your email and, if you wish, a word or two about your company</span> <span>and challenges. There's no cost, no obligations, and a world of possibilities.</span></h5>
-				<a href="#" class="button white">Get in Touch</a>
-			</div>
+	<section class="about-history align-spaced">
+		<div class="small-12 columns">
+			<h2 class="text-center">Our History</h2>
+		</div>
+		
+		<div class="small-12 medium-5 large-5 columns">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/office.png" alt="Pop Art History">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/tom-ethan.png" alt="Pop Art History">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/dev.png" alt="Pop Art History">
+		</div>
+		
+		<div class="small-12 medium-6 large-5 columns">
+			<p>Pop Art isn’t random.</p>
+			<p>Pop Art, as a movement, is about fast. And forward. About embracing the new.</p>
+			<p>Mission wise, it pretty much nails us.</p>
+			<p>Even back when we started, at the dawn of digital, social and mobile, it’s what fueled our fire.</p>
+			<p class="blue">Our goal: to keep clients on the crest of the wave. To ensure they harness the technologies required to stay new, modern and relevant.</p>
+			<p>Technology, we’re convinced, is today’s modern art.</p>
+			<p>The canvas has been replaced by a dizzying array of new tools and channels with which to communicate, excite and empower.</p>
+			<p>Every day, we wake up eager to see what’s next.</p>
+			<p>Over the years, we’ve morphed from digital marketers to a team of technology service partners and innovators.</p>
+			<p>We create software, apps, mobile tools, asset management platforms, whatever the moment calls for to keep our clients digitally agile, nimble and vital.</p>
+			<p>And those clients are often the kind who need us most: industry leaders faced with daunting digital challenges and opportunities.</p>
+			<p>Today’s digital content can swamp you. Or set you free. Likewise, social networks can define you. Or you can write your own story.</p>
+			<p>That’s where we come in.</p>
+			<p>We help you author your own brand. On a global canvas. At digital speed.</p>
 		</div>
 	</section>
 </div>

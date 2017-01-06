@@ -134,4 +134,235 @@
 	}
 }
 
+// CONTENT
 
+#pageAbout {
+	.main-content {
+		@include grid-column(12);
+		
+		text-align: center;
+		
+		margin: 0 auto;
+		
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	
+		@include breakpoint(medium) {
+			padding-top: rem-calc(120);
+			padding-bottom: rem-calc(120);
+		}
+		
+		@include breakpoint(small only) {
+			padding-top: rem-calc(32);
+			padding-bottom: rem-calc(32);
+		}
+		
+		h2 {
+			font-size: rem-calc(28);
+			font-weight: 600;
+		}
+		
+		h5 {
+			font-size: rem-calc(20);
+			font-weight: 400;
+		}
+	}
+	
+	h5 {
+		@include breakpoint(large) {
+			span {
+				display: block; // Hard wrap text for large screens
+			}
+		}
+	}
+}
+
+// MANAGEMENT TEAM
+
+.about-management-team {
+	background: $medium-gray;
+	text-align: center;
+	
+	@include breakpoint(medium) {
+		padding-top: rem-calc(120);
+		padding-bottom: rem-calc(120);
+	}
+	
+	@include breakpoint(small only) {
+		padding-top: rem-calc(32);
+		padding-bottom: rem-calc(32);
+	}
+		
+	h2 {
+		font-size: rem-calc(32);
+	}
+	
+	h5 {
+		font-size: rem-calc(18) !important;
+		font-weight: 400;
+		
+		margin-bottom: rem-calc(72);
+	}
+}
+
+.about-management-team-members {
+	@include flex-grid-row();
+	
+	@include breakpoint(medium) {
+		&.active {
+			.about-management-team-member {
+				opacity: .4;
+				
+				&.active {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.about-management-team-member {
+	transition: 150ms ease-in-out all;
+	
+	img {
+		margin: 0 auto $global-padding;
+		width: 80%;
+	}
+	
+	h4 {
+		font-size: rem-calc(18);
+		font-weight: 600;
+		text-transform: uppercase;
+		
+		margin-bottom: $global-padding / 8;
+	}
+	
+	h6 {
+		font-size: rem-calc(18);
+		font-weight: 300;
+		text-transform: uppercase;
+	}
+	
+	@include breakpoint(small only) {
+		@include flex-grid-column(10);
+	}
+	
+	@include breakpoint(medium only) {
+		@include flex-grid-column(4);
+	}
+	
+	@include breakpoint(medium) {
+		order: 1;
+		
+		cursor: pointer;
+	}
+	
+	@include breakpoint(large) {
+		@include flex-grid-column(3);
+	}
+}
+
+.about-management-team-bio {
+	@include flex-grid-column(12);
+	
+	background: $white;
+	text-align: left;
+	
+	transition: 150ms ease-in-out all;
+	
+	a {
+		color: get-color(secondary);
+	}
+	
+	@include breakpoint(small only) {
+		margin-bottom: $global-padding * 2;
+		padding: ($global-padding * 2) $global-padding 0;
+	}
+	
+	@include breakpoint(medium) {
+		margin-top: $global-padding;
+		padding: ($global-padding * 3) ($global-padding * 4) 0;
+		
+		display: none;
+		position: relative;
+		
+		order: 2;
+		
+		transition: 200ms ease-in-out all;
+		
+		&.active {
+			display: block;
+		}
+		
+		&:before {
+			border-color: transparent transparent $white transparent;
+			border-style: solid;
+			border-width: rem-calc(12);
+			
+			width: 0;
+			height: 0;
+			
+			content: '';
+			position: absolute;
+			top: rem-calc(-24);
+		}
+		
+		&[data-name="tom"] {
+			&:before {
+				left: calc(16.5% - 12px);
+			}
+		}
+		
+		&[data-name="ethan"] {
+			&:before {
+				left: calc(50% - 12px);
+			}
+		}
+		
+		&[data-name="noah"] {
+			&:before {
+				left: calc(83.5% - 12px);
+			}
+		}
+	}
+}
+
+// HISTORY
+
+.about-history {
+	@include flex-grid-row();
+	
+	@include breakpoint(small only) {
+		padding-top: $global-padding;
+		padding-bottom: $global-padding;
+	
+		h2 {
+			margin-bottom: $global-padding;
+		}
+	}
+	
+	@include breakpoint(medium) {
+		padding-top: $global-padding * 4;
+		padding-bottom: $global-padding * 5;
+		
+		h2 {
+			margin-bottom: $global-padding * 3;
+		}
+	}
+	
+	img {
+		margin-bottom: rem-calc(2);
+		
+		display: block;
+		
+		&:last-of-type {
+			width: 50%;
+		}
+	}
+	
+	.blue {
+		color: get-color(secondary);
+	}
+}
