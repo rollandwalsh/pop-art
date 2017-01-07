@@ -10,7 +10,7 @@
 	}
 	
 	#footer {
-		@include grid-row();
+		@include flex-grid-row();
 		
 		color: $white;
 		
