@@ -9151,6 +9151,12 @@ button {
   .about-contact p {
     margin-bottom: 2rem; }
 
+#bamHero {
+  background-position: center center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  height: 43.125rem; }
+
 .software-breadcrumbs {
   max-width: 75rem;
   margin-right: auto;
