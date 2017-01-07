@@ -99,4 +99,282 @@
 .bam-benefits {
 	background: get-color(primary);
 	color: $white;
+	
+	padding: rem-calc(90) 0;
+	
+	h2 {
+		font-weight: 600;
+		text-align: center;
+		
+		margin-bottom: rem-calc(80);
+	}
+}
+
+.bam-benefit {
+	font-size: rem-calc(14);
+	
+	margin-bottom: rem-calc(100);
+	
+	align-items: center;
+	display: flex;
+	
+	img {
+		margin-right: $global-padding;
+		width: rem-calc(120);
+	}
+	
+	span {
+		font-weight: 600;
+		
+		margin-bottom: $global-padding;
+		
+		display: block;
+	}
+	
+	small {
+		color: $light-gray;
+		font-size: rem-calc(14);
+		
+		display: block;
+	}
+}
+
+// TESTIMONIAL
+
+.bam-testimonial {
+	background: #707070;
+	color: $white;
+	
+	padding: ($global-padding * 2) 0 ($global-padding * 4);
+	
+	.columns {
+		@include breakpoint(small only) {
+			width: 100%;
+		}
+	}
+	
+	img {
+		padding: $global-padding / 2;
+		width: rem-calc(144);
+	}
+	
+	blockquote {
+		border: none;
+		color: $white;
+		
+		margin-bottom: 0;
+	}
+	
+	cite {
+		color: $white;
+		font-style: normal;
+		
+		margin-top: $global-padding * 2;
+		
+		&:before {
+			content: none;
+		}
+	}
+}
+
+// ENDORESMENT
+
+.bam-endorsement {
+	align-items: flex-start;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+	@include breakpoint(small only) {
+		padding: $global-padding 0;
+	}
+	
+	@include breakpoint(medium) {
+		padding: ($global-padding * 3) 0;
+	}
+	
+	h2 {
+		font-size: rem-calc(34);
+		font-weight: 600;
+		text-align: center;
+		
+		margin-bottom: $global-padding * 3;
+		width: 100%;
+	}
+	
+	div {
+		padding: 0 ($global-padding * 2);
+		
+		flex: 1 1 rem-calc(256);
+	}
+	
+	h4 {
+		font-size: rem-calc(22);
+		font-weight: 600;
+		
+		margin-bottom: $global-padding * 2;
+	}
+	
+	p {
+		margin-bottom: $global-padding * 2;
+	}
+	
+	.button {
+		color: $white;
+		
+		&:hover {
+			color: $white;
+		}
+	}
+}
+
+// YOU MIGHT LIKE
+
+.blog-might-like {
+	background: $light-gray;
+	
+	padding: rem-calc(100) 0 rem-calc(114);
+	
+	h3 {
+		font-size: rem-calc(22);
+		font-weight: 600;
+		text-align: center;
+		text-transform: uppercase;
+		
+		margin-bottom: rem-calc(70);
+	}
+	
+	a {
+		color: $dark-gray;
+		text-align: center;
+		text-transform: uppercase;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+		
+	img {
+		margin-bottom: $global-padding;
+	}
+	
+	p {
+		font-size: rem-calc(14);
+	}
+	
+	span {
+		font-size: rem-cacl(18);
+		font-weight: 600;
+		
+		display: block;
+	}
+}
+
+// DEMO
+
+#damDemo {
+	h1 {
+		font-weight: 600;
+		text-align: center;
+		
+		margin-bottom: rem-calc(44);
+		
+		@include breakpoint(small only) {
+			font-size: rem-calc(24);
+		}
+		
+		@include breakpoint(medium only) {
+			font-size: rem-calc(36);
+		}
+		
+		@include breakpoint(large) {
+			font-size: rem-calc(44);
+		}
+	}
+}
+
+#damDemoSliderNav {
+	li {
+		color: $dark-gray;
+		font-weight: 600;
+		text-transform: uppercase;
+		
+		overflow: hidden;
+		
+		cursor: pointer;
+		outline: none;
+		
+		@include breakpoint(small only) {
+			font-size: rem-calc(12);
+			text-align: center;
+			
+			padding: $global-padding 0;
+		}
+		
+		@include breakpoint(medium only) {
+			font-size: rem-calc(14);
+			text-align: center;
+			
+			padding: $global-padding;
+		}
+		
+		@include breakpoint(large) {
+			font-size: rem-calc(18);
+			
+			padding: $global-padding ($global-padding * 2);
+		}
+		
+		span {
+			display: inline-block;
+			
+			opacity: 0;
+			transition: 150ms ease-in-out all;
+		}
+	
+		&.slick-current {
+			color: get-color(secondary);
+			
+			span {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+#damDemoSliderInfo {
+	text-align: center;
+	
+	h4 {
+		font-size: rem-calc(22);
+		font-weight: 600;
+		text-transform: capitalize;
+		
+		margin-bottom: rem-calc(23);
+	}
+	
+	p {
+		color: $dark-gray;
+		font-size: rem-calc(14);
+		font-weight: 600;
+		
+		margin-bottom: rem-calc(36);
+	}
+}
+
+.dam-demo-buttons {
+	font-size: rem-calc(14);
+	font-weight: 600;
+	text-align: center;
+	
+	a {
+		padding: $global-padding;
+	
+		&:first-of-type {
+			color: $dark-gray;
+		}
+		
+		&:last-of-type {
+			color: get-color(secondary);
+		}
+	}
 }
