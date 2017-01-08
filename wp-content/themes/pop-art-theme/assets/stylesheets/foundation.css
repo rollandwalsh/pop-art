@@ -9151,7 +9151,8 @@ button {
   .about-contact p {
     margin-bottom: 2rem; }
 
-#bamHero {
+#bamHero,
+#customSoftwareHero {
   background-position: center center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -9178,6 +9179,32 @@ button {
     padding: 1rem 0.25rem; }
   .software-breadcrumbs a {
     color: #cccccc; }
+
+.software-testimonial {
+  background: #707070;
+  color: #ffffff;
+  padding: 2rem 0 4rem; }
+  @media screen and (max-width: 39.9375em) {
+    .software-testimonial .columns {
+      width: 100%; } }
+  .software-testimonial img {
+    padding: 0.5rem;
+    width: 9rem; }
+  .software-testimonial blockquote {
+    border: none;
+    color: #ffffff;
+    margin-bottom: 0;
+    position: relative; }
+    .software-testimonial blockquote:before {
+      content: '“';
+      position: absolute;
+      left: 0.5rem; }
+  .software-testimonial cite {
+    color: #ffffff;
+    font-style: normal;
+    margin-top: 2rem; }
+    .software-testimonial cite:before {
+      content: none; }
 
 .bam-overview {
   background: #e6e6e6;
@@ -9255,27 +9282,6 @@ button {
     color: #e6e6e6;
     font-size: 0.875rem;
     display: block; }
-
-.bam-testimonial {
-  background: #707070;
-  color: #ffffff;
-  padding: 2rem 0 4rem; }
-  @media screen and (max-width: 39.9375em) {
-    .bam-testimonial .columns {
-      width: 100%; } }
-  .bam-testimonial img {
-    padding: 0.5rem;
-    width: 9rem; }
-  .bam-testimonial blockquote {
-    border: none;
-    color: #ffffff;
-    margin-bottom: 0; }
-  .bam-testimonial cite {
-    color: #ffffff;
-    font-style: normal;
-    margin-top: 2rem; }
-    .bam-testimonial cite:before {
-      content: none; }
 
 .bam-endorsement {
   -webkit-box-align: start;
@@ -9409,6 +9415,174 @@ button {
       color: #8a8a8a; }
     .dam-demo-buttons a:last-of-type {
       color: #0099ff; }
+
+.custom-software-tiles {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+@media screen and (max-width: 39.9375em) {
+  .custom-software-tile-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 100%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; } }
+
+@media print, screen and (min-width: 40em) {
+  .custom-software-tile-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 50%; } }
+
+.custom-software-tile-image img {
+  width: 100%; }
+
+.custom-software-tile-content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  max-width: 50%; }
+  @media screen and (max-width: 39.9375em) {
+    .custom-software-tile-content {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%;
+      max-width: 100%;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem;
+      max-width: 100%;
+      -webkit-box-ordinal-group: 3;
+          -ms-flex-order: 2;
+              order: 2; } }
+  @media screen and (max-width: 39.9375em) and (min-width: 40em) {
+    .custom-software-tile-content {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem; } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .custom-software-tile-content {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 50%;
+              flex: 0 0 50%;
+      max-width: 50%;
+      padding-right: 2rem;
+      padding-left: 2rem;
+      max-width: 50%; } }
+  .custom-software-tile-content h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; }
+  .custom-software-tile-content p {
+    font-size: 0.875rem; }
+
+@media screen and (max-width: 39.9375em) {
+  .custom-software-projects {
+    padding-top: 1rem; } }
+
+@media print, screen and (min-width: 40em) {
+  .custom-software-projects {
+    padding-top: 5.625rem; } }
+
+@media print, screen and (min-width: 64em) {
+  .custom-software-projects {
+    padding-top: 7.8125rem; } }
+
+.custom-software-projects h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.custom-software-projects article {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media screen and (max-width: 39.9375em) {
+    .custom-software-projects article {
+      padding: 1rem 0; } }
+  @media print, screen and (min-width: 64em) {
+    .custom-software-projects article {
+      height: 26.375rem; } }
+
+.custom-software-vms-pro {
+  background: #0099ff;
+  color: #ffffff; }
+
+.custom-software-onboarding-assistant {
+  background: #00a651;
+  color: #ffffff; }
+
+@media screen and (max-width: 39.9375em) {
+  .custom-software-project-image {
+    margin-bottom: 1rem; } }
+
+@media print, screen and (min-width: 64em) {
+  .custom-software-project-image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 0;
+    padding-left: 0;
+    max-width: 50%;
+    height: 100%;
+    overflow: hidden; } }
+
+@media print, screen and (min-width: 64em) {
+  .custom-software-project-content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    max-width: 50%; } }
+
+.custom-software-project-content .button.white:hover, .custom-software-project-content .button.white:focus {
+  border-color: #cccccc !important;
+  color: #cccccc !important; }
+
+.custom-software-blog-strip {
+  border-bottom: 6px solid #cccccc; }
+  .custom-software-blog-strip .row {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
+  .custom-software-blog-strip p {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-bottom: 0; }
+  .custom-software-blog-strip a {
+    font-weight: 600; }
+    .custom-software-blog-strip a:hover {
+      text-decoration: underline; }
 
 #single-post {
   max-width: 75rem;
