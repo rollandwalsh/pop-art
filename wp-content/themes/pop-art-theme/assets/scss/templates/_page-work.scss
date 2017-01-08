@@ -1,0 +1,64 @@
+// EXAMPLES
+
+.work-examples {
+	@include flex-grid-row();
+}
+
+.work-example {
+	@include breakpoint(small only) {
+		@include flex-grid-column(12, 1rem);
+		
+		padding-top: $global-padding / 2;
+		padding-bottom: $global-padding / 2;
+	}
+	
+	@include breakpoint(medium) {	
+		@include flex-grid-column(6, 4rem);
+	
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	
+	@include breakpoint(large) {	
+		@include flex-grid-column(6, 100px);
+	
+		padding-top: rem-calc(50);
+		padding-bottom: rem-calc(50);
+	}
+	
+	a {
+		color: $black;
+		
+		&:hover {
+			color: get-color(primary);
+		}
+		
+		img {
+			@include breakpoint(small only) {
+				margin-bottom: $global-padding;
+			}
+			
+			@include breakpoint(medium) {
+				margin-bottom: $global-padding * 3;
+			}
+			
+			@include breakpoint(large) {
+				margin-bottom: rem-calc(50);
+			}
+		}
+	
+		h2 {
+			font-size: rem-calc(24);
+			font-weight: 600;
+			
+			margin-bottom: 0;
+			
+			transition: 150ms ease-in-out all;
+		}
+		
+		p {
+			font-size: rem-calc(18);
+			color: $medium-gray;
+		}
+	}
+}

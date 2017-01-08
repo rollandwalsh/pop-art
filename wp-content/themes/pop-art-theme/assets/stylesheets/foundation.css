@@ -9584,6 +9584,75 @@ button {
     .custom-software-blog-strip a:hover {
       text-decoration: underline; }
 
+.work-examples {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+
+@media screen and (max-width: 39.9375em) {
+  .work-example {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    max-width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; } }
+
+@media print, screen and (min-width: 40em) {
+  .work-example {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    max-width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem; } }
+
+@media print, screen and (min-width: 64em) {
+  .work-example {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 3.125rem;
+    padding-left: 3.125rem;
+    max-width: 50%;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem; } }
+
+.work-example a {
+  color: #0a0a0a; }
+  .work-example a:hover {
+    color: #f24949; }
+  @media screen and (max-width: 39.9375em) {
+    .work-example a img {
+      margin-bottom: 1rem; } }
+  @media print, screen and (min-width: 40em) {
+    .work-example a img {
+      margin-bottom: 3rem; } }
+  @media print, screen and (min-width: 64em) {
+    .work-example a img {
+      margin-bottom: 3.125rem; } }
+  .work-example a h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    -webkit-transition: 150ms ease-in-out all;
+    transition: 150ms ease-in-out all; }
+  .work-example a p {
+    font-size: 1.125rem;
+    color: #cccccc; }
+
 #single-post {
   max-width: 75rem;
   margin-right: auto;
