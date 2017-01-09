@@ -62,3 +62,232 @@
 		}
 	}
 }
+
+// HEADER
+
+$fst-color: #c4d2da; // Gray blue
+$dtnahr-com-color: #ecb31c; // Yellow
+$hr-assistant-color: #78b67c; // Pale green
+$smartsource-color: get-color(tertiary); // Gray
+$vms-pro-color: #7fa9d2; // Light blue
+$yogi-inspirations-color: get-color(purple); // Purple
+
+.work-example-hero {
+	display: flex;
+	justify-content: center;
+	
+	&.fst {
+		background: $fst-color;
+		
+		a {color: $black}
+	}
+	
+	&.dtnahr-com {
+		background: $dtnahr-com-color;
+		
+		a {color: $white}
+	}
+	
+	&.hr-assistant {
+		background: $hr-assistant-color;
+		
+		a {color: $white}
+	} 
+	
+	&.smartsource {
+		background: $smartsource-color;
+		
+		a {color: $white}
+	}
+	
+	&.vms-pro {
+		background: $vms-pro-color;
+		
+		a {color: $black}
+	}
+	
+	&.yogi-inspirations {
+		background: $yogi-inspirations-color;
+		
+		a {color: $white}
+	}
+	
+	&.fst,
+	&.dtnahr-com,
+	&.hr-assistant,
+	&.vms-pro {
+		padding: rem-calc(50) 0;
+	}
+	
+	&.smartsource,
+	&.yogi-inspirations {
+		padding-top: $global-padding;
+	}
+	
+	a {
+		font-size: rem-calc(32);
+	}
+}
+
+// CONTENT
+
+#pageWorkExample {
+	.entry-content {
+		padding: rem-calc(60) 0;
+		
+		h1 {
+			font-size: rem-calc(28);
+			font-weight: 600;
+			text-transform: capitalize;
+			
+			margin-bottom: $global-padding * 2;
+		}
+		
+		h5 {
+			font-size: rem-calc(18);
+			font-weight: 600;
+			text-transform: uppercase;
+			
+			margin-bottom: $global-padding;
+		}
+	}
+	
+	.blog-might-like {
+		background: $white;
+		
+		a {
+			color: $black;
+		}
+	}
+}
+
+// SLIDER
+
+.work-example-slider {
+	margin: rem-calc(50) auto;
+	max-width: 100%;
+	width: $global-width;
+}
+
+// DISCIPLINES
+
+.work-example-disciplines {
+	background: $light-gray;
+	
+	margin-top: $global-padding * 2;
+	padding: $global-padding * 2;
+	
+	h4 {
+		font-size: rem-calc(18);
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+}
+
+// NEXT
+
+.work-example-next {
+	
+	&.fst {
+		background: $fst-color;
+	
+		a {
+			color: $white;
+			
+			span {color: $black;}
+		}
+	}
+	
+	&.dtnahr-com {
+		background: $dtnahr-com-color;
+	
+		a {
+			color: $black;
+			
+			span {color: $white;}
+		}
+	}
+	
+	&.hr-assistant {
+		background: $hr-assistant-color;
+	
+		a {
+			color: $white;
+			
+			span {color: $black;}
+		}
+	} 
+	
+	&.smartsource {
+		background: $smartsource-color;
+	
+		a {
+			color: $white;
+			
+			span {color: $white;}
+		}
+	}
+	
+	&.vms-pro {
+		background: $vms-pro-color;
+	
+		a {
+			color: $white;
+			
+			span {color: $light-gray;}
+		}
+	}
+	
+	&.yogi-inspirations {
+		background: $yogi-inspirations-color;
+	
+		a {
+			color: $white;
+			
+			span {color: $white;}
+		}
+	}
+	
+	a {
+		font-size: rem-calc(20);
+		
+		padding: ($global-padding * 3) $global-padding $global-padding;
+		width: 100%;
+		
+		display: block;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+		
+		span {
+			font-size: rem-calc(14);
+			text-transform: uppercase;
+		}
+	}
+}
+
+// BLOG STRIP
+
+.work-blog-strip {
+	border-top: 6px solid $medium-gray;
+	
+	.row {
+		flex-wrap: nowrap;
+	}
+	
+	p {
+		font-size: rem-calc(18);
+		text-align: center;
+		
+		margin-bottom: 0;
+	}
+	
+	a {
+		font-weight: 600;
+		
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

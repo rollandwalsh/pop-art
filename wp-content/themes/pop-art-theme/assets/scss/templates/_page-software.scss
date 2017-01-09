@@ -431,7 +431,7 @@
 		@include flex-grid-column(6, 4rem);
 	}
 	
-	@include breakpoint(larg´) {
+	@include breakpoint(large) {
 		@include flex-grid-column(6, 8rem);
 	}
 	
