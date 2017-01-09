@@ -9696,6 +9696,18 @@ button {
   .work-example-hero a {
     font-size: 2rem; }
 
+#pageWorkExample.hr-assistant blockquote p,
+#pageWorkExample.hr-assistant blockquote cite {
+  color: #440e62; }
+
+#pageWorkExample.smartsource blockquote p,
+#pageWorkExample.smartsource blockquote cite {
+  color: #c4d2da; }
+
+#pageWorkExample.vms-pro blockquote p,
+#pageWorkExample.vms-pro blockquote cite {
+  color: #00a651; }
+
 #pageWorkExample .entry-content {
   padding: 3.75rem 0; }
   #pageWorkExample .entry-content h1 {
@@ -9708,6 +9720,19 @@ button {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1rem; }
+  #pageWorkExample .entry-content blockquote {
+    border: none;
+    font-weight: 600; }
+    @media print, screen and (min-width: 40em) {
+      #pageWorkExample .entry-content blockquote span {
+        display: block; }
+        #pageWorkExample .entry-content blockquote span:nth-of-type(2) {
+          margin-left: 2rem; }
+        #pageWorkExample .entry-content blockquote span:nth-of-type(3) {
+          margin-left: 1rem; } }
+    #pageWorkExample .entry-content blockquote cite {
+      margin-top: 1rem;
+      text-align: right; }
 
 #pageWorkExample .blog-might-like {
   background: #ffffff; }

@@ -132,6 +132,28 @@ $yogi-inspirations-color: get-color(purple); // Purple
 // CONTENT
 
 #pageWorkExample {
+	&.fst {}
+	&.dtnahr-com {}
+	&.hr-assistant {
+		blockquote {
+			p,
+			cite {color: get-color(purple);}
+		}
+	}
+	&.smartsource {
+		blockquote {
+			p,
+			cite {color: $fst-color;}
+		}
+	}
+	&.vms-pro {
+		blockquote {
+			p,
+			cite {color: get-color(green);}
+		}
+	}
+	&.yogi-inspirations {}
+	
 	.entry-content {
 		padding: rem-calc(60) 0;
 		
@@ -149,6 +171,26 @@ $yogi-inspirations-color: get-color(purple); // Purple
 			text-transform: uppercase;
 			
 			margin-bottom: $global-padding;
+		}
+		
+		blockquote {
+			border: none;
+			font-weight: 600;
+			
+			@include breakpoint(medium) {
+				span {
+					display: block;
+					
+					&:nth-of-type(2) {margin-left: $global-padding * 2;}
+					
+					&:nth-of-type(3) {margin-left: $global-padding;}
+				}
+			}
+			
+			cite {
+				margin-top: $global-padding;
+				text-align: right;
+			}
 		}
 	}
 	

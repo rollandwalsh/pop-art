@@ -5,13 +5,13 @@ Template Name: Work Example
 get_header(); ?>
 
 <header class="work-example-hero <?php echo $post->post_name; ?>" role="banner">
-	<a href="/work"><i class="fa fa-angle-left"></i></a>
+	<a href="<?php echo get_permalink( get_page_by_title( 'Work' ) ); ?>"><i class="fa fa-angle-left"></i></a>
 	<div>
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/work/heroes/<?php echo $post->post_name; ?>.png" alt="<?php the_title(); ?>">
 	</div>
 </header>
 
-<div id="pageWorkExample" role="main">
+<div id="pageWorkExample" class="<?php echo $post->post_name; ?>" role="main">
 	<?php do_action( 'foundationpress_before_content' ); ?>
 	<?php while ( have_posts() ) : the_post(); ?>
 		<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
