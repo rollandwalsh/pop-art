@@ -15,7 +15,7 @@
 
 get_header(); ?>
 
-<header id="blogHero" class="page-hero" role="banner" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/heroes/blog_hero.png)">
+<header id="blogHero" class="page-hero" role="banner" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/heroes/blog_hero.jpg)">
 	<div class="row align-center">
 		<div class="large-12 columns">
 			<h1>Trends and Topics</h1>
