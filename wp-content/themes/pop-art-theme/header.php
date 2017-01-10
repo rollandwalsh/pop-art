@@ -57,10 +57,10 @@
 						</div>
 						<div class="social-nav">
 							<ul class="menu">
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://twitter.com/popart"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://www.facebook.com/popartpdx"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/popartpdx/"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/pop-art-inc-"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
 						</div>
 					</nav>
