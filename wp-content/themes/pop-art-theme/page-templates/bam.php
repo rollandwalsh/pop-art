@@ -160,7 +160,7 @@ get_header(); ?>
 		<div class="small-12 columns">
 			<h2>Contact Us</h2>
 			<p>Send us your email and, if you wish, a word or two about your company and challenges.<br>There's no cost, no obligation, and a world of possibility.</p>
-			<a class="button hollow tertiary" href="/contact">Get in Touch</a>
+			<a class="button hollow tertiary" href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>">Get in Touch</a>
 		</div>
 	</section>
 </div>

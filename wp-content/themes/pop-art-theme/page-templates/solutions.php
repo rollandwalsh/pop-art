@@ -246,7 +246,7 @@ get_header(); ?>
 			<div class="small-12 columns">
 				<h2>Contact Us Today</h2>
 				<h5><span>Send us your email and, if you wish, a word or two about your company</span> <span>and challenges. There's no cost, no obligations, and a world of possibilities.</span></h5>
-				<a href="#" class="button white">Get in Touch</a>
+				<a href="<?php echo get_permalink( get_page_by_title( 'Work' ) ); ?>" class="button white">Get in Touch</a>
 			</div>
 		</div>
 	</section>
