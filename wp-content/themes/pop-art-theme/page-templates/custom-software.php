@@ -18,7 +18,7 @@ get_header(); ?>
 	<div class="small-12 columns">
 		<ul>
 			<li><a href="/">Home <i class="fa fa-angle-right"></i></a></li>
-			<li><a href="/software">Software <i class="fa fa-angle-right"></i></a></li>
+			<li><a href="/">Software <i class="fa fa-angle-right"></i></a></li>
 			<li>BAM!</li>
 		</ul>
 	</div>

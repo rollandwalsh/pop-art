@@ -4871,7 +4871,7 @@ select {
   .menu.nested {
     margin-left: 1rem; }
   .menu .active > a {
-    background: #f24949;
+    background: #ffffff;
     color: #ffffff; }
   .menu.menu-bordered li {
     border: 1px solid #e6e6e6; }
@@ -5014,7 +5014,7 @@ select {
   width: 300px;
   padding: 1rem;
   visibility: hidden;
-  border: 1px solid #cccccc;
+  border: 1px solid #0a0a0a;
   border-radius: 3px;
   background-color: #ffffff;
   font-size: 1rem; }
@@ -5127,7 +5127,7 @@ select {
   z-index: 1;
   display: none;
   min-width: 200px;
-  border: 1px solid #cccccc;
+  border: 1px solid #0a0a0a;
   background: #ffffff; }
   .is-dropdown-submenu .is-dropdown-submenu {
     margin-top: -1px; }
@@ -7409,8 +7409,22 @@ a.thumbnail {
 .top-bar-right .menu > li > a {
   color: #0a0a0a;
   font-weight: 400; }
-  .top-bar-right .menu > li > a:hover {
+  .top-bar-right .menu > li > a:hover, .top-bar-right .menu > li > a:focus {
     font-weight: 600; }
+
+.top-bar-right .menu > li.active > a {
+  font-weight: 600; }
+
+.menu.vertical > li {
+  border-bottom: 1px solid #0a0a0a; }
+  .menu.vertical > li:last-of-type {
+    border-bottom: none; }
+  .menu.vertical > li.current-menu-item > a {
+    background: #8a8a8a;
+    color: #ffffff; }
+  .menu.vertical > li > a:hover, .menu.vertical > li > a:focus {
+    background: #8a8a8a;
+    color: #ffffff; }
 
 .social-nav .menu > li > a {
   color: #8a8a8a; }

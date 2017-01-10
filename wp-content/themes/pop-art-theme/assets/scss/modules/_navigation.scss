@@ -41,8 +41,40 @@
 		color: $black;
 		font-weight: 400;
 		
-		&:hover {
+		&:hover,
+		&:focus, {
 			font-weight: 600;
+		}
+	}
+	
+	&.active {
+		> a {
+			font-weight: 600;
+		}
+	}
+}
+
+.menu.vertical {
+	> li {
+		border-bottom: 1px solid $black;
+		
+		&:last-of-type {
+			border-bottom:  none;
+		}
+		
+		&.current-menu-item {
+			> a {
+				background: $dark-gray;
+				color: $white;
+			}
+		}
+		
+		> a {
+			&:hover,
+			&:focus {
+				background: $dark-gray;
+				color: $white 
+			}
 		}
 	}
 }
