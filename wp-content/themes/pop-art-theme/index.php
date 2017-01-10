@@ -15,7 +15,37 @@
 
 get_header(); ?>
 
-<div id="page" role="main">
+<header id="blogHero" class="page-hero" role="banner" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/heroes/blog_hero.png)">
+	<div class="row align-center">
+		<div class="large-12 columns">
+			<h1>Trends and Topics</h1>
+			<h5>Things that spark our interest. Check back. It's always evolving.</h5>
+		</div>
+	</div>
+</header>
+
+<div class="blog-search align-right">
+	<div class="small-8 medium-5 large-4 columns">
+		<?php get_search_form( true ); ?>
+	</div>
+</div>
+
+<div class="blog-filter align-center">
+	<div class="small-12 columns">
+		<ul id="blogFilterList">
+			<li class="active"><a href="#">All</a></li>
+			<?php 
+			$args = array(
+				'title_li' => ''
+			);
+			
+			echo wp_list_categories($args);
+			?>
+		</ul>
+	</div>
+</div>
+
+<div id="pageBlog" role="main">
 	<article class="main-content">
 	<?php if ( have_posts() ) : ?>
 
@@ -42,8 +72,15 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</article>
-	<?php get_sidebar(); ?>
+
+<!--
+	<div class="row">
+		<?php get_sidebar(); ?>
+	</div>
+-->
 
 </div>
+
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/page.js"></script>
 
 <?php get_footer();

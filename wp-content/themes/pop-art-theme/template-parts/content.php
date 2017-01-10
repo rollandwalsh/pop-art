@@ -9,17 +9,26 @@
  */
 
 ?>
+<?php $categories = get_the_category(); ?>
+<?php $hero = get_the_post_thumbnail(); ?>
+<?php $excerpt = substr(get_the_content(), 0, 80) ?>
 
 <div id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry'); ?>>
+	<a href="<?php the_permalink(); ?>">
+		<?php if (! empty($hero)) {
+			echo $hero;
+		} ?>
+	</a>
 	<header>
+		<?php if (! empty($categories)) { ?>
+			<p class="blog-category"><?php echo esc_html($categories[0]->name); ?></p>
+		<?php }?>		
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php foundationpress_entry_meta(); ?>
 	</header>
 	<div class="entry-content">
-		<?php the_content( __( 'Continue reading...', 'foundationpress' ) ); ?>
+		<?php echo $excerpt; ?>...
 	</div>
 	<footer>
 		<?php $tag = get_the_tags(); if ( $tag ) { ?><p><?php the_tags(); ?></p><?php } ?>
 	</footer>
-	<hr />
 </div>
