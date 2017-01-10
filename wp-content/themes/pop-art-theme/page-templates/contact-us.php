@@ -22,7 +22,7 @@ get_header(); ?>
 			<div class="small-12 columns">
 				<h2>We're Here For You</h2>
 				<p>Send us your e-mail and, if you wish, a word or two about your company and its challenges. There’s no cost, no obligation, and a world of possibility.</p>
-				<?php echo do_shortcode( '[contact-form-7 id="114" title="Contact Us"]' ); ?>
+				<?php echo do_shortcode( '[contact-form-7 id="124" title="Contact Us"]' ); ?>
 			</div>
 		</div>
 	</section>
