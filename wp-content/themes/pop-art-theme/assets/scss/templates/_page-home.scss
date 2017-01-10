@@ -2,6 +2,8 @@
 
 #homeHero {	
 	height: calc(100vh - #{rem-calc(80)}); // Full screen height minus nav height
+	
+	z-index: -1 !important; // Fixes bug with navigation dropdown
 }
 
 .home-hero-color {	
