@@ -20,30 +20,40 @@
 					<div class="medium-6 large-3 columns">
 						<p>123 NE 3rd Ave<br>Suite 309<br>Portland, OR 97232</p>
 						
-						<p><a href="#">+1 (503) 242 4292</a><br>hello@popart.com</p>
+						<p><a href="tel:1-503-242-4292">+1 (503) 242 4292</a><br>hello@popart.com</p>
 					</div>
-					<div class="medium-6 large-3 columns">
-						<h6>Our Company</h6>
+					<div class="medium-6 large-2 columns">
+						<h6>Software</h6>
 						<ul>
-							<li><a href="#">Solutions</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">BAM</a></li>
-							<li><a href="#">Customer Software</a></li>
-							<li><a href="#">Our Work</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">BAM Platform</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'Custom Software' ) ); ?>">Custom Software</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">Data Asset Managemment</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">UGC</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">Sales Enablement Tool</a></li>
 						</ul>
 					</div>
-					<div class="medium-6 large-3 columns">
+					<div class="medium-6 large-2 columns">
+						<h6>Our Company</h6>
+						<ul>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'Solutions' ) ); ?>">Solutions</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>">About</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'Our Work' ) ); ?>">Our Work</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">Capabilities</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>">Management Team</a></li>
+						</ul>
+					</div>
+					<div class="medium-6 large-2 columns">
 						<h6>Resources</h6>
 						<ul>
-							<li><a href="#">Blog</a></li>
-							<li><a href="#">Case Studies</a></li>
-							<li><a href="#">White Pages</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Blog</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'Work' ) ); ?>">Case Studies</a></li>
+							<li><a href="#">White Papers</a></li>
 							<li><a href="#">Sell Sheet</a></li>
 						</ul>
 					</div>
 					<div class="medium-6 large-3 columns">
 						<h6>Get In Touch</h6>
-						<a href="#" style="padding-right: .5rem"><i class="fa fa-lg fa-twitter"></i></a> <a href="#" style="padding-right: .5rem"><i class="fa fa-lg fa-facebook"></i> <a href="#" style="padding-right: .5rem"><i class="fa fa-lg fa-instagram"></i></a> <a href="#" style="padding-right: .5rem"><i class="fa fa-lg fa-linkedin"></i></a>
+						<a href="https://twitter.com/popart" style="padding-right: .5rem"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/popartpdx" style="padding-right: .5rem"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/popartpdx/" style="padding-right: .5rem"><i class="fa fa-instagram"></i></a> <a href="https://www.linkedin.com/company/pop-art-inc-" style="padding-right: .5rem"><i class="fa fa-linkedin"></i></a>
 					</div>
 					<?php do_action( 'foundationpress_before_footer' ); ?>
 					<?php dynamic_sidebar( 'footer-widgets' ); ?>
