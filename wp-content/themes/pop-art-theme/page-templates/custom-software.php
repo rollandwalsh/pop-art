@@ -38,7 +38,7 @@ get_header(); ?>
 	
 	<section class="custom-software-tiles">
 		<div class="custom-software-tile-image">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/built-to-work.png" alt="Built to Work">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/built-to-work.jpg" alt="Built to Work">
 		</div>
 		
 		<div class="custom-software-tile-content">
@@ -54,13 +54,13 @@ get_header(); ?>
 		</div>
 		
 		<div class="custom-software-tile-image">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/built-to-work.png" alt="Built to Work">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/designed-for-user.jpg" alt="Designed for the User">
 		</div>
 	</section>
 	
 	<section class="custom-software-tiles">	
 		<div class="custom-software-tile-image">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/built-to-work.png" alt="Built to Work">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/iterative-prototyping.jpg" alt="Iterative Prototyping">
 		</div>
 		
 		<div class="custom-software-tile-content">
@@ -76,7 +76,7 @@ get_header(); ?>
 		</div>
 		
 		<div class="custom-software-tile-image">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/built-to-work.png" alt="Built to Work">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/agile-development.jpg" alt="Agile Development">
 		</div>
 	</section>
 	
