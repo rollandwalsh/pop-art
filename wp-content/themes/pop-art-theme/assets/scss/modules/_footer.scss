@@ -20,6 +20,20 @@
 			padding: 0 ($global-padding / 2); // Differnt padding for logo container
 		}
 		
+		.footer-columns {
+			min-width: initial;
+			padding-right: $global-padding / 2;
+			padding-left: $global-padding / 2;
+			
+			@include breakpoint(small only) {
+				flex: 0 0 50%;
+			}
+			
+			@include breakpoint(medium) {
+				flex: 0 0 20%;
+			}
+		}
+		
 		h6,
 		a {
 			font-weight: 600;

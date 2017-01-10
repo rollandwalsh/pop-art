@@ -7654,6 +7654,20 @@ a.thumbnail {
     padding: 3rem 0; }
     #footer-container #footer .columns:first-of-type {
       padding: 0 0.5rem; }
+    #footer-container #footer .footer-columns {
+      min-width: initial;
+      padding-right: 0.5rem;
+      padding-left: 0.5rem; }
+      @media screen and (max-width: 39.9375em) {
+        #footer-container #footer .footer-columns {
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 50%;
+                  flex: 0 0 50%; } }
+      @media print, screen and (min-width: 40em) {
+        #footer-container #footer .footer-columns {
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 20%;
+                  flex: 0 0 20%; } }
     #footer-container #footer h6,
     #footer-container #footer a {
       font-weight: 600; }

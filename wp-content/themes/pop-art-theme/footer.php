@@ -14,15 +14,15 @@
 			<div id="footer-container">
 				<footer id="footer">
 					<?php do_action( 'foundationpress_before_footer' ); ?>
-					<div class="large-12 columns" style="padding: 0 6px; margin-bottom: 2rem">
+					<div class="small-12 columns" style="padding: 0 6px; margin-bottom: 2rem">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-white.svg" alt="Pop Art" class="logo">
 					</div>
-					<div class="medium-6 large-3 columns">
+					<div class="footer-columns">
 						<p>123 NE 3rd Ave<br>Suite 309<br>Portland, OR 97232</p>
 						
 						<p><a href="tel:1-503-242-4292">+1 (503) 242 4292</a><br>hello@popart.com</p>
 					</div>
-					<div class="medium-6 large-2 columns">
+					<div class="footer-columns">
 						<h6>Software</h6>
 						<ul>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">BAM Platform</a></li>
@@ -32,7 +32,7 @@
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">Sales Enablement Tool</a></li>
 						</ul>
 					</div>
-					<div class="medium-6 large-2 columns">
+					<div class="footer-columns">
 						<h6>Our Company</h6>
 						<ul>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'Solutions' ) ); ?>">Solutions</a></li>
@@ -42,7 +42,7 @@
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>">Management Team</a></li>
 						</ul>
 					</div>
-					<div class="medium-6 large-2 columns">
+					<div class="footer-columns">
 						<h6>Resources</h6>
 						<ul>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Blog</a></li>
@@ -51,7 +51,7 @@
 							<li><a href="#">Sell Sheet</a></li>
 						</ul>
 					</div>
-					<div class="medium-6 large-3 columns">
+					<div class="footer-columns">
 						<h6>Get In Touch</h6>
 						<a href="https://twitter.com/popart" style="padding-right: .5rem"><i class="fa fa-twitter"></i></a> <a href="https://www.facebook.com/popartpdx" style="padding-right: .5rem"><i class="fa fa-facebook"></i></a> <a href="https://www.instagram.com/popartpdx/" style="padding-right: .5rem"><i class="fa fa-instagram"></i></a> <a href="https://www.linkedin.com/company/pop-art-inc-" style="padding-right: .5rem"><i class="fa fa-linkedin"></i></a>
 					</div>
