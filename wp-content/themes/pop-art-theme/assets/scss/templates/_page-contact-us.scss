@@ -1,0 +1,142 @@
+// LINKS
+
+#pageContactUs {
+	.entry-content {
+		@include flex-grid-row($size: 100%);
+		
+		.columns {
+			color: $white;
+			
+			&:first-of-type {
+				background: get-color(red);
+				
+				@include breakpoint(large) {
+					display: flex;
+					justify-content: flex-end;
+				}
+			}
+			
+			&:last-of-type {
+				background: get-color(tertiary);
+				
+				@include breakpoint(large) {
+					display: flex;
+					justify-content: flex-start;
+				}
+			}
+			
+			div {
+				@include breakpoint(large) {
+					max-width: $global-width / 2;
+					padding: ($global-padding * 4) ($global-padding * 3);
+				}
+			}
+			
+			h2 {
+				font-size: rem-calc(34);
+				font-weight: 600;
+				
+				margin-bottom: rem-calc(28);
+			}
+			
+			p {
+				color: $light-gray;
+				font-size: rem-calc(14);
+				
+				margin-bottom: rem-calc(62); 
+			}
+			
+			span {
+				display: block;
+				
+				a {
+					color: $light-gray;
+				}
+			}
+			
+			a {
+				color: $white;
+				
+				&:hover {
+					font-weight: 600;
+				}
+			}
+		}
+	}
+}
+
+// FORM
+
+.contact-page-form {
+	background: $light-gray;
+	
+	@include breakpoint(small only) {
+		padding-top: $global-padding * 2;
+	}
+	
+	@include breakpoint(medium) {
+		padding-top: rem-calc(115);
+	}
+	
+	h2 {
+		font-size: rem-calc(34);
+		font-weight: 600;
+		
+		margin-bottom: $global-padding;
+	}
+	
+	p {
+		font-size: rem-calc(14);
+	}
+	
+	form {
+		margin: rem-calc(80) 0;
+	}
+	
+	textarea {
+		min-height: rem-calc(160);
+	}
+	
+	.wpcf7-not-valid-tip {
+		@include callout(get-color(alert));
+	}
+	
+	.wpcf7-validation-errors {
+		@include callout(get-color(warning));
+	}
+	
+	.wpcf7-mail-sent-ok {
+		@include callout(get-color(success));
+	}
+}
+
+// JOB APP
+	
+.job-app {
+	border: 15px solid $medium-gray;
+	
+	img {
+		margin-bottom: $global-padding * 3;
+		width: rem-calc(160);
+	}
+	
+	h4 {
+		font-size: rem-calc(18);
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	
+	p {
+		font-size: rem-calc(14);
+		
+		margin-bottom: $global-padding * 2;
+	}
+	
+	ul {
+		list-style: none;
+	}
+	
+	.button {
+		margin-top: $global-padding * 3;
+	}
+}
