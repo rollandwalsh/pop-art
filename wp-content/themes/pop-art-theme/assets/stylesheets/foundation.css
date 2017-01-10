@@ -10053,6 +10053,25 @@ button {
 #pageBlog .entry-content {
   font-size: 0.875rem; }
 
+.blog-subscribe {
+  background: #e6e6e6; }
+  @media screen and (max-width: 39.9375em) {
+    .blog-subscribe {
+      padding: 1rem 0; } }
+  @media print, screen and (min-width: 40em) {
+    .blog-subscribe {
+      padding: 5rem 0; }
+      .blog-subscribe .columns {
+        padding: 0 3rem; } }
+  .blog-subscribe h4 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 2rem; }
+  .blog-subscribe p {
+    font-size: 0.875rem; }
+  .blog-subscribe input {
+    margin-bottom: 2rem; }
+
 #single-post .blog-pop-art {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 91.66667%;
@@ -10109,5 +10128,10 @@ button {
   @media print, screen and (min-width: 40em) {
     #single-post .blog-comment {
       padding: 5rem 0; } }
+  #single-post .blog-comment label {
+    color: #ffffff; }
+
+#single-post .blog-might-like {
+  background: #ffffff; }
 
 /*# sourceMappingURL=foundation.css.map */

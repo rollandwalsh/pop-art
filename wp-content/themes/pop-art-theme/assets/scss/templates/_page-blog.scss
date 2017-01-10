@@ -98,3 +98,36 @@
 		font-size: rem-calc(14);
 	}
 }
+
+// SUBSCRIBE
+	
+.blog-subscribe {
+	background: $light-gray;
+	
+	@include breakpoint(small only) {
+		padding: $global-padding 0;
+	}
+	
+	@include breakpoint(medium) {
+		padding: rem-calc(80) 0;
+		
+		.columns {
+			padding: 0 $global-padding * 3;
+		}
+	}
+	
+	h4 {
+		font-size: rem-calc(28);
+		font-weight: 600;
+		
+		margin-bottom: $global-padding * 2;
+	}
+	
+	p {
+		font-size: rem-calc(14);
+	}
+	
+	input {
+		margin-bottom: $global-padding * 2;
+	}
+}
