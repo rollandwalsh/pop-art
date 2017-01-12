@@ -67,6 +67,7 @@ get_header(); ?>
 	</section>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 <script>
 	$(document).ready(function(){
 		$('.work-example-slider').slick({

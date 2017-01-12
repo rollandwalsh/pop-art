@@ -232,6 +232,7 @@ get_header(); ?>
 	</button>
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 <script>
 	$('[data-reveal]').on('open.zf.reveal', function() {
 	    $('#damDemoSlider').resize();

@@ -77,6 +77,5 @@
 	
 	<?php wp_footer(); ?>
 	<?php do_action( 'foundationpress_before_closing_body' ); ?>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 	</body>
 </html>
