@@ -7410,10 +7410,10 @@ a.thumbnail {
   color: #0a0a0a;
   font-weight: 400; }
   .top-bar-right .menu > li > a:hover, .top-bar-right .menu > li > a:focus {
-    font-weight: 600; }
+    text-shadow: 0px 0px 1px #0a0a0a; }
 
-.top-bar-right .menu > li.active > a {
-  font-weight: 600; }
+.top-bar-right .menu > li.current-menu-item > a, .top-bar-right .menu > li.current-menu-parent > a {
+  text-shadow: 0px 0px 1px #0a0a0a; }
 
 .menu.vertical > li {
   border-bottom: 1px solid #0a0a0a; }
