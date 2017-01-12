@@ -75,11 +75,15 @@ $.getJSON('<?php echo get_template_directory_uri(); ?>/assets/javascript/tweets_
 		
 		var date = document.createElement('span');
 		date.classList.add('home-tw-timestamp');
-		date.appendChild(document.createTextNode(value.created_at));
+		date.appendChild(document.createTextNode(formatDate(value.created_at)));
 		
+		var rawText = value.text;
+		rawText = rawText.replace(/[…]/g, ' …');
+		rawText = rawText.replace(/https:\/\/(\S*)/g,'<a href="https://$1">https://$1</a>');
+		rawText = rawText.replace(/#(\S*)/g,'<a href="http://twitter.com/#!/search/$1">#$1</a>');
 		var text = document.createElement('span');
 		text.classList.add('home-tw-content');
-		text.appendChild(document.createTextNode(value.text));
+		text.innerHTML = rawText;
 		
 		tweet.appendChild(date);
 		tweet.appendChild(text);

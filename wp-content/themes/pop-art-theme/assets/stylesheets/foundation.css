@@ -8465,6 +8465,8 @@ button {
     display: block; }
   .home-tw a {
     color: #0099ff; }
+  .home-tw .slick-slide {
+    outline: none; }
 
 .home-tw-timestamp {
   letter-spacing: 1px;
