@@ -7427,8 +7427,9 @@ a.thumbnail {
     color: #ffffff; }
 
 .social-nav .menu > li > a {
-  color: #8a8a8a; }
-  .social-nav .menu > li > a:hover {
+  color: #8a8a8a;
+  padding: .7rem .5rem; }
+  .social-nav .menu > li > a:hover, .social-nav .menu > li > a:focus {
     color: #f24949; }
 
 /*
