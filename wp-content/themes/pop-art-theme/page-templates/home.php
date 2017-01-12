@@ -86,8 +86,8 @@ $.getJSON('<?php echo get_template_directory_uri(); ?>/assets/javascript/tweets_
 		document.getElementById('homeTwitterSlider').appendChild(tweet);
 	});
 }).done(function(){
-	window.setTimeout(twitterSlide('homeTwitterSlider'), 1000);
-	console.log('1 second');
+	console.log('getJSON: DONE');
+	twitterSlide('homeTwitterSlider');
 });
 </script>
 
