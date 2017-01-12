@@ -41,3 +41,14 @@ $(window).scroll(function() {
 	   $('#homeCTA').fadeIn(750);
    }
 });
+
+// TWITTER
+
+function twitterSlide() {
+	$('#homeTwitterSlider').slick({
+		dots: true,
+		autoplay: true,
+		autoplaySpeed: 4500,
+		speed: 1500
+	});
+}
