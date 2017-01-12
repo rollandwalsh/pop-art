@@ -44,8 +44,8 @@ $(window).scroll(function() {
 
 // TWITTER
 
-function twitterSlide() {
-	$('#homeTwitterSlider').slick({
+function twitterSlide(id) {
+	$(`#${id}`).slick({
 		dots: true,
 		autoplay: true,
 		autoplaySpeed: 4500,
