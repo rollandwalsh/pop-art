@@ -7398,7 +7398,7 @@ a.thumbnail {
   transition: 200ms ease-in-out all; }
 
 .top-bar-left .menu > li img {
-  width: 12.5rem; }
+  width: 8.125rem; }
 
 @media print, screen and (min-width: 40em) {
   .top-bar-left {
