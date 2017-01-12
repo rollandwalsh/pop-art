@@ -1550,13 +1550,6 @@ class WP_Rewrite {
 				"RewriteCond %{REQUEST_FILENAME} !-d\n" .
 				"RewriteRule . {$home_root}{$this->index} [L]\n";
 		}
-		
-		# Attempt to load files from production if
-		# they're not in our local version
-		$rules .= "RewriteCond %{REQUEST_FILENAME} !-d" .
-			"RewriteCond %{REQUEST_FILENAME} !-f" .
-			"RewriteRule wp-content/uploads/(.*) \ " .
-				"http://198.199.108.211/wp-content/uploads/$1 [NC,L]";
 
 		$rules .= "</IfModule>\n";
 
