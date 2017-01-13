@@ -74,11 +74,14 @@
 	
 	&:hover {
 		.home-rp-main {
-			top: -100%; // Hide up on hover
 		}
 		
 		.home-rp-hover {
-			top: 0; // Show on hover
+			opacity: 1; // Show on hover
+			
+			> * {
+				transform: scale(1) translateY(0);
+			}
 		}
 	}
 	
@@ -113,8 +116,6 @@
 	background-position: center center;
 	background-size: cover;
 	
-	top: 0; // Show by default
-	
 	&.yogi {background-image: url(../images/recent-projects/yogi.jpg)}
 	&.onboarding-assist {background-image: url(../images/recent-projects/onboarding_assist.png)}
 	&.smartsource {background-image: url(../images/recent-projects/smartsource.jpg)}
@@ -140,12 +141,18 @@
 }
 
 .home-rp-hover {
-	top: 100%; // Hide down by default
+	opacity: 0; // Hide down by default
 	
 	&.purple {background-color: get-color(purple);}
 	&.green {background-color: get-color(green);}
 	&.blue {background-color: get-color(blue);}
 	&.red {background-color: get-color(red);}
+	
+	> * {
+		transform: scale(.9) translateY(30%);
+		
+		transition: 400ms ease-in-out all;
+	}
 	
 	h3 {
 		font-size: rem-calc(16);
