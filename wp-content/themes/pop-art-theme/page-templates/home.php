@@ -51,14 +51,14 @@ get_header(); ?>
 			<div class="large-4 medium-6 columns">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rocket_icon.svg" alt="New Business" class="parallax grow-element" style="height: 2.25rem">
 				<h4>New Business</h4>
-				<span class="home-lwt-phone">+1(503)347 4700</span>
+				<span class="home-lwt-phone">+1 (503) 347 4700</span>
 				<a href="mailto:hello@popart.com">hello@popart.com</a>
 			</div>
 			
 			<div class="large-4 medium-6 columns">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/star_icon.svg" alt="Join Our Team" class="parallax grow-element" style="height: 2rem">
 				<h4>Join Our Team</h4>
-				<span class="home-lwt-phone">+1(503)242 4292</span>
+				<span class="home-lwt-phone">+1 (503) 242 4292</span>
 				<a href="mailto:career@popart.com">career@popart.com</a>
 		 	</div>
 		</div>
