@@ -25,7 +25,7 @@
 					<div class="footer-columns">
 						<h6>Software</h6>
 						<ul>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">BAM Platform</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">BAM! Platform</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'Custom Software' ) ); ?>">Custom Software</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">Data Asset Managemment</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">UGC</a></li>

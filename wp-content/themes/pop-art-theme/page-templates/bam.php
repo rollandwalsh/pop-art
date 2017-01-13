@@ -44,14 +44,14 @@ get_header(); ?>
 		<h2>Data Asset Managment. Ease is the new state-of-the-art.</h2>
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/dam-overview.png" alt="DAM">
 		<h4>Content humanly organized, readily accessed.</h4>
-		<p><span>BAM combines the best of DAM technologies to corral today’s influx of digital content. Employing intuitive</span> <span>hierarchies and user-friendly interfaces, it organizes images, photos, video, documents, files, presentations, whatever,</span> <span>in common-sense ways stakeholders actually use. Everything, for everyone, in one place.</span> <span>Aligned. Secure. Locally. Globally. At the desk. In the field.</span></p>
+		<p><span>BAM! combines the best of DAM technologies to corral today’s influx of digital content. Employing intuitive</span> <span>hierarchies and user-friendly interfaces, it organizes images, photos, video, documents, files, presentations, whatever,</span> <span>in common-sense ways stakeholders actually use. Everything, for everyone, in one place.</span> <span>Aligned. Secure. Locally. Globally. At the desk. In the field.</span></p>
 		<a data-open="damDemo" class="button secondary">Start Demo</a>
 	</section>
 	
 	<section class="bam-benefits">
 		<div class="row align-spaced">
 			<div class="small-12 columns">
-				<h2>BAM Benefits</h2>
+				<h2>BAM! Benefits</h2>
 			</div>
 			
 			<div class="small-12 medium-6 large-5 columns">
