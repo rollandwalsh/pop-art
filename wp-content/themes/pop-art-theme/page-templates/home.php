@@ -4,8 +4,6 @@ Template Name: Home
 */
 get_header(); ?>
 
-<a href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>" class="cta" id="homeCTA">Get In Touch</a>
-
 <header id="homeHero" class="page-hero" role="banner">
 	<div class="home-hero-color">
 		<div class="row align-center">
