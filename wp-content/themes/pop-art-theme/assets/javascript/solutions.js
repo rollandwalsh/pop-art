@@ -2,11 +2,11 @@
 
 $(function() {
 	$('#issueInput1').typed({
-		strings: ['Something typed', 'Something else typed', 'Words'],
+		strings: ['Website navigation', 'Ad ROI', 'App interface', 'Specs volume'],
 		typeSpeed: 0
 	})
 	$('#issueInput2').typed({
-		strings: ['Something typed', 'Something else typed', 'Words'],
+		strings: ['up the wall', 'batty', 'crazy', 'insane'],
 		typeSpeed: 0
 	})
 });
@@ -22,4 +22,3 @@ function accordionRipple() {
 }
 
  window.setTimeout(accordionRipple, 250);
- 
