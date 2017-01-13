@@ -12,14 +12,14 @@ function debounce(func, wait = 20, immediate = true) {
 	};
 };
 
-const sliderElements = document.querySelectorAll('.parallax');
+const sliderElements = Array.from(document.querySelectorAll('.parallax'));
 
 function checkSlide() {
 	sliderElements.forEach(sliderElement => {
-		const slideInAt = (window.scrollY + window.innerHeight) - (sliderElement.offsetHeight / 3);
-		const elementBottom = sliderElement.offsetTop + sliderElement.offsetHeight;
-		const isThirdShown = slideInAt > sliderElement.offsetTop;
-		const isNotScrolledPast = window.scrollY < elementBottom;
+		const slideInAt = (window.innerHeight - sliderElement.getBoundingClientRect().top) - (sliderElement.offsetHeight / 3);
+		const elementBottom = sliderElement.getBoundingClientRect().bottom;
+		const isThirdShown = slideInAt >= 0;
+		const isNotScrolledPast = elementBottom > 0;
 		if (isThirdShown && isNotScrolledPast) {
 			sliderElement.classList.add('active');
 		} else {
@@ -27,6 +27,8 @@ function checkSlide() {
 		}
 	});
 }
+
+// CALL TO ACTION
 
 window.addEventListener('scroll', checkSlide);
 	

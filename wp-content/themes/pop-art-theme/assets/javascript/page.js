@@ -12,3 +12,4 @@
  
  window.setTimeout(heroTextFadeIn, 1000);
  window.setTimeout(heroSubTextFadeIn, 2000);
+ 
