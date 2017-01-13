@@ -284,6 +284,6 @@ get_header(); ?>
 	});
 </script>
 
-<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/page.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/hero-text.js"></script>
 
 <?php get_footer();

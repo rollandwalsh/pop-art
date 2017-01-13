@@ -26,7 +26,7 @@ get_header(); ?>
 	<?php endwhile;?>
 	<?php do_action( 'foundationpress_after_content' ); ?>
 	
-	<section class="solutions-contact">
+	<section class="solutions-contact parallax slide-grow-element">
 		<div class="row">
 			<div class="small-12 columns">
 				<h2>Contact Us Today</h2>
@@ -37,17 +37,7 @@ get_header(); ?>
 	</section>
 </div>
 
-<script>
-	$(function() {
-		$('#issueInput1').typed({
-			strings: ['Something typed', 'Something else typed', 'Words'],
-			typeSpeed: 0
-		})
-		$('#issueInput2').typed({
-			strings: ['Something typed', 'Something else typed', 'Words'],
-			typeSpeed: 0
-		})
-	});
-</script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/solutions.js"></script>
 
 <?php get_footer();

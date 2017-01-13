@@ -8590,6 +8590,40 @@ button {
 .solutions-accordion .is-active > .accordion-title:before {
   margin-top: -1.75rem; }
 
+.solutions-accordion .accordion-item {
+  background: #0058c4;
+  -webkit-transition: 1250ms cubic-bezier(0.25, 3, 0.58, 1) all;
+  transition: 1250ms cubic-bezier(0.25, 3, 0.58, 1) all; }
+  .solutions-accordion .accordion-item:nth-of-type(1) {
+    -webkit-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+            transform: translateY(10px); }
+  .solutions-accordion .accordion-item:nth-of-type(2) {
+    -webkit-transform: translateY(30px);
+        -ms-transform: translateY(30px);
+            transform: translateY(30px); }
+  .solutions-accordion .accordion-item:nth-of-type(3) {
+    -webkit-transform: translateY(60px);
+        -ms-transform: translateY(60px);
+            transform: translateY(60px); }
+  .solutions-accordion .accordion-item:nth-of-type(4) {
+    -webkit-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+            transform: translateY(100px); }
+  .solutions-accordion .accordion-item:nth-of-type(5) {
+    -webkit-transform: translateY(150px);
+        -ms-transform: translateY(150px);
+            transform: translateY(150px); }
+  .solutions-accordion .accordion-item:nth-of-type(6) {
+    -webkit-transform: translateY(210px);
+        -ms-transform: translateY(210px);
+            transform: translateY(210px); }
+  .solutions-accordion .accordion-item.unripple {
+    background: transparent;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0); }
+
 @media print, screen and (min-width: 40em) {
   .solutions-accordion .accordion-content {
     padding: 7rem 0; } }
