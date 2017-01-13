@@ -218,7 +218,7 @@
 	
 	a {
 		color: $white;
-		font-size: rem-calc(22);
+		font-size: rem-calc(16);
 		
 		&:hover {
 			color: darken($white, 15%);
@@ -226,7 +226,7 @@
 	}
 	
 	p {
-		font-size: rem-calc(22);
+		font-size: rem-calc(14);
 		
 		margin-bottom: rem-calc(100);
 	}
@@ -237,8 +237,15 @@
 		}
 	}
 	
+	h2 {
+		font-size: rem-calc(28);
+		font-weight: 600;
+		
+		margin-bottom: rem-calc(28);
+	}
+	
 	h4 {
-		font-size: rem-calc(22);
+		font-size: rem-calc(18);
 		font-weight: 600;
 		text-transform: uppercase;
 	}
@@ -249,8 +256,7 @@
 }
 
 .home-lwt-phone {
-	font-size: rem-calc(22);
-	font-weight: 300;
+	font-size: rem-calc(16);
 	
 	display: block;
 }
