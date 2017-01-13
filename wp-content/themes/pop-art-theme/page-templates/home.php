@@ -41,7 +41,7 @@ get_header(); ?>
 		<div class="row align-center">
 			<div class="large-8 columns">
 				<h2>Let's Work Together</h2>
-				<p>Let's talk. Better yet, meet. Tell us your pain points. Show us your wish lists. It's likely we've wrestled with challenges similar enough to give us both a running start. Collaboration conquers all.</p>
+				<p>Let’s talk. Better yet, meet. Tell us your pain points. Show us your wish lists. It’s likely we’ve wrestled with challenges similar enough to give us both a running start. Collaboration, we’ve learned, conquers all.</p>
 			</div>
 		</div>
 			
@@ -58,6 +58,11 @@ get_header(); ?>
 				<h4>Join Our Team</h4>
 				<span class="home-lwt-phone">+1 (503) 242 4292</span>
 				<a href="mailto:careers@popart.com">careers@popart.com</a>
+		 	</div>
+		 	
+		 	<div class="small-12 columns" style="margin-top: 3rem">
+				<h4>Get in touch today.</h4>
+				<span>Send us your email and, if you wish, a word or two about your company and challenges. There’s no cost, no obligation, and a world of possibility.</span>
 		 	</div>
 		</div>
 	</section>
