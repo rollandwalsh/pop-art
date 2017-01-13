@@ -59,7 +59,7 @@ get_header(); ?>
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/star_icon.svg" alt="Join Our Team" class="parallax grow-element" style="height: 2rem">
 				<h4>Join Our Team</h4>
 				<span class="home-lwt-phone">+1 (503) 242 4292</span>
-				<a href="mailto:career@popart.com">career@popart.com</a>
+				<a href="mailto:careers@popart.com">careers@popart.com</a>
 		 	</div>
 		</div>
 	</section>
