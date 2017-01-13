@@ -37,6 +37,17 @@ get_header(); ?>
 	</section>
 </div>
 
-<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/page.js"></script>
+<script>
+	$(function() {
+		$('#issueInput1').typed({
+			strings: ['Something typed', 'Something else typed', 'Words'],
+			typeSpeed: 0
+		})
+		$('#issueInput2').typed({
+			strings: ['Something typed', 'Something else typed', 'Words'],
+			typeSpeed: 0
+		})
+	});
+</script>
 
 <?php get_footer();
