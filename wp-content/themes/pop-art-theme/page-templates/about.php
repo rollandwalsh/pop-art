@@ -8,7 +8,6 @@ get_header(); ?>
 	<div class="row align-center">
 		<div class="small-12 columns">
 			<h1>Partners in Technological Innovation.</h1>
-
 			<h5><span>We help clients reduce inefficiencies through custom solutions that bring</span> <span>new content, operations and communications possibilities to bear. We boost efficiencies,</span> <span>bottom lines and esprit de corps for industry leading brands.</span></h5>
 		</div>
 	</div>
@@ -51,7 +50,7 @@ get_header(); ?>
 				<div data-section="crossPlatformMobileAppsContent">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/capabilities/cross-platform-mobile-apps.png" alt="Cross Platform Mobile Apps">
 					<h3>Cross Platform Mobile Apps</h3>
-					<p>We specialize in cross-platform mobile development optimizing for the most widely used iOS and Android platforms and devices.  It’s both faster and easier to maintain than leveraging a single codebase.  We then customize for specific platforms to optimize the user experience and adoption rates.  Ionic , HTML5, CSS3, Javascript, Objective-C Swift, Java, C#, .NET, and more.</p>
+					<p>We specialize in cross-platform mobile development optimizing for the most widely used iOS and Android platforms and devices. It’s both faster and easier to maintain than leveraging a single codebase. We then customize for specific platforms to optimize the user experience and adoption rates.</p>
 				</div>
 				
 				<div data-section="customSoftwareContent">
@@ -117,6 +116,8 @@ get_header(); ?>
 			<div class="about-management-team-bio" data-name="tom">
 				<p>Tom has a corner office. That’s pretty much where the formality ends. He’s deeply involved in asking, listening and shaping long-term vision and strategy. Tom brings diverse experience with results-driven technology and marketing solutions to bear. He’s around, deeply connected with all active projects and the primary contact for new partnerships and opportunities.</p>
 				<p>Tom was Chief Operating Officer at Pop Art from 2008 until 2015, forging the agency’s vision while guiding Pop Art to a variety of industry awards. We proudly remain on the “best places to work in Oregon” roster. In 2015 he completed the purchase of a majority of the company’s stock to become its sole director. He continues to solidify client relationships while strengthening Pop Art’s across the board systems: project management, human resources, finance and operations.</p>
+				<h6>Background</h6>
+				<p>Tom has a B.A. in Arts & Letters from Portland State University. He also graduated from the Stanford Executive Institute. Before Pop Art, Tom served in the Army and worked in the translation industry, with degrees from the Defense Language Institute at the Presidio of Monterey and Ft. Bragg’s John F. Kennedy Special Warfare Center and School. He’s a Portland native and Wilson High grad.</p>
 				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
 			</div>
 			
@@ -130,6 +131,8 @@ get_header(); ?>
 				<p>Ethan Brown joined Pop Art as a Software Engineer in 2011 and quickly fell in love with the pace of innovation. Starting with Freightliner, Pacific Natural Foods, Skedco and the RoseyAwards, he began engineering client websites and web applications.</p>
 				<p>In 2014 his book “Web Development with Node and Express” was published, earning high ratings on both O’Reilly and Amazon websites. Thanks to its success, a second book, “Learning JavaScript, 3 rd edition” was commissioned and published in 2016.</p>
 				<p>Amidst these banner years, Pop Art recognized Ethan’s unique skills and commitment by promoting him to Director of Engineering. Meanwhile, he’s scheduled to complete an MBA program later this year, adding a business framework to his engineering acumen.</p>
+				<h6>Background</h6>
+				<p>Prior to Pop Art, Ethan gained deep engineering experience working at IBM, Oracle, Informix, as well as defense contractors Computer Sciences Corporation and Xybion. He holds undergraduate degrees in Mathematics and Computer Science from Virginia Commonwealth University.</p>
 				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
 			</div>
 			
@@ -142,6 +145,8 @@ get_header(); ?>
 			<div class="about-management-team-bio" data-name="noah">
 				<p>Noah serves as liaison and ambassador for Pop Art’s expanding client, supplier and collaborator networks to bridge gaps and drive efficiency. He has a proven record of aligning multiple stakeholders on complex issues toward high yield, happy outcomes. He strives, in a nutshell, to make relationships and software hum.</p>
 				<p>He brings an innate passion for both technology and business, starting with programming games on the family Apple and sweeping raffle sales prizes in elementary school. He’s been guided through a string of entrepreneurial successes by one driving principal: “help technology connect the natural world in ways previously impossible, then get the heck out the way.”</p>
+				<h6>Background</h6>
+				<p>Noah orchestrated and operated an independent B2B wireless agency for most of the 2000’s, helping to bring the then-emerging smart phone technologies and “high-speed” wireless laptop cards into the market. Since then, Noah has directed rapid-growth, global business development efforts in the custom and licensed software space. He graduated from Whitman College with a BA in Sociology and Studio Art, including abroad studies in Russia and Zimbabwe.</p>
 				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
 			</div>
 		</div>
@@ -159,19 +164,14 @@ get_header(); ?>
 		</div>
 		
 		<div class="small-12 medium-6 large-5 columns">
-			<p>Pop Art isn’t random.</p>
-			<p>Pop Art, as a movement, is about fast. And forward. About embracing the new.</p>
-			<p>Mission wise, it pretty much nails us.</p>
-			<p>Even back when we started, at the dawn of digital, social and mobile, it’s what fueled our fire.</p>
-			<p class="blue">Our goal: to keep clients on the crest of the wave. To ensure they harness the technologies required to stay new, modern and relevant.</p>
-			<p>Technology, we’re convinced, is today’s modern art.</p>
-			<p>The canvas has been replaced by a dizzying array of new tools and channels with which to communicate, excite and empower.</p>
+			<p>The name Pop Art isn’t random. Pop Art, as a movement, is about fast. And forward. About embracing the new.</p>
+			<p>Mission wise, it pretty much nails us. Even back when we started, at the dawn of digital, social and mobile, it’s what fueled our fire.</p>
+			<p class="blue">Our goal:  to keep clients on the crest of the wave. To ensure they harness the technologies required to stay new, modern and relevant.</p>
+			<p>Technology, we’re convinced, is today’s modern art. The canvas has been replaced by a dizzying array of new tools and channels with which to communicate, excite and empower.</p>
 			<p>Every day, we wake up eager to see what’s next.</p>
-			<p>Over the years, we’ve morphed from digital marketers to a team of technology service partners and innovators.</p>
-			<p>We create software, apps, mobile tools, asset management platforms, whatever the moment calls for to keep our clients digitally agile, nimble and vital.</p>
-			<p>And those clients are often the kind who need us most: industry leaders faced with daunting digital challenges and opportunities.</p>
-			<p>Today’s digital content can swamp you. Or set you free. Likewise, social networks can define you. Or you can write your own story.</p>
-			<p>That’s where we come in.</p>
+			<p>Over the years, we’ve morphed from digital marketers to a team of technology service partners and innovators. We create software, apps, mobile tools, asset management platforms, whatever the moment calls for to keep our clients digitally agile, nimble and vital.</p>
+			<p>And those clients are often the kind who need us most:  industry leaders faced with daunting digital challenges and opportunities.</p>
+			<p>Today’s digital content can swamp you. Or set you free. Likewise, social networks can define you. Or you can write your own story. That’s where we come in.</p>
 			<p>We help you author your own brand. On a global canvas. At digital speed.</p>
 		</div>
 	</section>
