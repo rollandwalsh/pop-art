@@ -46,9 +46,9 @@
 						<h6>Resources</h6>
 						<ul>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Blog</a></li>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'Work' ) ); ?>">Case Studies</a></li>
-							<li><a href="#">White Papers</a></li>
-							<li><a href="#">Sell Sheet</a></li>
+							<li class="hide"><a href="<?php echo get_permalink( get_page_by_title( 'Work' ) ); ?>">Case Studies</a></li>
+							<li class="hide"><a href="#">White Papers</a></li>
+							<li class="hide"><a href="#">Sell Sheet</a></li>
 						</ul>
 					</div>
 					<div class="footer-columns">
