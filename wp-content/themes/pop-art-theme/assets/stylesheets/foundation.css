@@ -9703,6 +9703,10 @@ button {
     padding-top: 1rem; }
   .work-example-hero a {
     font-size: 2rem; }
+  .work-example-hero div {
+    text-align: center;
+    max-width: calc(75rem - 22px - (1rem * 2));
+    width: 100%; }
 
 #pageWorkExample.hr-assistant blockquote p,
 #pageWorkExample.hr-assistant blockquote cite {
@@ -9716,31 +9720,39 @@ button {
 #pageWorkExample.vms-pro blockquote cite {
   color: #00a651; }
 
-#pageWorkExample .entry-content {
-  padding: 3.75rem 0; }
-  #pageWorkExample .entry-content h1 {
-    font-size: 1.75rem;
-    font-weight: 600;
-    text-transform: capitalize;
-    margin-bottom: 2rem; }
-  #pageWorkExample .entry-content h5 {
-    font-size: 1.125rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 1rem; }
-  #pageWorkExample .entry-content blockquote {
-    border: none;
-    font-weight: 600; }
-    @media print, screen and (min-width: 40em) {
-      #pageWorkExample .entry-content blockquote span {
-        display: block; }
-        #pageWorkExample .entry-content blockquote span:nth-of-type(2) {
-          margin-left: 2rem; }
-        #pageWorkExample .entry-content blockquote span:nth-of-type(3) {
-          margin-left: 1rem; } }
-    #pageWorkExample .entry-content blockquote cite {
-      margin-top: 1rem;
-      text-align: right; }
+@media screen and (max-width: 39.9375em) {
+  #pageWorkExample .entry-content {
+    padding: 2.5rem 0; } }
+
+@media print, screen and (min-width: 40em) {
+  #pageWorkExample .entry-content {
+    padding: 5rem 0; } }
+
+#pageWorkExample .entry-content h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 2rem; }
+
+#pageWorkExample .entry-content h5 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem; }
+
+#pageWorkExample .entry-content blockquote {
+  border: none;
+  font-weight: 600; }
+  @media print, screen and (min-width: 40em) {
+    #pageWorkExample .entry-content blockquote span {
+      display: block; }
+      #pageWorkExample .entry-content blockquote span:nth-of-type(2) {
+        margin-left: 2rem; }
+      #pageWorkExample .entry-content blockquote span:nth-of-type(3) {
+        margin-left: 1rem; } }
+  #pageWorkExample .entry-content blockquote cite {
+    margin-top: 1rem;
+    text-align: right; }
 
 #pageWorkExample .blog-might-like {
   background: #ffffff; }
@@ -9760,10 +9772,10 @@ button {
 .work-example-slider {
   margin: 3.125rem auto;
   max-width: 100%;
-  width: 75rem;
+  width: 55rem;
   position: relative; }
   .work-example-slider i {
-    color: #343434;
+    color: #0a0a0a;
     cursor: pointer;
     position: absolute; }
     @media screen and (max-width: 39.9375em) {
@@ -9782,6 +9794,8 @@ button {
           left: -3rem; }
         .work-example-slider i.fa-angle-right {
           right: -3rem; } }
+    .work-example-slider i:hover {
+      color: #cccccc; }
 
 .work-example-disciplines {
   background: #e6e6e6;

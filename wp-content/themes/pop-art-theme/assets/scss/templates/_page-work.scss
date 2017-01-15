@@ -127,6 +127,13 @@ $yogi-inspirations-color: get-color(purple); // Purple
 	a {
 		font-size: rem-calc(32);
 	}
+	
+	div {
+		text-align: center;
+		
+		max-width: calc(#{$global-width} - 22px - (#{$global-padding} * 2));
+		width: 100%;
+	}
 }
 
 // CONTENT
@@ -155,7 +162,13 @@ $yogi-inspirations-color: get-color(purple); // Purple
 	&.yogi-inspirations {}
 	
 	.entry-content {
-		padding: rem-calc(60) 0;
+		@include breakpoint(small only) {
+			padding: rem-calc(40) 0;
+		}
+		
+		@include breakpoint(medium) {
+			padding: rem-calc(80) 0;
+		}
 		
 		h1 {
 			font-size: rem-calc(28);
@@ -222,12 +235,12 @@ $yogi-inspirations-color: get-color(purple); // Purple
 .work-example-slider {
 	margin: rem-calc(50) auto;
 	max-width: 100%;
-	width: $global-width;
+	width: rem-calc(880);
 	
 	position: relative;
 	
 	i {
-		color: get-color(tertiary);
+		color: $black;
 		
 		cursor: pointer;
 		
@@ -251,6 +264,10 @@ $yogi-inspirations-color: get-color(purple); // Purple
 			&.fa-angle-left {left: rem-calc(-48);}
 			
 			&.fa-angle-right {right: rem-calc(-48);}
+		}
+		
+		&:hover {
+			color: $medium-gray;
 		}
 	}
 }
