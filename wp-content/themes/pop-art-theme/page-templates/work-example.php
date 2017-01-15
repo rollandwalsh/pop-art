@@ -78,7 +78,7 @@ get_header(); ?>
 			adaptiveHeight: true,
 			infinite: true,
 			nextArrow: '<i class="fa fa-angle-right"></i>',
-			prevArrow: '<i class="fa fa-angle-left"></i>',
+			prevArrow: '<i class="fa fa-angle-left"></i>'
 		});
 	});
 </script>
