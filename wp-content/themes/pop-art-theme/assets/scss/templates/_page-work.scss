@@ -205,10 +205,54 @@ $yogi-inspirations-color: get-color(purple); // Purple
 
 // SLIDER
 
+.work-example-slider-container {
+	background: $light-gray;
+	
+	width: 100%;
+	
+	@include breakpoint(small only) {
+		padding: 0 ($global-padding * 2);
+	}
+	
+	@include breakpoint(medium) {
+		padding: 0 ($global-padding * 4);
+	}
+}
+
 .work-example-slider {
 	margin: rem-calc(50) auto;
 	max-width: 100%;
 	width: $global-width;
+	
+	position: relative;
+	
+	i {
+		color: get-color(tertiary);
+		
+		cursor: pointer;
+		
+		position: absolute;
+		
+		@include breakpoint(small only) {
+			font-size: rem-calc(48);
+			
+			top: calc(50% - #{rem-calc(24)});
+		
+			&.fa-angle-left {left: rem-calc(-28);}
+			
+			&.fa-angle-right {right: rem-calc(-28);}
+		}
+		
+		@include breakpoint(medium) {
+			font-size: rem-calc(80);
+			
+			top: calc(50% - #{rem-calc(48)});
+		
+			&.fa-angle-left {left: rem-calc(-48);}
+			
+			&.fa-angle-right {right: rem-calc(-48);}
+		}
+	}
 }
 
 // DISCIPLINES

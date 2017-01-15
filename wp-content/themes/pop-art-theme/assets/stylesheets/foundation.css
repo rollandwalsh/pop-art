@@ -9747,10 +9747,41 @@ button {
   #pageWorkExample .blog-might-like a {
     color: #0a0a0a; }
 
+.work-example-slider-container {
+  background: #e6e6e6;
+  width: 100%; }
+  @media screen and (max-width: 39.9375em) {
+    .work-example-slider-container {
+      padding: 0 2rem; } }
+  @media print, screen and (min-width: 40em) {
+    .work-example-slider-container {
+      padding: 0 4rem; } }
+
 .work-example-slider {
   margin: 3.125rem auto;
   max-width: 100%;
-  width: 75rem; }
+  width: 75rem;
+  position: relative; }
+  .work-example-slider i {
+    color: #343434;
+    cursor: pointer;
+    position: absolute; }
+    @media screen and (max-width: 39.9375em) {
+      .work-example-slider i {
+        font-size: 3rem;
+        top: calc(50% - 1.5rem); }
+        .work-example-slider i.fa-angle-left {
+          left: -1.75rem; }
+        .work-example-slider i.fa-angle-right {
+          right: -1.75rem; } }
+    @media print, screen and (min-width: 40em) {
+      .work-example-slider i {
+        font-size: 5rem;
+        top: calc(50% - 3rem); }
+        .work-example-slider i.fa-angle-left {
+          left: -3rem; }
+        .work-example-slider i.fa-angle-right {
+          right: -3rem; } }
 
 .work-example-disciplines {
   background: #e6e6e6;
@@ -9964,7 +9995,7 @@ button {
   -webkit-background-size: cover;
           background-size: cover;
   color: #0a0a0a;
-  height: 43.125rem;
+  height: 23.75rem;
   margin-bottom: 2rem; }
 
 .blog-search {

@@ -74,9 +74,11 @@ get_header(); ?>
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			arrows: true,
-			autoplay: true,
-			autoplaySpeed: 4000,
-			infinite: true
+			autoplay: false,
+			adaptiveHeight: true,
+			infinite: true,
+			nextArrow: '<i class="fa fa-angle-right"></i>',
+			prevArrow: '<i class="fa fa-angle-left"></i>',
 		});
 	});
 </script>
