@@ -9864,21 +9864,25 @@ button {
         max-width: 37.5rem;
         padding: 4rem 3rem; } }
     #pageContactUs .entry-content .columns h2 {
-      font-size: 2.125rem;
+      font-size: 1.75rem;
       font-weight: 600;
       margin-bottom: 1.75rem; }
     #pageContactUs .entry-content .columns p {
       color: #e6e6e6;
       font-size: 0.875rem;
       margin-bottom: 3.875rem; }
+      #pageContactUs .entry-content .columns p:last-of-type {
+        margin-bottom: 0; }
     #pageContactUs .entry-content .columns span {
       display: block; }
       #pageContactUs .entry-content .columns span a {
         color: #e6e6e6; }
     #pageContactUs .entry-content .columns a {
       color: #ffffff; }
-      #pageContactUs .entry-content .columns a:hover {
+      #pageContactUs .entry-content .columns a.heavy {
         font-weight: 600; }
+      #pageContactUs .entry-content .columns a:hover {
+        text-decoration: underline; }
 
 .contact-page-form {
   background: #e6e6e6; }
@@ -9889,7 +9893,7 @@ button {
     .contact-page-form {
       padding-top: 7.1875rem; } }
   .contact-page-form h2 {
-    font-size: 2.125rem;
+    font-size: 1.75rem;
     font-weight: 600;
     margin-bottom: 1rem; }
   .contact-page-form p {
@@ -9934,6 +9938,9 @@ button {
       margin-top: 0; }
     .contact-page-form .wpcf7-mail-sent-ok > :last-child {
       margin-bottom: 0; }
+
+.reveal {
+  outline: none; }
 
 .job-app {
   border: 15px solid #cccccc; }
