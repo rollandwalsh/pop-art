@@ -47,4 +47,4 @@ function showBio(e) {
 	selectedBio.classList.add('active');
 }
 
-members.forEach(member => member.addEventListener('click', showBio));
+members.forEach(member => member.addEventListener('mouseenter', showBio));

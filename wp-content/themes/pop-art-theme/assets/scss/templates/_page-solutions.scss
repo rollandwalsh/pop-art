@@ -15,6 +15,10 @@
 	}
 	
 	.accordion-title {
+		border-right: none; // Remove border left/right per designer's request
+		border-left: none; // Remove border left/right per designer's request
+		border-radius: 0 !important; // Overide default
+		
 		align-items: center; // Vertically center link text whether on one line or more
 		display: flex; // Allow for centering
 		
@@ -34,6 +38,10 @@
 			width: 100%;
 			
 			display: block; // Overwrite default span setting
+			
+			@include breakpoint(large) {
+				padding-left: 1rem; // Added to mimic left padding of logo per designer's request.
+			}
 		}
 		
 		&:before {
@@ -80,6 +88,21 @@
 		
 		a {
 			color: get-color(secondary);
+			
+			position: relative;
+			
+			&:before {
+				display: inline-block;
+				font: normal normal normal 14px/1 FontAwesome;
+				font-size: inherit;
+				text-rendering: auto;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				content: "\f105";
+				position: absolute;
+				top: 1px;
+				left: rem-calc(-8);
+			}
 			
 			&:hover,
 			&:focus {

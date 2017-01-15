@@ -7730,8 +7730,8 @@ button {
   -webkit-transform: scale(0.8) translateY(10%);
       -ms-transform: scale(0.8) translateY(10%);
           transform: scale(0.8) translateY(10%);
-  -webkit-transition: 1500ms cubic-bezier(0.25, 3, 0.58, 1) all;
-  transition: 1500ms cubic-bezier(0.25, 3, 0.58, 1) all; }
+  -webkit-transition: 1500ms cubic-bezier(0.5, 3, 0.5, 1) all;
+  transition: 1500ms cubic-bezier(0.5, 3, 0.5, 1) all; }
   .parallax.slide-grow-element.active {
     opacity: 1;
     -webkit-transform: scale(1) translateY(0);
@@ -8560,6 +8560,9 @@ button {
   margin-bottom: 0; }
 
 .solutions-accordion .accordion-title {
+  border-right: none;
+  border-left: none;
+  border-radius: 0 !important;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -8577,6 +8580,9 @@ button {
     padding-right: 2rem;
     width: 100%;
     display: block; }
+    @media print, screen and (min-width: 64em) {
+      .solutions-accordion .accordion-title > span {
+        padding-left: 1rem; } }
   .solutions-accordion .accordion-title:before {
     font-size: 3.125rem;
     text-align: right;
@@ -8629,7 +8635,19 @@ button {
     padding: 7rem 0; } }
 
 .solutions-accordion .accordion-content a {
-  color: #0099ff; }
+  color: #0099ff;
+  position: relative; }
+  .solutions-accordion .accordion-content a:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f105";
+    position: absolute;
+    top: 1px;
+    left: -0.5rem; }
   .solutions-accordion .accordion-content a:hover, .solutions-accordion .accordion-content a:focus {
     color: #0084db; }
 
