@@ -27,27 +27,27 @@ get_header(); ?>
 <div id="pageBAM" role="main">
 	<section class="software-testimonial">
 		<div class="row">
-			<div class="small-12 columns">
+			<div class="small-12 columns parallax slide-element">
 				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”<cite>First Last<br>Title<br>Company</cite></blockquote>
 			</div>
 		</div>
 	</section>
 	
-	<section class="custom-software-tiles">
+	<section class="custom-software-tiles parallax slide-element">
 		<div class="custom-software-tile-image">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/built-to-work.jpg" alt="Built to Work">
 		</div>
 		
 		<div class="custom-software-tile-content">
-			<h4>Built to Work</h4>
-			<p>No two businesses are alike, and no single off-the-shelf tool generally suffices. We specialize in custom development for business and communication. Employing proven technology stacks, and leveraging building blocks in our library, we design and develop tools for specific challenges. Requirements definition, iterative prototyping and agile development ensure highly usable, predictable and scalable software solutions.</p>
+			<h4 class="parallax slide-element">Built to Work</h4>
+			<p class="parallax slide-element">No two businesses are alike, and no single off-the-shelf tool generally suffices. We specialize in custom development for business and communication. Employing proven technology stacks, and leveraging building blocks in our library, we design and develop tools for specific challenges. Requirements definition, iterative prototyping and agile development ensure highly usable, predictable and scalable software solutions.</p>
 		</div>
 	</section>
 	
-	<section class="custom-software-tiles">
+	<section class="custom-software-tiles parallax slide-element">
 		<div class="custom-software-tile-content">
-			<h4>Designed for the User</h4>
-			<p>Plain and simple, good UX design makes tools usable. Everything starts with a clear understanding of the specific needs of the customer. Research and rigorous testing together with interactive prototyping, help us evolve designs that are intuitive, pragmatic and fit for the job at hand resulting in high satisfaction and adoption by the end customer.</p>
+			<h4 class="parallax slide-element">Designed for the User</h4>
+			<p class="parallax slide-element">Plain and simple, good UX design makes tools usable. Everything starts with a clear understanding of the specific needs of the customer. Research and rigorous testing together with interactive prototyping, help us evolve designs that are intuitive, pragmatic and fit for the job at hand resulting in high satisfaction and adoption by the end customer.</p>
 		</div>
 		
 		<div class="custom-software-tile-image">
@@ -55,21 +55,21 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="custom-software-tiles">	
+	<section class="custom-software-tiles parallax slide-element">	
 		<div class="custom-software-tile-image">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/iterative-prototyping.jpg" alt="Iterative Prototyping">
 		</div>
 		
 		<div class="custom-software-tile-content">
-			<h4>Iterative Prototyping</h4>
-			<p>We deliver prototypes and working software early and often, incorporating user feedback at every stage to refine functionality and ease of use. This cost-effective approach ensures you get the right end-product, one fully embraced by customers, both within and outside the organization.</p>
+			<h4 class="parallax slide-element">Iterative Prototyping</h4>
+			<p class="parallax slide-element">We deliver prototypes and working software early and often, incorporating user feedback at every stage to refine functionality and ease of use. This cost-effective approach ensures you get the right end-product, one fully embraced by customers, both within and outside the organization.</p>
 		</div>
 	</section>
 	
-	<section class="custom-software-tiles">
+	<section class="custom-software-tiles parallax slide-element">
 		<div class="custom-software-tile-content">
-			<h4>Agile Development</h4>
-			<p>For the highest degree of predictability and value, Pop Art develops software in an agile manner releasing working software at regular intervals integrating the highest features deemed highest value in each release. You will always be in control of how much you choose to invest in software using agile methodology. You have control over how much you spend on each phase. You can scale the team up or down, depending on what factors are most important to you feature sets, timelines and budgets.</p>
+			<h4 class="parallax slide-element">Agile Development</h4>
+			<p class="parallax slide-element">For the highest degree of predictability and value, Pop Art develops software in an agile manner releasing working software at regular intervals integrating the highest features deemed highest value in each release. You will always be in control of how much you choose to invest in software using agile methodology. You have control over how much you spend on each phase. You can scale the team up or down, depending on what factors are most important to you feature sets, timelines and budgets.</p>
 		</div>
 		
 		<div class="custom-software-tile-image">
@@ -80,22 +80,22 @@ get_header(); ?>
 	<section class="custom-software-projects">
 		<h2>Custom Projects</h2>
 		
-		<article class="custom-software-vms-pro">
+		<article class="custom-software-vms-pro parallax slide-element">
 			<div class="custom-software-project-image">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/vms-pro.png" alt="VMS Pro">
 			</div>
 			
 			<div class="custom-software-project-content">
-				<h4>VMSPro. World Class Value Management Software</h4>
-				<p>Pop Art worked with VMS Consulting to design and build a standardized platform for the management of value engineering programs and activities. It blends powerful analytic tools and state of the art functionality that allows team to collaborate to improve value. This software has been leveraged to guide the development of projects, product and processes helping organizations get the most out of limited resources. Developed based on use-cases and user testing, this platform includes a wide array of planning, analysis and reporting tools that are easy and intuitive for a businesses to incorporate into their planning processes.</p>
+				<h4 class="parallax slide-element">VMSPro. World Class Value Management Software</h4>
+				<p class="parallax slide-element">Pop Art worked with VMS Consulting to design and build a standardized platform for the management of value engineering programs and activities. It blends powerful analytic tools and state of the art functionality that allows team to collaborate to improve value. This software has been leveraged to guide the development of projects, product and processes helping organizations get the most out of limited resources. Developed based on use-cases and user testing, this platform includes a wide array of planning, analysis and reporting tools that are easy and intuitive for a businesses to incorporate into their planning processes.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'VMS Pro' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
 		
-		<article class="custom-software-fst">
+		<article class="custom-software-fst parallax slide-element">
 			<div class="custom-software-project-content">
-				<h4>FST App</h4>
-				<p>Freightliner deals in highly customizable configurations, involving hundreds of exterior, interior, and add-on choices. Together we created a leading-edge mobile app that puts real-time specs, comparison charts, even 3D renderings of over 6000 truck configurations at field rep’s fingertips, all linked to a data management hub.</p>
+				<h4 class="parallax slide-element">FST App</h4>
+				<p class="parallax slide-element">Freightliner deals in highly customizable configurations, involving hundreds of exterior, interior, and add-on choices. Together we created a leading-edge mobile app that puts real-time specs, comparison charts, even 3D renderings of over 6000 truck configurations at field rep’s fingertips, all linked to a data management hub.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'FST' ) ); ?>" class="button hollow gray">Learn More</a>
 			</div>
 			
@@ -104,21 +104,21 @@ get_header(); ?>
 			</div>
 		</article>
 		
-		<article class="custom-software-onboarding-assistant">
+		<article class="custom-software-onboarding-assistant parallax slide-element">
 			<div class="custom-software-project-image">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/onboarding-assistant.png" alt="Onboarding Assistant">
 			</div>
 			
 			<div class="custom-software-project-content">
-				<h4>Onboarding Assistant</h4>
-				<p>For Daimler North America, we created a simple checklist-style interface. Managers can run through an onboarding list of desk assignments, phones, computers, work buddies, first day agendas, etc in under 5 minutes, monitoring everything new hires need to succeed.</p>
+				<h4 class="parallax slide-element">Onboarding Assistant</h4>
+				<p class="parallax slide-element">For Daimler North America, we created a simple checklist-style interface. Managers can run through an onboarding list of desk assignments, phones, computers, work buddies, first day agendas, etc in under 5 minutes, monitoring everything new hires need to succeed.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'HR Assistant' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
 	</section>
 	
-	<section class="custom-software-blog-strip">
-		<div class="row align-middle align-center">
+	<section class="custom-software-blog-strip parallax slide-grow-element">
+		<div class="row align-middle align-center parallax slide-element">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pop-art-spark_icon.png" alt="Pop Art">
 			<p>Looking for more great content? <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Check out our blog</a>.</p>
 		</div>
@@ -149,5 +149,6 @@ get_header(); ?>
 </div>
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/hero-text.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>
 
 <?php get_footer();

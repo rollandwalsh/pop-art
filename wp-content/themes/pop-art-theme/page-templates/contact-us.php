@@ -17,7 +17,7 @@ get_header(); ?>
 	<?php endwhile;?>
 	<?php do_action( 'foundationpress_after_content' ); ?>
 	
-	<section class="contact-page-form">
+	<section class="contact-page-form parallax slide-grow-element">
 		<div class="row">
 			<div class="small-12 columns">
 				<h2>We're Here For You</h2>
@@ -27,5 +27,7 @@ get_header(); ?>
 		</div>
 	</section>
 </div>
+
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>
 
 <?php get_footer();

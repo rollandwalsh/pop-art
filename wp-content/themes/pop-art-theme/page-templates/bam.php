@@ -25,13 +25,13 @@ get_header(); ?>
 </nav>
 
 <div id="pageBAM" role="main">
-	<section class="bam-overview">
+	<section class="bam-overview parallax slide-grow-element">
 		<div class="row">
 			<?php do_action( 'foundationpress_before_content' ); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
 					<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-					<div class="entry-content">
+					<div class="entry-content parallax slide-element">
 						<?php the_content(); ?>
 					</div>
 				</article>
@@ -48,14 +48,14 @@ get_header(); ?>
 		<a data-open="damDemo" class="button secondary">Start Demo</a>
 	</section>
 	
-	<section class="bam-benefits">
+	<section class="bam-benefits parallax slide-grow-element">
 		<div class="row align-spaced">
 			<div class="small-12 columns">
-				<h2>BAM! Benefits</h2>
+				<h2 class="parallax slide-element">BAM! Benefits</h2>
 			</div>
 			
 			<div class="small-12 medium-5 large-4 columns">
-				<div class="bam-benefit">
+				<div class="bam-benefit parallax slide-element">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/amplify.png" alt="Amplify">
 					<div class="copy">
 						<span>Amplify the voice of your best customers.</span>
@@ -63,7 +63,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="bam-benefit">
+				<div class="bam-benefit parallax slide-element">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/assets.png" alt="Assets">
 					<div class="copy">
 						<span>All assets up to date and easy to find.</span>
@@ -71,7 +71,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="bam-benefit">
+				<div class="bam-benefit parallax slide-element">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/sales.png" alt="Sales">
 					<div class="copy">
 						<span>Close more sales.</span>
@@ -81,7 +81,7 @@ get_header(); ?>
 			</div>
 			
 			<div class="small-12 medium-5 large-4 columns">
-				<div class="bam-benefit">
+				<div class="bam-benefit parallax slide-element">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/align.png" alt="Align">
 					<div class="copy">
 						<span>Align in real-time.</span>
@@ -89,7 +89,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="bam-benefit">
+				<div class="bam-benefit parallax slide-element">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/employees.png" alt="Employees">
 					<div class="copy">
 						<span>Engage and retain employees.</span>
@@ -97,7 +97,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="bam-benefit">
+				<div class="bam-benefit parallax slide-element">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/socail.png" alt="Social">
 					<div class="copy">
 						<span>Turn social fans into ambassadors.</span>
@@ -119,24 +119,24 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="blog-might-like">
+	<section class="blog-might-like parallax slide-grow-element">
 		<h3>You Might Like</h3>
 		<div class="row align-center">
-			<div class="small-9 medium-4 columns">
+			<div class="small-9 medium-4 columns parallax slide-element">
 				<a href="#">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
 					<p>Case Study<span>Title</span></p>
 				</a>
 			</div>
 			
-			<div class="small-9 medium-4 columns">
+			<div class="small-9 medium-4 columns parallax slide-element">
 				<a href="#">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
 					<p>Case Study<span>Title</span></p>
 				</a>
 			</div>
 			
-			<div class="small-9 medium-4 columns">
+			<div class="small-9 medium-4 columns parallax slide-element">
 				<a href="#">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
 					<p>Case Study<span>Title</span></p>
@@ -145,7 +145,7 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="solutions-contact">
+	<section class="solutions-contact parallax slide-grow-element">
 		<div class="row">
 			<div class="small-12 columns">
 				<h2>Contact Us Today</h2>
