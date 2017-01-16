@@ -8,13 +8,13 @@ get_header(); ?>
 	<div class="row align-center">
 		<div class="small-12 columns">
 			<h1>Partners in Technological Innovation.</h1>
-			<h5><span>We help clients reduce inefficiencies through custom solutions that bring</span> <span>new content, operations and communications possibilities to bear. We boost efficiencies,</span> <span>bottom lines and esprit de corps for industry leading brands.</span></h5>
+			<h6><span>We help clients reduce inefficiencies through custom solutions that bring</span> <span>new content, operations and communications possibilities to bear. We boost efficiencies,</span> <span>bottom lines and esprit de corps for industry leading brands.</span></h6>
 		</div>
 	</div>
 </header>
 
 <div id="pageAbout" role="main">
-	<section class="about-capabilities">
+	<section class="about-capabilities parallax slide-grow-elemen">
 		<div class="align-justify">
 			<div id="aboutCapabilitiesContent" class="small-12 medium-7 large-5 small-order-2 medium-order-1 columns">
 				<div class="active" data-section="strategyContent">
@@ -50,7 +50,7 @@ get_header(); ?>
 				<div data-section="crossPlatformMobileAppsContent">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/capabilities/cross-platform-mobile-apps.png" alt="Cross Platform Mobile Apps">
 					<h3>Cross Platform Mobile Apps</h3>
-					<p>We specialize in cross-platform mobile development optimizing for the most widely used iOS and Android platforms and devices. It’s both faster and easier to maintain than leveraging a single codebase. We then customize for specific platforms to optimize the user experience and adoption rates.</p>
+					<p>We specialize in cross-platform mobile development optimizing for the most widely used iOS and Android platforms and devices. It’s both faster and easier to maintain than leveraging a single codebase. We then customize for specific platforms to optimize the user experience and adoption rates.  </p>
 				</div>
 				
 				<div data-section="customSoftwareContent">
@@ -154,7 +154,7 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="about-history align-spaced">
+	<section class="about-history align-justify">
 		<div class="small-12 columns">
 			<h2 class="text-center">Our History</h2>
 		</div>

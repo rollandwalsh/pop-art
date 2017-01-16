@@ -26,7 +26,7 @@
 	}
 	
 	h2 {
-		font-size: rem-calc(32);
+		font-size: rem-calc(28);
 		
 		@include breakpoint(small only) {
 			text-align: center;
@@ -50,6 +50,8 @@
 		}
 		
 		li {
+			color: $medium-gray;
+			
 			padding: ($global-padding / 2) 0;
 			
 			counter-increment: customlistcounter; // Sets new counter
@@ -74,6 +76,7 @@
 			}
 			
 			&.active {
+				color: $white;
 				font-weight: 600;
 				
 				&:before {
@@ -128,7 +131,7 @@
 	
 	h3 {
 		color: get-color(secondary);
-		font-size: rem-calc(24);
+		font-size: rem-calc(28);
 		
 		margin-bottom: $global-padding * 1.5;
 	}
@@ -196,7 +199,8 @@
 	}
 		
 	h2 {
-		font-size: rem-calc(32);
+		font-size: rem-calc(28);
+		font-weight: 600;
 	}
 	
 	h5 {
@@ -232,7 +236,7 @@
 	}
 	
 	h4 {
-		font-size: rem-calc(18);
+		font-size: rem-calc(16);
 		font-weight: 600;
 		text-transform: uppercase;
 		
@@ -240,7 +244,7 @@
 	}
 	
 	h6 {
-		font-size: rem-calc(18);
+		font-size: rem-calc(16);
 		font-weight: 300;
 		text-transform: uppercase;
 	}
@@ -268,6 +272,7 @@
 	@include flex-grid-column(12);
 	
 	background: $white;
+	font-size: rem-calc(14);
 	text-align: left;
 	
 	transition: 150ms ease-in-out all;
@@ -352,6 +357,11 @@
 		}
 	}
 	
+	h2 {
+		font-size: rem-calc(28);
+		font-weight: 600;
+	}
+	
 	img {
 		margin-bottom: rem-calc(2);
 		
@@ -411,6 +421,11 @@
 	text-align: center;
 	
 	padding: ($global-padding * 4) 0;
+	
+	h2 {
+		font-size: rem-calc(28);
+		font-weight: 600;
+	}
 	
 	p {
 		margin-bottom: $global-padding * 2;

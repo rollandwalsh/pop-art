@@ -8835,7 +8835,7 @@ button {
     -ms-flex-flow: row wrap;
         flex-flow: row wrap; }
   .about-capabilities h2 {
-    font-size: 2rem; }
+    font-size: 1.75rem; }
     @media screen and (max-width: 39.9375em) {
       .about-capabilities h2 {
         text-align: center;
@@ -8852,6 +8852,7 @@ button {
       .about-capabilities ol {
         display: none; } }
     .about-capabilities ol li {
+      color: #cccccc;
       padding: 0.5rem 0;
       counter-increment: customlistcounter; }
       .about-capabilities ol li:first-of-type {
@@ -8865,6 +8866,7 @@ button {
       .about-capabilities ol li:hover {
         cursor: pointer; }
       .about-capabilities ol li.active {
+        color: #ffffff;
         font-weight: 600; }
         .about-capabilities ol li.active:before {
           color: #0099ff;
@@ -8904,7 +8906,7 @@ button {
 
 #aboutCapabilitiesContent h3 {
   color: #0099ff;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 1.5rem; }
 
 #pageAbout .main-content {
@@ -8964,7 +8966,8 @@ button {
       padding-top: 2rem;
       padding-bottom: 2rem; } }
   .about-management-team h2 {
-    font-size: 2rem; }
+    font-size: 1.75rem;
+    font-weight: 600; }
   .about-management-team h5 {
     font-size: 1.125rem !important;
     font-weight: 400;
@@ -8992,12 +8995,12 @@ button {
     margin: 0 auto 1rem;
     width: 80%; }
   .about-management-team-member h4 {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.125rem; }
   .about-management-team-member h6 {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 300;
     text-transform: uppercase; }
   @media screen and (max-width: 39.9375em) {
@@ -9055,6 +9058,7 @@ button {
   padding-left: 0.625rem;
   max-width: 100%;
   background: #ffffff;
+  font-size: 0.875rem;
   text-align: left;
   -webkit-transition: 150ms ease-in-out all;
   transition: 150ms ease-in-out all; }
@@ -9118,6 +9122,9 @@ button {
       padding-bottom: 5rem; }
       .about-history h2 {
         margin-bottom: 3rem; } }
+  .about-history h2 {
+    font-size: 1.75rem;
+    font-weight: 600; }
   .about-history img {
     margin-bottom: 0.125rem;
     display: block; }
@@ -9169,6 +9176,9 @@ button {
       flex-flow: row wrap;
   text-align: center;
   padding: 4rem 0; }
+  .about-contact h2 {
+    font-size: 1.75rem;
+    font-weight: 600; }
   .about-contact p {
     margin-bottom: 2rem; }
 
