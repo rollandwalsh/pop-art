@@ -49,7 +49,7 @@ get_header(); ?>
 	</section>
 	
 	<section class="bam-benefits parallax slide-grow-element">
-		<div class="row align-spaced">
+		<div class="row align-justify">
 			<div class="small-12 columns">
 				<h2 class="parallax slide-element">BAM! Benefits</h2>
 			</div>
