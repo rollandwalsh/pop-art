@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="small-12 columns">
 			<h1>Software Solutions As Unique As You Are.</h1>
 
-			<h5><span>We help clients reduce inefficiencies through custom solutions that bring</span> <span>new content, operations and communications possibilities to bear. We boost efficiencies,</span> <span>bottom lines and esprit de corps for industry leading brands.</span></h5>
+			<h6><span>We help clients reduce inefficiencies through custom solutions that bring</span> <span>new content, operations and communications possibilities to bear. We boost efficiencies,</span> <span>bottom lines and esprit de corps for industry leading brands.</span></h6>
 		</div>
 	</div>
 </header>
@@ -41,7 +41,7 @@ get_header(); ?>
 	</section>
 	
 	<section class="bam-dam">
-		<h2>Data Asset Managment. Ease is the new state-of-the-art.</h2>
+		<h2>Digital Asset Managment. Ease is the new state-of-the-art.</h2>
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/dam-overview.png" alt="DAM">
 		<h4>Content humanly organized, readily accessed.</h4>
 		<p><span>BAM! combines the best of DAM technologies to corral today’s influx of digital content. Employing intuitive</span> <span>hierarchies and user-friendly interfaces, it organizes images, photos, video, documents, files, presentations, whatever,</span> <span>in common-sense ways stakeholders actually use. Everything, for everyone, in one place.</span> <span>Aligned. Secure. Locally. Globally. At the desk. In the field.</span></p>
@@ -54,7 +54,7 @@ get_header(); ?>
 				<h2>BAM! Benefits</h2>
 			</div>
 			
-			<div class="small-12 medium-6 large-5 columns">
+			<div class="small-12 medium-5 large-4 columns">
 				<div class="bam-benefit">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/amplify.png" alt="Amplify">
 					<div class="copy">
@@ -80,7 +80,7 @@ get_header(); ?>
 				</div>
 			</div>
 			
-			<div class="small-12 medium-6 large-5 columns">
+			<div class="small-12 medium-5 large-4 columns">
 				<div class="bam-benefit">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/align.png" alt="Align">
 					<div class="copy">
@@ -104,17 +104,6 @@ get_header(); ?>
 						<small>Curate and re-publish social media posts.</small>
 					</div>
 				</div>
-			</div>
-		</div>
-	</section>
-	
-	<section class="software-testimonial">
-		<div class="row">
-			<div class="columns shrink">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial_icon.png" alt="Testimonial">
-			</div>
-			<div class="columns">
-				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”<cite>First Last<br>Title<br>Company</cite></blockquote>
 			</div>
 		</div>
 	</section>
@@ -156,11 +145,13 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="about-contact">
-		<div class="small-12 columns">
-			<h2>Contact Us</h2>
-			<p>Send us your email and, if you wish, a word or two about your company and challenges.<br>There's no cost, no obligation, and a world of possibility.</p>
-			<a class="button hollow tertiary" href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>">Get in Touch</a>
+	<section class="solutions-contact">
+		<div class="row">
+			<div class="small-12 columns">
+				<h2>Contact Us Today</h2>
+				<h5><span>Send us your email and, if you wish, a word or two about your company</span> <span>and challenges. There's no cost, no obligations, and a world of possibilities.</span></h5>
+				<a href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>" class="button white">Get in Touch</a>
+			</div>
 		</div>
 	</section>
 </div>
@@ -168,7 +159,7 @@ get_header(); ?>
 <div class="reveal full" id="damDemo" data-reveal>
 	<div class="row align-center">
 		<div class="small-12 columns">
-			<h1>Data Asset Management. Ease is the new state-of-the-art.</h1>
+			<h1>Digital Asset Management. Ease is the new state-of-the-art.</h1>
 			<div id="damDemoSlider" class="damDemoContent">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/upload.png" alt="Upload">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/search.png" alt="Search">

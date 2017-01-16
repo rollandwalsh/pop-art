@@ -30,7 +30,18 @@
 		color: $black;
 		
 		&:hover {
-			color: get-color(primary);
+			img {
+				opacity: .7;
+			}
+			
+			h2,
+			p {
+				opacity: .5;
+			}
+		}
+		
+		> * {
+			transition: 500ms ease-in-out all;
 		}
 		
 		img {
@@ -52,8 +63,6 @@
 			font-weight: 600;
 			
 			margin-bottom: 0;
-			
-			transition: 150ms ease-in-out all;
 		}
 		
 		p {
@@ -373,7 +382,7 @@ $yogi-inspirations-color: get-color(purple); // Purple
 // BLOG STRIP
 
 .work-blog-strip {
-	border-top: 6px solid $medium-gray;
+	box-shadow: 0px -4px 4px 2px rgba($medium-gray,1);
 	
 	.row {
 		flex-wrap: nowrap;

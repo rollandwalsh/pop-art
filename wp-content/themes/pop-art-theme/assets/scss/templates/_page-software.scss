@@ -68,7 +68,7 @@
 	}
 	
 	cite {
-		color: $white;
+		color: $black;
 		font-style: normal;
 		
 		margin-top: $global-padding * 2;
@@ -78,6 +78,7 @@
 		}
 	}
 }
+
 // CONTENT
 
 .bam-overview {
@@ -158,6 +159,7 @@
 	padding: rem-calc(90) 0;
 	
 	h2 {
+		font-size: rem-calc(28);
 		font-weight: 600;
 		text-align: center;
 		
@@ -180,6 +182,7 @@
 	
 	span {
 		font-weight: 600;
+		text-transform: uppercase;
 		
 		margin-bottom: $global-padding;
 		
@@ -207,11 +210,11 @@
 	}
 	
 	@include breakpoint(medium) {
-		padding: ($global-padding * 3) 0;
+		padding: rem-calc(60) 0 rem-calc(120);
 	}
 	
 	h2 {
-		font-size: rem-calc(34);
+		font-size: rem-calc(28);
 		font-weight: 600;
 		text-align: center;
 		
@@ -233,6 +236,8 @@
 	}
 	
 	p {
+		font-size: rem-calc(14);
+		
 		margin-bottom: $global-padding * 2;
 	}
 	
@@ -250,15 +255,15 @@
 .blog-might-like {
 	background: $light-gray;
 	
-	padding: rem-calc(100) 0 rem-calc(114);
+	padding: rem-calc(106) 0 rem-calc(114);
 	
 	h3 {
-		font-size: rem-calc(22);
+		font-size: rem-calc(28);
 		font-weight: 600;
 		text-align: center;
 		text-transform: uppercase;
 		
-		margin-bottom: rem-calc(70);
+		margin-bottom: rem-calc(78);
 	}
 	
 	a {
@@ -280,7 +285,7 @@
 	}
 	
 	span {
-		font-size: rem-cacl(18);
+		font-size: rem-cacl(16);
 		font-weight: 600;
 		
 		display: block;
@@ -436,10 +441,10 @@
 	}
 	
 	h4 {
-		font-size: rem-calc(24);
+		font-size: rem-calc(22);
 		font-weight: 600;
 		
-		margin-bottom: rem-calc(24);
+		margin-bottom: rem-calc(22);
 	}
 	
 	p {
@@ -518,6 +523,19 @@
 		@include flex-grid-column(6, 8rem);
 	}
 	
+	@include breakpoint(medium) {
+		h4 {
+			font-size: rem-calc(22);
+			font-weight: 600;
+			
+			margin-bottom: rem-calc(36);
+		}
+		
+		p {
+			margin-bottom: rem-calc(50);
+		}
+	}
+	
 	.button.white {
 		&:hover,
 		&:focus {
@@ -530,21 +548,20 @@
 // BLOG STRIP
 
 .custom-software-blog-strip {
-	border-bottom: 6px solid $medium-gray;
+	box-shadow: 0px 4px 4px 2px rgba($medium-gray,1);
 	
 	.row {
 		flex-wrap: nowrap;
 	}
 	
 	p {
-		font-size: rem-calc(18);
 		text-align: center;
 		
 		margin-bottom: 0;
 	}
 	
 	a {
-		font-weight: 600;
+		font-weight: 900;
 		
 		&:hover {
 			text-decoration: underline;

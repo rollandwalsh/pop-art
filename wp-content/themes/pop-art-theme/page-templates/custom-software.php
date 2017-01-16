@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="small-12 columns">
 			<h1>Software solutions as unique as you are.</h1>
 
-			<h5><span>Our favorite challenges are the one’s we haven’t seen yet. Where</span> <span>you suspect something could be done better, faster, more intuitively,</span> <span>we apply our experience and ingenuity to the task.</span></h5>
+			<h6><span>Our favorite challenges are the one’s we haven’t seen yet. Where</span> <span>you suspect something could be done better, faster, more intuitively,</span> <span>we apply our experience and ingenuity to the task.</span></h6>
 		</div>
 	</div>
 </header>
@@ -19,7 +19,7 @@ get_header(); ?>
 		<ul>
 			<li><a href="/">Home <i class="fa fa-angle-right"></i></a></li>
 			<li><a href="/">Software <i class="fa fa-angle-right"></i></a></li>
-			<li>BAM!</li>
+			<li>Custom Software</li>
 		</ul>
 	</div>
 </nav>
@@ -27,10 +27,7 @@ get_header(); ?>
 <div id="pageBAM" role="main">
 	<section class="software-testimonial">
 		<div class="row">
-			<div class="columns shrink">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/testimonial_icon.png" alt="Testimonial">
-			</div>
-			<div class="columns">
+			<div class="small-12 columns">
 				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”<cite>First Last<br>Title<br>Company</cite></blockquote>
 			</div>
 		</div>
@@ -91,15 +88,15 @@ get_header(); ?>
 			<div class="custom-software-project-content">
 				<h4>VMSPro. World Class Value Management Software</h4>
 				<p>Pop Art worked with VMS Consulting to design and build a standardized platform for the management of value engineering programs and activities. It blends powerful analytic tools and state of the art functionality that allows team to collaborate to improve value. This software has been leveraged to guide the development of projects, product and processes helping organizations get the most out of limited resources. Developed based on use-cases and user testing, this platform includes a wide array of planning, analysis and reporting tools that are easy and intuitive for a businesses to incorporate into their planning processes.</p>
-				<a href="#" class="button hollow white">Learn More</a>
+				<a href="<?php echo get_permalink( get_page_by_title( 'VMS Pro' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
 		
 		<article class="custom-software-fst">
 			<div class="custom-software-project-content">
-				<h4>FST App.</h4>
+				<h4>FST App</h4>
 				<p>Freightliner deals in highly customizable configurations, involving hundreds of exterior, interior, and add-on choices. Together we created a leading-edge mobile app that puts real-time specs, comparison charts, even 3D renderings of over 6000 truck configurations at field rep’s fingertips, all linked to a data management hub.</p>
-				<a href="#" class="button hollow gray">Learn More</a>
+				<a href="<?php echo get_permalink( get_page_by_title( 'FST' ) ); ?>" class="button hollow gray">Learn More</a>
 			</div>
 			
 			<div class="custom-software-project-image">
@@ -113,9 +110,9 @@ get_header(); ?>
 			</div>
 			
 			<div class="custom-software-project-content">
-				<h4>Onboarding Assistant.</h4>
+				<h4>Onboarding Assistant</h4>
 				<p>For Daimler North America, we created a simple checklist-style interface. Managers can run through an onboarding list of desk assignments, phones, computers, work buddies, first day agendas, etc in under 5 minutes, monitoring everything new hires need to succeed.</p>
-				<a href="#" class="button hollow white">Learn More</a>
+				<a href="<?php echo get_permalink( get_page_by_title( 'HR Assistant' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
 	</section>
@@ -123,7 +120,7 @@ get_header(); ?>
 	<section class="custom-software-blog-strip">
 		<div class="row align-middle align-center">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pop-art-spark_icon.png" alt="Pop Art">
-			<p>Looking for more great content? <a href="/blog">Check out our blog</a>.</p>
+			<p>Looking for more great content? <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Check out our blog</a>.</p>
 		</div>
 	</section>
 	
