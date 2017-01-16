@@ -16,7 +16,7 @@ const sliderElements = Array.from(document.querySelectorAll('.parallax'));
 
 function checkSlide() {
 	sliderElements.forEach(sliderElement => {
-		const slideInAt = (window.innerHeight - sliderElement.getBoundingClientRect().top) - (sliderElement.offsetHeight / 3);
+		const slideInAt = (window.innerHeight - sliderElement.getBoundingClientRect().top) - (sliderElement.offsetHeight / 6);
 		const elementBottom = sliderElement.getBoundingClientRect().bottom;
 		const isThirdShown = slideInAt >= 0;
 		const isNotScrolledPast = elementBottom > 0;
