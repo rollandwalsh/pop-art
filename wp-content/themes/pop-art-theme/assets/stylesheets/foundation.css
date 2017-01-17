@@ -9403,22 +9403,17 @@ button {
       padding: 1rem 0; } }
   @media print, screen and (min-width: 40em) {
     .bam-endorsement {
-      padding: 3.75rem 0 7.5rem; } }
+      padding: 3.75rem 0 0; } }
   .bam-endorsement h2 {
     font-size: 1.75rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 4.8125rem;
     width: 100%; }
-  .bam-endorsement div {
-    padding: 0 2rem;
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 16rem;
-            flex: 1 1 16rem; }
   .bam-endorsement h4 {
-    font-size: 1.375rem;
+    font-size: 1.125rem;
     font-weight: 600;
-    margin-bottom: 2rem; }
+    margin-bottom: 3rem; }
   .bam-endorsement p {
     font-size: 0.875rem;
     margin-bottom: 2rem; }
@@ -9426,6 +9421,77 @@ button {
     color: #ffffff; }
     .bam-endorsement .button:hover {
       color: #ffffff; }
+
+.bam-endorsement-image img {
+  display: none; }
+  .bam-endorsement-image img.current {
+    display: block; }
+  .bam-endorsement-image img:first-of-type {
+    margin-bottom: 7.5rem; }
+
+.bam-endorsement-nav {
+  display: none;
+  margin: 1rem auto 2.75rem;
+  max-width: 75rem;
+  width: 100%; }
+  .bam-endorsement-nav.awake {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .bam-endorsement-nav li {
+    color: #8a8a8a;
+    font-weight: 600;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-endorsement-nav li {
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 1rem 0; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .bam-endorsement-nav li {
+        font-size: 0.875rem;
+        text-align: center;
+        padding: 1rem 0.5rem; } }
+    @media print, screen and (min-width: 64em) {
+      .bam-endorsement-nav li {
+        font-size: 1.125rem;
+        padding: 1rem 0.5rem; } }
+    .bam-endorsement-nav li span {
+      opacity: 0;
+      -webkit-transition: 150ms ease-in-out all;
+      transition: 150ms ease-in-out all; }
+    .bam-endorsement-nav li.current {
+      color: #0099ff; }
+      .bam-endorsement-nav li.current span {
+        opacity: 1; }
+
+.bam-endorsement-content {
+  padding: 0 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 16rem;
+          flex: 1 1 16rem; }
+  .bam-endorsement-content div {
+    display: none; }
+    .bam-endorsement-content div.current {
+      display: block; }
+
+.bam-endorsement-buttons {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  display: none;
+  margin-top: 7.5rem; }
+  .bam-endorsement-buttons a {
+    padding: 1rem; }
+    .bam-endorsement-buttons a:first-of-type {
+      color: #8a8a8a; }
+    .bam-endorsement-buttons a:last-of-type {
+      color: #0099ff; }
 
 .blog-might-like {
   background: #e6e6e6;

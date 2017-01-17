@@ -145,12 +145,70 @@ get_header(); ?>
 	
 	<section class="bam-endorsement">
 		<h2>The Future is 3rd Party Endorsement</h2>
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
+		<div class="bam-endorsement-image">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content" data-bedemo="0" class="current">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/create.png" alt="Campaigns" data-bedemo="1">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/network.png" alt="Network" data-bedemo="2">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/upload.png" alt="Upload" data-bedemo="3">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/curate.png" alt="Curate" data-bedemo="4">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/search.png" alt="Search" data-bedemo="5">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/publish.png" alt="Publish" data-bedemo="6">
+			
+			<ul class="bam-endorsement-nav">
+				<li data-bedemo="1"><span>1.</span> Campaigns</li>
+				<li data-bedemo="2"><span>2.</span> Network</li>
+				<li data-bedemo="3"><span>3.</span> Upload</li>
+				<li data-bedemo="4"><span>4.</span> Curate</li>
+				<li data-bedemo="5"><span>5.</span> Search</li>
+				<li data-bedemo="6"><span>6.</span> Publish</li>
+			</ul>
+		</div>
 		<div class="bam-endorsement-content">
-			<h4>Harnessing user-generated content.</h4>
-			<p>The hard truth: your users are more credible than you. It’s why top brands are collecting and curating brand-related consumer generated content - tweets, images, comments, videos, reviews, etc.</p>
-			<p>BAM! not only gathers, organizes and pushes that activity but, uniquely, incentives and rewards staff and customers for adding new posts to your library.</p>
-			<a data-open="damDemo" class="button secondary">Watch Demo</a>
+			<div class="current"  data-bedemo="0">
+				<h4>Harnessing user-generated content.</h4>
+				<p>The hard truth: your users are more credible than you. It’s why top brands are collecting and curating brand-related consumer generated content - tweets, images, comments, videos, reviews, etc.</p>
+				<p>BAM! not only gathers, organizes and pushes that activity but, uniquely, incentives and rewards staff and customers for adding new posts to your library.</p>
+			</div>
+			<div data-bedemo="1">
+				<h4>Campaigns</h4>
+				<p>Launch a campaign for specific content you want to collect.</p>
+				<p>Set an expiration date, or you can leave it open-ended.</p>
+				<p>Add incentives to encourage higher participation.</p>
+			</div>
+			<div data-bedemo="2">
+				<h4>Network</h4>
+				<p>Build a network starting with passionate employees most active on social media.</p>
+				<p>Add authenticity by inviting brand ambassadors from outside your company.</p>
+				<p>Manage, notify, and collaborate with any user at any level.</p>
+			</div>
+			<div data-bedemo="3">
+				<h4>Upload</h4>
+				<p>Upload a wide variety of content, from photos and videos to tweets and blog posts.</p>
+				<p>Receive points and incentives for continued content submissions.</p>
+				<p>Assign content to a single campaign or multiple campaigns.</p>
+			</div>
+			<div data-bedemo="4">
+				<h4>Curate</h4>
+				<p>Promote, archive, or flag each piece of content so the best rises to the top.</p>
+				<p>Set alerts and notifications when new content has been added.</p>
+				<p>All content is automatically saved in the Asset Library.</p>
+			</div>
+			<div data-bedemo="5">
+				<h4>Search</h4>
+				<p>Intuitive search functions help you find exactly what you need.</p>
+				<p>Predictive search engine saves you time and effort.</p>
+				<p>Results can be easily categorized and filtered.</p>
+			</div>
+			<div data-bedemo="6">
+				<h4>Publish</h4>
+				<p>Create endpoints that link to your website, mobile app, and other digital platforms.</p>
+				<p>Drag and drop functionality is intuitive and requires no experience.</p>
+				<p>View version history and publish to multiple locations.</p>
+			</div>
+			<a id="bamEndorsementStart" class="button secondary">Watch Demo</a>
+			<nav class="bam-endorsement-buttons">
+				<a id="bamEndorsementPrev"><i class="fa fa-angle-left"></i> Back</a> <a id="bamEndorsementNext">Next <i class="fa fa-angle-right"></i></a>
+			</nav>
 		</div>
 	</section>
 	
@@ -190,125 +248,6 @@ get_header(); ?>
 		</div>
 	</section>
 </div>
-
-<div class="reveal full" id="damDemo" data-reveal>
-	<div class="row align-center">
-		<div class="small-12 columns">
-			<h1>Digital Asset Management. Ease is the new state-of-the-art.</h1>
-			<div id="damDemoSlider" class="damDemoContent">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/upload.png" alt="Upload">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/search.png" alt="Search">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/filter.png" alt="Filter">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/publish.png" alt="Publish">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/workflow.png" alt="Workflow">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/permissions.png" alt="Permissions">
-			</div>
-		</div>
-		
-		<div class="small-12 large-10 columns">
-			<ol id="damDemoSliderNav">
-				<li><span>1.</span> Upload</li>
-				<li><span>2.</span> Search</li>
-				<li><span>3.</span> Filter</li>
-				<li><span>4.</span> Publish</li>
-				<li><span>5.</span> Workflow</li>
-				<li><span>6.</span> Permissions</li>
-			</ol>
-			
-			<div id="damDemoSliderInfo" class="damDemoContent">
-				<div>
-					<h4>Upload</h4>
-					<p>Upload a wide variety of content, from photos and videos to tweets and blog posts.<br>Add metadata to aid file categorization and search optimization.<br>Create custom thumbnails and assign content owners.</p>
-				</div>
-				
-				<div>
-					<h4>Search</h4>
-					<p>Intuitive search functions help you find exactly what you need.</span> <span>Predictive search engine saves you time and effort.</span> <span>Results can be easily categorized and filtered.</p>
-				</div>
-				
-				<div>
-					<h4>Filter</h4>
-					<p>Toggle between grid-view and list-view to best suit your device screen.</span> <span>Results refresh live, saving time and unnecessary mouse clicks.</span> <span>Easily filter results by file type, size, keywords, and dates.</p>
-				</div>
-				
-				<div>
-					<h4>Publish</h4>
-					<p>Create endpoints that link to your website, mobile app, and other digital platforms.</span> <span>Drag and drop functionality is intuitive and requires no experience.</span> <span>View version history and publish to multiple locations.</p>
-				</div>
-				
-				<div>
-					<h4>Workflow</h4>
-					<p>Assign user roles, involving the right people at the right time.</span> <span>Customizable workflow builder to fit your unique process.</span> <span>Set alerts and notifications to expedite approvals.</p>
-				</div>
-				
-				<div>
-					<h4>Permissions</h4>
-					<p>System admins act as gatekeepers to ensure total control.</span> <span>Set permissions based on department or business level.</span> <span>Add, edit, and delete users with admin approval.</p>
-				</div>
-			</div>
-			
-			<nav class="dam-demo-buttons">
-				<a id="damDemoSliderBack"><i class="fa fa-angle-left"></i> Back</a> <a id="damDemoSliderRight">Next <i class="fa fa-angle-right"></i></a>
-			</nav>
-		</div>
-	</div>
-	
-	<button class="close-button" data-close aria-label="Close modal" type="button">
-		<span aria-hidden="true">&times;</span>
-	</button>
-</div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-<script>
-	$('[data-reveal]').on('open.zf.reveal', function() {
-	    $('#damDemoSlider').resize();
-	    $('#damDemoSliderNav').resize();
-	    $('#damDemoSliderInfo').resize();
-	});
-	
-	$(document).ready(function(){
-		$('#damDemoSlider').slick({
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			arrows: false,
-			fade: true,
-			asNavFor: '#damDemoSliderNav',	
-		});
-		$('#damDemoSliderNav').slick({
-			slidesToShow: 6,
-			slidesToScroll: 1,
-			asNavFor: '.damDemoContent',
-			dots: false,
-			focusOnSelect: true,
-			variableWidth: true,
-			arrows: false,
-			responsive: [
-				{
-					breakpoint: 800,
-					settings: {
-						slidesToShow: 3,
-						infitine: true,
-						centerMode: true
-					},
-				},
-				{
-					breakpoint: 500,
-					settings: {
-						slidesToShow: 2
-					}
-				}
-			],
-		});
-		
-		$('#damDemoSliderInfo').slick({
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			arrows: false,
-			asNavFor: '#damDemoSliderNav',
-			fade: true
-		});
-	});
-</script>
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/hero-text.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>

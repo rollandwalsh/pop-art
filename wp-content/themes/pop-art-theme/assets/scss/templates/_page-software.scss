@@ -321,7 +321,7 @@
 	}
 	
 	@include breakpoint(medium) {
-		padding: rem-calc(60) 0 rem-calc(120);
+		padding: rem-calc(60) 0 0;
 	}
 	
 	h2 {
@@ -329,21 +329,15 @@
 		font-weight: 600;
 		text-align: center;
 		
-		margin-bottom: $global-padding * 3;
+		margin-bottom: rem-calc(77);
 		width: 100%;
 	}
 	
-	div {
-		padding: 0 ($global-padding * 2);
-		
-		flex: 1 1 rem-calc(256);
-	}
-	
 	h4 {
-		font-size: rem-calc(22);
+		font-size: rem-calc(18);
 		font-weight: 600;
 		
-		margin-bottom: $global-padding * 2;
+		margin-bottom: rem-calc(48);
 	}
 	
 	p {
@@ -357,6 +351,113 @@
 		
 		&:hover {
 			color: $white;
+		}
+	}
+}
+
+.bam-endorsement-image {
+	img {
+		display: none;
+		
+		&.current {
+			display: block;
+		}
+		
+		&:first-of-type {
+			margin-bottom: rem-calc(120);
+		}
+	}
+}
+
+.bam-endorsement-nav {
+	display: none;
+	
+	margin: $global-padding auto rem-calc(44);
+	max-width: $global-width;
+	width: 100%;
+	
+	&.awake {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	li {
+		color: $dark-gray;
+		font-weight: 600;
+		text-transform: uppercase;
+		
+		overflow: hidden;
+		
+		cursor: pointer;
+		outline: none;
+		
+		@include breakpoint(small only) {
+			font-size: rem-calc(12);
+			text-align: center;
+			
+			padding: $global-padding 0;
+		}
+		
+		@include breakpoint(medium only) {
+			font-size: rem-calc(14);
+			text-align: center;
+			
+			padding: $global-padding ($global-padding / 2);
+		}
+		
+		@include breakpoint(large) {
+			font-size: rem-calc(18);
+			
+			padding: $global-padding ($global-padding / 2);
+		}
+		
+		span {
+			opacity: 0;
+			transition: 150ms ease-in-out all;
+		}
+	
+		&.current {
+			color: get-color(secondary);
+			
+			span {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.bam-endorsement-content {
+	padding: 0 ($global-padding * 2);
+	
+	flex: 1 1 rem-calc(256);
+	
+	div {
+		display: none;
+		
+		&.current {
+			display: block;
+		}
+	}
+}
+
+.bam-endorsement-buttons {
+	font-size: rem-calc(14);
+	font-weight: 600;
+	text-align: center;
+	
+	display: none;
+	
+	margin-top: rem-calc(120);
+	
+	a {
+		padding: $global-padding;
+	
+		&:first-of-type {
+			color: $dark-gray;
+		}
+		
+		&:last-of-type {
+			color: get-color(secondary);
 		}
 	}
 }
