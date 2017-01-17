@@ -9267,7 +9267,9 @@ button {
     font-weight: 600;
     margin-bottom: 0; }
   .bam-dam img {
-    margin: 4.625rem auto 3.5rem; }
+    margin: 4.625rem auto 0; }
+    .bam-dam img:first-of-type {
+      margin-bottom: 3.5rem; }
   .bam-dam h4 {
     font-size: rem-cacl(24);
     font-weight: 600; }
@@ -9291,7 +9293,7 @@ button {
 
 .bam-dam-demo-nav {
   display: none;
-  margin: 0 auto;
+  margin: 1rem auto 2rem;
   max-width: 75rem;
   width: 100%; }
   .bam-dam-demo-nav.awake {
