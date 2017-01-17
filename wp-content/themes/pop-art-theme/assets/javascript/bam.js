@@ -17,7 +17,6 @@ function removeCurrent() {
 
 function addCurrent(n) {
 	var newCurrents = Array.from(document.querySelectorAll(`[data-bddemo='${n}']`));
-	console.log(newCurrents);
 	newCurrents.forEach(newCurrent => newCurrent.classList.add('current'));
 }
 
@@ -35,10 +34,9 @@ function changeSlide(dir) {
 	removeCurrent();
 	
 	if (Number.isInteger(parseInt(dir))) {
-		console.log('number');
 		addCurrent(parseInt(dir));
 	} else {
-		if (dir = 'next') {
+		if (dir == 'next') {
 			slideNumber ++;
 			if (slideNumber == 7) {addCurrent(1)}
 			else {addCurrent(slideNumber)}
