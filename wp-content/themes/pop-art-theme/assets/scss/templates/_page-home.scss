@@ -57,6 +57,8 @@
 	justify-content: space-between;
 	
 	h2 {
+		font-size: rem-calc(28);
+		font-weight: 600;
 		text-align: center;
 		
 		padding: $global-padding ($global-padding / 2);

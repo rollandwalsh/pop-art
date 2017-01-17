@@ -7414,10 +7414,10 @@ a.thumbnail {
   color: #0a0a0a;
   font-weight: 400; }
   .top-bar-right .menu > li > a:hover, .top-bar-right .menu > li > a:focus {
-    text-shadow: 0px 0px 1px #0a0a0a; }
+    font-weight: 600; }
 
 .top-bar-right .menu > li.current-menu-item > a, .top-bar-right .menu > li.current-menu-parent > a {
-  text-shadow: 0px 0px 1px #0a0a0a; }
+  font-weight: 600; }
 
 .menu.vertical > li {
   border-bottom: 1px solid #0a0a0a; }
@@ -8413,6 +8413,8 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between; }
   .home-rps h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
     text-align: center;
     padding: 1rem 0.5rem;
     width: 100%; }
