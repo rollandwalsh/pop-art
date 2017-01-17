@@ -9284,6 +9284,74 @@ button {
     .bam-dam .button:hover {
       color: #ffffff; }
 
+.bam-dam-demo-image img {
+  display: none; }
+  .bam-dam-demo-image img.current {
+    display: block; }
+
+.bam-dam-demo-nav {
+  display: none;
+  margin: 0 auto;
+  max-width: 75rem;
+  width: 100%; }
+  .bam-dam-demo-nav.awake {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .bam-dam-demo-nav li {
+    color: #8a8a8a;
+    font-weight: 600;
+    text-transform: uppercase;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-dam-demo-nav li {
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 1rem 0; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .bam-dam-demo-nav li {
+        font-size: 0.875rem;
+        text-align: center;
+        padding: 1rem; } }
+    @media print, screen and (min-width: 64em) {
+      .bam-dam-demo-nav li {
+        font-size: 1.125rem;
+        padding: 1rem 2rem; } }
+    .bam-dam-demo-nav li span {
+      opacity: 0;
+      -webkit-transition: 150ms ease-in-out all;
+      transition: 150ms ease-in-out all; }
+    .bam-dam-demo-nav li.current {
+      color: #0099ff; }
+      .bam-dam-demo-nav li.current span {
+        opacity: 1; }
+
+.bam-dam-demo-header h4 {
+  display: none; }
+  .bam-dam-demo-header h4.current {
+    display: block; }
+
+.bam-dam-demo-content p {
+  display: none; }
+  .bam-dam-demo-content p.current {
+    display: block; }
+
+.bam-dam-demo-buttons {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  display: none; }
+  .bam-dam-demo-buttons a {
+    padding: 1rem; }
+    .bam-dam-demo-buttons a:first-of-type {
+      color: #8a8a8a; }
+    .bam-dam-demo-buttons a:last-of-type {
+      color: #0099ff; }
+
 .bam-benefits {
   background: #f24949;
   color: #ffffff;
@@ -9438,17 +9506,6 @@ button {
     font-size: 0.875rem;
     font-weight: 600;
     margin-bottom: 2.25rem; }
-
-.dam-demo-buttons {
-  font-size: 0.875rem;
-  font-weight: 600;
-  text-align: center; }
-  .dam-demo-buttons a {
-    padding: 1rem; }
-    .dam-demo-buttons a:first-of-type {
-      color: #8a8a8a; }
-    .dam-demo-buttons a:last-of-type {
-      color: #0099ff; }
 
 .custom-software-tiles {
   max-width: 75rem;

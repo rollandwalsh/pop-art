@@ -150,6 +150,113 @@
 	}
 }
 
+.bam-dam-demo-image {
+	img {
+		display: none;
+		
+		&.current {
+			display: block;
+		}
+	}
+}
+
+.bam-dam-demo-nav {
+	display: none;
+	
+	margin: 0 auto;
+	max-width: $global-width;
+	width: 100%;
+	
+	&.awake {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	li {
+		color: $dark-gray;
+		font-weight: 600;
+		text-transform: uppercase;
+		
+		overflow: hidden;
+		
+		cursor: pointer;
+		outline: none;
+		
+		@include breakpoint(small only) {
+			font-size: rem-calc(12);
+			text-align: center;
+			
+			padding: $global-padding 0;
+		}
+		
+		@include breakpoint(medium only) {
+			font-size: rem-calc(14);
+			text-align: center;
+			
+			padding: $global-padding;
+		}
+		
+		@include breakpoint(large) {
+			font-size: rem-calc(18);
+			
+			padding: $global-padding ($global-padding * 2);
+		}
+		
+		span {
+			opacity: 0;
+			transition: 150ms ease-in-out all;
+		}
+	
+		&.current {
+			color: get-color(secondary);
+			
+			span {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.bam-dam-demo-header {
+	h4 {
+		display: none;
+		
+		&.current {
+			display: block;
+		}
+	}
+}
+
+.bam-dam-demo-content {
+	p {
+		display: none;
+		
+		&.current {
+			display: block;
+		}
+	}
+}
+
+.bam-dam-demo-buttons {
+	font-size: rem-calc(14);
+	font-weight: 600;
+	text-align: center;
+	
+	display: none;
+	
+	a {
+		padding: $global-padding;
+	
+		&:first-of-type {
+			color: $dark-gray;
+		}
+		
+		&:last-of-type {
+			color: get-color(secondary);
+		}
+	}
+}
+
 // BENEFITS
 
 .bam-benefits {
@@ -380,24 +487,6 @@
 		font-weight: 600;
 		
 		margin-bottom: rem-calc(36);
-	}
-}
-
-.dam-demo-buttons {
-	font-size: rem-calc(14);
-	font-weight: 600;
-	text-align: center;
-	
-	a {
-		padding: $global-padding;
-	
-		&:first-of-type {
-			color: $dark-gray;
-		}
-		
-		&:last-of-type {
-			color: get-color(secondary);
-		}
 	}
 }
 

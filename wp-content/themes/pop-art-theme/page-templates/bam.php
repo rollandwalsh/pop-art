@@ -42,10 +42,45 @@ get_header(); ?>
 	
 	<section class="bam-dam">
 		<h2>Digital Asset Managment. Ease is the new state-of-the-art.</h2>
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/dam-overview.png" alt="DAM">
-		<h4>Content humanly organized, readily accessed.</h4>
-		<p><span>BAM! combines the best of DAM technologies to corral today’s influx of digital content. Employing intuitive</span> <span>hierarchies and user-friendly interfaces, it organizes images, photos, video, documents, files, presentations, whatever,</span> <span>in common-sense ways stakeholders actually use. Everything, for everyone, in one place.</span> <span>Aligned. Secure. Locally. Globally. At the desk. In the field.</span></p>
-		<a data-open="damDemo" class="button secondary">Start Demo</a>
+		<div class="bam-dam-demo-image">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/dam-overview.png" alt="DAM" data-bddemo="0" class="current">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/upload.png" alt="Upload" data-bddemo="1">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/search.png" alt="Search" data-bddemo="2">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/filter.png" alt="Filter" data-bddemo="3">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/publish.png" alt="Publish" data-bddemo="4">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/workflow.png" alt="Workflow" data-bddemo="5">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/permissions.png" alt="Permissions" data-bddemo="6">
+		</div>
+		<ul class="bam-dam-demo-nav">
+			<li data-bddemo="1"><span>1.</span> Upload</li>
+			<li data-bddemo="2"><span>2.</span> Search</li>
+			<li data-bddemo="3"><span>3.</span> Filter</li>
+			<li data-bddemo="4"><span>4.</span> Publish</li>
+			<li data-bddemo="5"><span>5.</span> Workflow</li>
+			<li data-bddemo="6"><span>6.</span> Permissions</li>
+		</ul>
+		<div class="bam-dam-demo-header">
+			<h4 data-bddemo="0" class="current">Content humanly organized, readily accessed.</h4>
+			<h4 data-bddemo="1">Upload</h4>
+			<h4 data-bddemo="2">Search</h4>
+			<h4 data-bddemo="3">Filter</h4>
+			<h4 data-bddemo="4">Publish</h4>
+			<h4 data-bddemo="5">Workflow</h4>
+			<h4 data-bddemo="6">Permissions</h4>
+		</div>
+		<div class="bam-dam-demo-content">
+			<p data-bddemo="0" class="current"><span>BAM! combines the best of DAM technologies to corral today’s influx of digital content. Employing intuitive</span> <span>hierarchies and user-friendly interfaces, it organizes images, photos, video, documents, files, presentations, whatever,</span> <span>in common-sense ways stakeholders actually use. Everything, for everyone, in one place.</span> <span>Aligned. Secure. Locally. Globally. At the desk. In the field.</span></p>
+			<p data-bddemo="1"><span>Upload a wide variety of content, from photos and videos to tweets and blog posts.</span> <span>Add metadata to aid file categorization and search optimization.</span> <span>Create custom thumbnails and assign content owners.</span></p>
+			<p data-bddemo="2"><span>Intuitive search functions help you find exactly what you need.</span> <span>Predictive search engine saves you time and effort.</span> <span>Results can be easily categorized and filtered.</span></p>
+			<p data-bddemo="3"><span>Toggle between grid-view and list-view to best suit your device screen.</span> <span>Results refresh live, saving time and unnecessary mouse clicks.</span> <span>Easily filter results by file type, size, keywords, and dates.</span></p>
+			<p data-bddemo="4"><span>Create endpoints that link to your website, mobile app, and other digital platforms.</span> <span>Drag and drop functionality is intuitive and requires no experience.</span> <span>View version history and publish to multiple locations.</span></p>
+			<p data-bddemo="5"><span>Assign user roles, involving the right people at the right time.</span> <span>Customizable workflow builder to fit your unique process.</span> <span>Set alerts and notifications to expedite approvals.</span></p>
+			<p data-bddemo="6"><span>System admins act as gatekeepers to ensure total control.</span> <span>Set permissions based on department or business level.</span> <span>Add, edit, and delete users with admin approval.</span></p>
+		</div>
+		<a id="bamDamDemoStart" class="button secondary">Start Demo</a>
+		<nav class="bam-dam-demo-buttons">
+			<a id="bamDamDemoPrev"><i class="fa fa-angle-left"></i> Back</a> <a id="bamDamDemoNext">Next <i class="fa fa-angle-right"></i></a>
+		</nav>
 	</section>
 	
 	<section class="bam-benefits parallax slide-grow-element">
@@ -188,27 +223,27 @@ get_header(); ?>
 				
 				<div>
 					<h4>Search</h4>
-					<p>Intuitive search functions help you find exactly what you need.<br>Predictive search engine saves you time and effort.<br>Results can be easily categorized and filtered.</p>
+					<p>Intuitive search functions help you find exactly what you need.</span> <span>Predictive search engine saves you time and effort.</span> <span>Results can be easily categorized and filtered.</p>
 				</div>
 				
 				<div>
 					<h4>Filter</h4>
-					<p>Toggle between grid-view and list-view to best suit your device screen.<br>Results refresh live, saving time and unnecessary mouse clicks.<br>Easily filter results by file type, size, keywords, and dates.</p>
+					<p>Toggle between grid-view and list-view to best suit your device screen.</span> <span>Results refresh live, saving time and unnecessary mouse clicks.</span> <span>Easily filter results by file type, size, keywords, and dates.</p>
 				</div>
 				
 				<div>
 					<h4>Publish</h4>
-					<p>Create endpoints that link to your website, mobile app, and other digital platforms.<br>Drag and drop functionality is intuitive and requires no experience.<br>View version history and publish to multiple locations.</p>
+					<p>Create endpoints that link to your website, mobile app, and other digital platforms.</span> <span>Drag and drop functionality is intuitive and requires no experience.</span> <span>View version history and publish to multiple locations.</p>
 				</div>
 				
 				<div>
 					<h4>Workflow</h4>
-					<p>Assign user roles, involving the right people at the right time.<br>Customizable workflow builder to fit your unique process.<br>Set alerts and notifications to expedite approvals.</p>
+					<p>Assign user roles, involving the right people at the right time.</span> <span>Customizable workflow builder to fit your unique process.</span> <span>Set alerts and notifications to expedite approvals.</p>
 				</div>
 				
 				<div>
 					<h4>Permissions</h4>
-					<p>System admins act as gatekeepers to ensure total control.<br>Set permissions based on department or business level.<br>Add, edit, and delete users with admin approval.</p>
+					<p>System admins act as gatekeepers to ensure total control.</span> <span>Set permissions based on department or business level.</span> <span>Add, edit, and delete users with admin approval.</p>
 				</div>
 			</div>
 			
@@ -277,5 +312,6 @@ get_header(); ?>
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/hero-text.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/bam.js"></script>
 
 <?php get_footer();
