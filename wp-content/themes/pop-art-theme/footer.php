@@ -60,7 +60,7 @@
 					<?php do_action( 'foundationpress_after_footer' ); ?>
 					<div class="large-12 columns f-privacy">
 						<span class="left">&copy;2017 Pop Art. All Rights Reserved</span>
-						<span class="right"><a href="#">Terms</a> <a href="<?php echo get_permalink( get_page_by_title( 'Privacy Policy' ) ); ?>">Privacy Policy</a></span>
+						<span class="right"><a href="<?php echo get_permalink( get_page_by_title( 'Privacy Policy' ) ); ?>">Privacy Policy</a></span>
 					</div>
 					<?php do_action( 'foundationpress_after_footer' ); ?>
 				</footer>
