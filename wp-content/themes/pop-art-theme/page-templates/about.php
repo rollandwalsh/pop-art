@@ -98,7 +98,7 @@ get_header(); ?>
 		<?php do_action( 'foundationpress_after_content' ); ?>
 	</section>
 	
-	<section class="about-management-team parallax slide-grow-element">
+	<section class="about-management-team">
 		<div class="row parallax slide-element">
 			<div class="large-12 columns">
 				<h2>Management Team</h2>
@@ -160,9 +160,9 @@ get_header(); ?>
 		</div>
 		
 		<div class="small-12 medium-5 large-5 columns">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/office.png" alt="Pop Art History" class="parallax slide-from-left-element">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/tom-ethan.png" alt="Pop Art History" class="parallax slide-from-left-element">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/dev.png" alt="Pop Art History" class="parallax slide-from-left-element">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/office.png" alt="Pop Art History">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/tom-ethan.png" alt="Pop Art History">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/dev.png" alt="Pop Art History">
 		</div>
 		
 		<div class="small-12 medium-6 large-5 columns">

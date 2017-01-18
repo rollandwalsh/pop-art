@@ -8734,7 +8734,8 @@ button {
         padding-top: 6.25rem;
         padding-bottom: 6.25rem; } }
   .solutions-contact h2 {
-    font-size: 2.125rem; }
+    font-size: 1.75rem;
+    font-weight: 600; }
   .solutions-contact h5 {
     font-size: 1.375rem; }
     @media print, screen and (min-width: 64em) {
@@ -9163,7 +9164,7 @@ button {
             flex: 1 1 auto; }
   .about-blog-strip a {
     color: #ffffff;
-    font-weight: 600; }
+    font-weight: 900; }
     .about-blog-strip a:hover {
       text-decoration: underline; }
 

@@ -7,9 +7,9 @@ get_header(); ?>
 <header id="aboutHero" class="page-hero" role="banner" style="background-image: url(<?php echo (wp_get_attachment_image_src( get_post_thumbnail_id( $page->ID ), 'full' )[0]); ?>)">
 	<div class="row align-center">
 		<div class="small-12 columns">
-			<h1>Software Solutions As Unique As You Are.</h1>
+			<h1>BAM! ASSETS MANAGED. ASSETS MOBILIZED.</h1>
 
-			<h6><span>We help clients reduce inefficiencies through custom solutions that bring</span> <span>new content, operations and communications possibilities to bear. We boost efficiencies,</span> <span>bottom lines and esprit de corps for industry leading brands.</span></h6>
+			<h6><span>Introducing BAM. A powerful, proprietary, content organization and</span> <span>mobilization platform that streamlines your path to digital agility and efficacy.</span></h6>
 		</div>
 	</div>
 </header>
