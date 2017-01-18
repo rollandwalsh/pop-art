@@ -52,12 +52,12 @@ get_header(); ?>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/demo/permissions.png" alt="Permissions" data-bddemo="6">
 		</div>
 		<ul class="bam-dam-demo-nav">
-			<li data-bddemo="1"><span>1.</span> Upload</li>
-			<li data-bddemo="2"><span>2.</span> Search</li>
-			<li data-bddemo="3"><span>3.</span> Filter</li>
-			<li data-bddemo="4"><span>4.</span> Publish</li>
-			<li data-bddemo="5"><span>5.</span> Workflow</li>
-			<li data-bddemo="6"><span>6.</span> Permissions</li>
+			<li data-bddemo="1">Upload</li>
+			<li data-bddemo="2">Search</li>
+			<li data-bddemo="3">Filter</li>
+			<li data-bddemo="4">Publish</li>
+			<li data-bddemo="5">Workflow</li>
+			<li data-bddemo="6">Permissions</li>
 		</ul>
 		<div class="bam-dam-demo-header">
 			<h4 data-bddemo="0" class="current">Content humanly organized, readily accessed.</h4>
@@ -155,12 +155,12 @@ get_header(); ?>
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/publish.png" alt="Publish" data-bedemo="6">
 			
 			<ul class="bam-endorsement-nav">
-				<li data-bedemo="1"><span>1.</span> Campaigns</li>
-				<li data-bedemo="2"><span>2.</span> Network</li>
-				<li data-bedemo="3"><span>3.</span> Upload</li>
-				<li data-bedemo="4"><span>4.</span> Curate</li>
-				<li data-bedemo="5"><span>5.</span> Search</li>
-				<li data-bedemo="6"><span>6.</span> Publish</li>
+				<li data-bedemo="1">Campaigns</li>
+				<li data-bedemo="2">Network</li>
+				<li data-bedemo="3">Upload</li>
+				<li data-bedemo="4">Curate</li>
+				<li data-bedemo="5">Search</li>
+				<li data-bedemo="6">Publish</li>
 			</ul>
 		</div>
 		<div class="bam-endorsement-content">

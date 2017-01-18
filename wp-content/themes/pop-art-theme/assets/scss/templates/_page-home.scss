@@ -162,13 +162,9 @@
 		text-transform: uppercase;
 	}
 	
-	p {
-		font-size: rem-calc(18);
-	}
-	
 	a {
 		color: $white;
-		text-transform: uppercase;
+		text-transform: capitalize;
 		
 		&:hover {
 			color: darken($white, 15%);

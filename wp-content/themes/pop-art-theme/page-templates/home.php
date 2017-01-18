@@ -37,7 +37,7 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="home-lwt parallax slide-element">
+	<section class="home-lwt">
 		<div class="row align-center">
 			<div class="large-8 columns">
 				<h2>Let's Work Together</h2>

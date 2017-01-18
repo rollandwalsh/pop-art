@@ -94,7 +94,7 @@ get_header(); ?>
 		
 		<article class="custom-software-fst parallax slide-element">
 			<div class="custom-software-project-content">
-				<h4 class="parallax slide-element">FST App</h4>
+				<h4 class="parallax slide-element">Freightliner Sales Tool App</h4>
 				<p class="parallax slide-element">Freightliner deals in highly customizable configurations, involving hundreds of exterior, interior, and add-on choices. Together we created a leading-edge mobile app that puts real-time specs, comparison charts, even 3D renderings of over 6000 truck configurations at field rep’s fingertips, all linked to a data management hub.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'FST' ) ); ?>" class="button hollow gray">Learn More</a>
 			</div>
@@ -117,7 +117,7 @@ get_header(); ?>
 		</article>
 	</section>
 	
-	<section class="custom-software-blog-strip parallax slide-grow-element">
+	<section class="custom-software-blog-strip">
 		<div class="row align-middle align-center parallax slide-element">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pop-art-spark_icon.png" alt="Pop Art">
 			<p>Looking for more great content? <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Check out our blog</a>.</p>

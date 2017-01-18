@@ -8503,11 +8503,9 @@ button {
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase; }
-  .home-rp-hover p {
-    font-size: 1.125rem; }
   .home-rp-hover a {
     color: #ffffff;
-    text-transform: uppercase; }
+    text-transform: capitalize; }
     .home-rp-hover a:hover {
       color: #d9d9d9; }
 
@@ -8816,6 +8814,7 @@ button {
     color: #ffffff; }
 
 #aboutHero {
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
           background-size: cover;
@@ -9643,9 +9642,6 @@ button {
   font-size: 1.375rem;
   font-weight: 600;
   margin-bottom: 1.375rem; }
-
-.custom-software-tile-content p {
-  font-size: 0.875rem; }
 
 @media screen and (max-width: 39.9375em) {
   .custom-software-projects {
