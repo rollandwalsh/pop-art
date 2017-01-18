@@ -8949,7 +8949,7 @@ button {
     font-size: 1.75rem;
     font-weight: 600; }
   #pageAbout .main-content h5 {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 400; }
 
 @media print, screen and (min-width: 64em) {
@@ -8995,7 +8995,7 @@ button {
   transition: 150ms ease-in-out all; }
   .about-management-team-member img {
     margin: 0 auto 1rem;
-    width: 80%; }
+    width: 60%; }
   .about-management-team-member h4 {
     font-size: 1rem;
     font-weight: 600;
