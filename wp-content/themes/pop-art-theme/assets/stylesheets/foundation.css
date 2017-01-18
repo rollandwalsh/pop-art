@@ -9324,16 +9324,10 @@ button {
         padding: 1rem; } }
     @media print, screen and (min-width: 64em) {
       .bam-dam-demo-nav li {
-        font-size: 1.125rem;
+        font-size: 1rem;
         padding: 1rem 2rem; } }
-    .bam-dam-demo-nav li span {
-      opacity: 0;
-      -webkit-transition: 150ms ease-in-out all;
-      transition: 150ms ease-in-out all; }
     .bam-dam-demo-nav li.current {
       color: #0099ff; }
-      .bam-dam-demo-nav li.current span {
-        opacity: 1; }
 
 .bam-dam-demo-header h4 {
   display: none; }
@@ -9351,10 +9345,9 @@ button {
   text-align: center;
   display: none; }
   .bam-dam-demo-buttons a {
+    color: #8a8a8a;
     padding: 1rem; }
-    .bam-dam-demo-buttons a:first-of-type {
-      color: #8a8a8a; }
-    .bam-dam-demo-buttons a:last-of-type {
+    .bam-dam-demo-buttons a:hover {
       color: #0099ff; }
 
 .bam-benefits {
@@ -9459,16 +9452,10 @@ button {
         padding: 1rem 0.5rem; } }
     @media print, screen and (min-width: 64em) {
       .bam-endorsement-nav li {
-        font-size: 1.125rem;
+        font-size: 1rem;
         padding: 1rem 0.5rem; } }
-    .bam-endorsement-nav li span {
-      opacity: 0;
-      -webkit-transition: 150ms ease-in-out all;
-      transition: 150ms ease-in-out all; }
     .bam-endorsement-nav li.current {
       color: #0099ff; }
-      .bam-endorsement-nav li.current span {
-        opacity: 1; }
 
 .bam-endorsement-content {
   max-width: 37.5rem;
@@ -9501,7 +9488,7 @@ button {
     font-size: 1.75rem;
     font-weight: 600;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 4.875rem; }
   .blog-might-like a {
     color: #8a8a8a;
