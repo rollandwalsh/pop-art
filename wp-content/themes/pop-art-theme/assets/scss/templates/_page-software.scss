@@ -451,13 +451,10 @@
 	margin-top: rem-calc(120);
 	
 	a {
+		color: $dark-gray;
 		padding: $global-padding;
-	
-		&:first-of-type {
-			color: $dark-gray;
-		}
 		
-		&:last-of-type {
+		&:hover {
 			color: get-color(secondary);
 		}
 	}

@@ -89,7 +89,7 @@ get_header(); ?>
 				<h2 class="parallax slide-element">BAM! Benefits</h2>
 			</div>
 			
-			<div class="small-12 medium-5 large-4 columns">
+			<div class="small-12 medium-5 columns">
 				<div class="bam-benefit parallax slide-element">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/amplify.png" alt="Amplify">
 					<div class="copy">
@@ -115,7 +115,7 @@ get_header(); ?>
 				</div>
 			</div>
 			
-			<div class="small-12 medium-5 large-4 columns">
+			<div class="small-12 medium-5 columns">
 				<div class="bam-benefit parallax slide-element">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/align.png" alt="Align">
 					<div class="copy">

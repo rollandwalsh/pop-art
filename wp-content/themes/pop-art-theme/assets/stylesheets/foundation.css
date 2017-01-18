@@ -9489,10 +9489,9 @@ button {
   max-width: 37.5rem;
   margin-top: 7.5rem; }
   .bam-endorsement-buttons a {
+    color: #8a8a8a;
     padding: 1rem; }
-    .bam-endorsement-buttons a:first-of-type {
-      color: #8a8a8a; }
-    .bam-endorsement-buttons a:last-of-type {
+    .bam-endorsement-buttons a:hover {
       color: #0099ff; }
 
 .blog-might-like {
