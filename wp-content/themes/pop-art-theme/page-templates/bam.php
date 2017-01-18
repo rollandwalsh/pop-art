@@ -25,7 +25,7 @@ get_header(); ?>
 </nav>
 
 <div id="pageBAM" role="main">
-	<section class="bam-overview parallax slide-grow-element">
+	<section class="bam-overview">
 		<div class="row">
 			<?php do_action( 'foundationpress_before_content' ); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -83,7 +83,7 @@ get_header(); ?>
 		</nav>
 	</section>
 	
-	<section class="bam-benefits parallax slide-grow-element">
+	<section class="bam-benefits">
 		<div class="row align-justify">
 			<div class="small-12 columns">
 				<h2 class="parallax slide-element">BAM! Benefits</h2>
@@ -212,7 +212,7 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="blog-might-like parallax slide-grow-element">
+	<section class="blog-might-like">
 		<h3>You Might Like</h3>
 		<div class="row align-center">
 			<div class="small-9 medium-4 columns parallax slide-element">
@@ -238,7 +238,7 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="solutions-contact parallax slide-grow-element">
+	<section class="solutions-contact">
 		<div class="row">
 			<div class="small-12 columns">
 				<h2>Contact Us Today</h2>
