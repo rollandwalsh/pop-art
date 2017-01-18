@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="small-12 columns">
 			<h1>Bam! Assets Managed. Assets Mobilized.</h1>
 
-			<h6><span>Introducing BAM. A powerful, proprietary, content organization and</span> <span>mobilization platform that streamlines your path to digital agility and efficacy.</span></h6>
+			<h6><span>Introducing BAM!. A powerful, proprietary, content organization and</span> <span>mobilization platform that streamlines your path to digital agility and efficacy.</span></h6>
 		</div>
 	</div>
 </header>
