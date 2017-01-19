@@ -7542,6 +7542,7 @@ a.thumbnail {
   max-width: 100%;
   width: 100%; }
   #footer-container .logo {
+    margin-left: -0.5rem;
     width: 10rem; }
   #footer-container #footer {
     max-width: 75rem;

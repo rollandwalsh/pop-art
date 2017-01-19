@@ -6,6 +6,7 @@
 	width: 100%;
 	
 	.logo {
+		margin-left: $global-padding / -2; // Moves logo flush left with copy below
 		width: rem-calc(160); // Set size of logo
 	}
 	
