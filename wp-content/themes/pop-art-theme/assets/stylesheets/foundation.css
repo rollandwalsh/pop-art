@@ -9186,6 +9186,7 @@ button {
 
 #bamHero,
 #customSoftwareHero {
+  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
           background-size: cover;
