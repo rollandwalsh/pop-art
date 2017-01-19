@@ -8683,6 +8683,8 @@ button {
     color: #00a651;
     font-weight: 600;
     padding: 0; }
+    .solutions-accordion .accordion-content blockquote p {
+      color: #00a651; }
   .solutions-accordion .accordion-content cite {
     color: #636363;
     font-style: normal;

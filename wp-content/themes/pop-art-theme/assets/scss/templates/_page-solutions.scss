@@ -141,6 +141,10 @@
 			font-weight: 600;
 			
 			padding: 0; // Overwrite default
+			
+			p {
+				color: get-color(green);
+			}
 		}
 		
 		cite {
