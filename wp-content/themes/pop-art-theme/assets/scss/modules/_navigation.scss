@@ -1,4 +1,5 @@
 // Navigation breakpoints
+
 .desktop-menu, .top-bar-left {
 	@include show-for(medium);
 }
@@ -9,6 +10,21 @@
 
 .site-header {
 	width: 100%;
+}
+
+body.blog,
+body.single {
+	.sticky {
+		background: $light-gray !important;
+	}
+	
+	.top-bar {
+		background: $light-gray;
+		
+		ul {
+			background: $light-gray;
+		}
+	}
 }
 
 .top-bar {
@@ -47,13 +63,19 @@
 		font-weight: 400;
 		text-align: center;
 		
-		width: rem-calc(96);
+		width: rem-calc(100);
 		
 		display: inline-block;
 		
 		&:hover,
 		&:focus, {
 			font-weight: 600;
+		}
+	}
+	
+	&:last-of-type {
+		a:hover {
+			color: get-color(primary);
 		}
 	}
 	
