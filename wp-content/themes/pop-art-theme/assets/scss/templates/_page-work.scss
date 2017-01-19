@@ -171,14 +171,6 @@ $yogi-inspirations-color: get-color(purple); // Purple
 	&.yogi-inspirations {}
 	
 	.entry-content {
-		@include breakpoint(small only) {
-			padding: rem-calc(40) 0;
-		}
-		
-		@include breakpoint(medium) {
-			padding: rem-calc(80) 0;
-		}
-		
 		h1 {
 			font-size: rem-calc(28);
 			font-weight: 600;
