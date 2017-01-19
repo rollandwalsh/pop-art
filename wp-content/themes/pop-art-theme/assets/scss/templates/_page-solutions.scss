@@ -188,54 +188,12 @@
 	}
 	
 	h2 {
-		font-size: rem-calc(34);
-	}
-	
-	h5 {
-		font-size: rem-calc(22);
-	}
-}
-
-// FORM
-
-.solutions-contact {
-	background: get-color(secondary);
-	color: $white;
-	text-align: center;
-	
-	.row {
-		padding-top: $global-padding * 2;
-		padding-bottom: $global-padding * 2;
-		
-		@include breakpoint(medium) {
-			padding-top: rem-calc(100);
-			padding-bottom: rem-calc(100);
-		}
-	}
-	
-	h2 {
 		font-size: rem-calc(28);
 		font-weight: 600;
 	}
 	
 	h5 {
-		font-size: rem-calc(22);
-		
-		@include breakpoint(large) {
-			span {
-				display: block; // Hard wrap text for large screens
-			}
-		}
-	}
-	
-	.button {
-		font-weight: 600;
-		
-		margin-top: $global-padding;
-		
-		@include breakpoint(medium) {
-			margin-top: $global-padding * 3;
-		}
+		font-size: rem-calc(14);
 	}
 }
 	
@@ -256,8 +214,7 @@
 	}
 	
 	span {
-		font-size: rem-calc(24);
-		font-weight: 600;
+		font-size: rem-calc(28);
 		
 		@include breakpoint(small only) {
 			&:last-of-type {
@@ -304,6 +261,7 @@
 	}
 	
 	input {
+		font-size: rem-calc(13);
 		text-align: center;
 		
 		@include breakpoint(medium) {
@@ -313,5 +271,50 @@
 	
 	.button {
 		color: $white;
+		font-family: $body-font-family !important;
+		font-size: rem-calc(14);
+	}
+}
+
+// CONTACT
+
+.solutions-contact {
+	background: get-color(secondary);
+	color: $white;
+	text-align: center;
+	
+	.row {
+		padding-top: $global-padding * 2;
+		padding-bottom: $global-padding * 2;
+		
+		@include breakpoint(medium) {
+			padding-top: rem-calc(100);
+			padding-bottom: rem-calc(100);
+		}
+	}
+	
+	h2 {
+		font-size: rem-calc(28);
+		font-weight: 600;
+	}
+	
+	h5 {
+		font-size: rem-calc(22);
+		
+		@include breakpoint(large) {
+			span {
+				display: block; // Hard wrap text for large screens
+			}
+		}
+	}
+	
+	.button {
+		font-weight: 600;
+		
+		margin-top: $global-padding;
+		
+		@include breakpoint(medium) {
+			margin-top: $global-padding * 3;
+		}
 	}
 }
