@@ -11,7 +11,7 @@
 ?>
 <?php $categories = get_the_category(); ?>
 <?php $hero = get_the_post_thumbnail(); ?>
-<?php $excerpt = substr(get_the_content(), 0, 80) ?>
+<?php $excerpt = get_the_excerpt(); ?>
 
 <div id="post-<?php the_ID(); ?>" <?php post_class('blogpost-entry'); ?>>
 	<a href="<?php the_permalink(); ?>">
