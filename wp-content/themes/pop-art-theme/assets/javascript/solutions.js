@@ -13,6 +13,7 @@ $(function() {
 
 // ACCORDION RIPPLE
 
+/*
 const accordions = Array.from(document.getElementsByClassName('accordion-item'));
 	
 function accordionRipple() {
@@ -22,3 +23,4 @@ function accordionRipple() {
 }
 
  window.setTimeout(accordionRipple, 250);
+*/

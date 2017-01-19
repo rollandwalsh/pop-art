@@ -32,12 +32,12 @@ function bamEndorsementRemoveCurrent() {
 }
 
 function bamDamAddCurrent(n) {
-	var newCurrents = Array.from(document.querySelectorAll(`[data-bddemo='${n}']`));
+	var newCurrents = Array.from(document.querySelectorAll('[data-bddemo="' + n + '"]'));
 	newCurrents.forEach(newCurrent => newCurrent.classList.add('current'));
 }
 
 function bamEndorsementAddCurrent(n) {
-	var newCurrents = Array.from(document.querySelectorAll(`[data-bedemo='${n}']`));
+	var newCurrents = Array.from(document.querySelectorAll('[data-bedemo="' + n + '"]'));
 	newCurrents.forEach(newCurrent => newCurrent.classList.add('current'));
 }
 

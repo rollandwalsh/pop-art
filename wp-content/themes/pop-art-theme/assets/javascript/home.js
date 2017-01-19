@@ -29,7 +29,7 @@ function formatDate(date) {
 }
 
 function twitterSlide(id) {
-	$(`#${id}`).slick({
+	$('#' + id).slick({
 		dots: true,
 		autoplay: true,
 		autoplaySpeed: 4500,

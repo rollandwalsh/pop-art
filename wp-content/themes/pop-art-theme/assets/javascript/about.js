@@ -11,7 +11,7 @@ const contentItems = Array.from(document.getElementById('aboutCapabilitiesConten
 
 function switchCapability(e) {
 	const contentSectionName = e.target.dataset.section;
-	const contentSection = document.querySelector(`div[data-section=${contentSectionName}Content]`);
+	const contentSection = document.querySelector('div[data-section=' + contentSectionName + 'Content]');
 
 	listItems.forEach(listItem => removeActive(listItem));
 	e.target.classList.add('active');
@@ -39,7 +39,7 @@ function showBio(e) {
 	}
 
 	const name = selectedMember.dataset.name;
-	const selectedBio = document.querySelector(`div.about-management-team-bio[data-name=${name}]`);
+	const selectedBio = document.querySelector('div.about-management-team-bio[data-name=' + name + ']`);
 	
 	members.forEach(member => removeActive(member));
 	selectedMember.classList.add('active');
