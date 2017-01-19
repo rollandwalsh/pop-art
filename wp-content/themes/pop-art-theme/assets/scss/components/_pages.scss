@@ -17,6 +17,15 @@
 		transform: translateY(25%); // Low inital state (JS raises)
 		transition: 900ms ease-in-out all;
 	}
+	
+	&.no-fade {
+		h1,
+		h5,
+		h6 {
+			opacity: 1; 
+			transform: translateY(0);
+		}
+	}
 
 	h1 {
 		font-size: rem-calc(40);

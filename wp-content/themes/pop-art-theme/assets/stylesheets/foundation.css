@@ -7634,6 +7634,13 @@ body#tinymce {
             transform: translateY(25%);
     -webkit-transition: 900ms ease-in-out all;
     transition: 900ms ease-in-out all; }
+  .page-hero.no-fade h1,
+  .page-hero.no-fade h5,
+  .page-hero.no-fade h6 {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0); }
   .page-hero h1 {
     font-size: 2.5rem;
     font-weight: 600;
