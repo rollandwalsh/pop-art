@@ -65,11 +65,6 @@ get_header(); ?>
 					<a href="mailto:careers@popart.com">careers@popart.com</a>
 				</div>
 		 	</div>
-		 	
-		 	<div class="small-12 columns" style="margin-top: 3rem">
-				<h4>Get in touch today.</h4>
-				<span>Send us your email and, if you wish, a word or two about your company and challenges. There’s no cost, no obligation, and a world of possibility.</span>
-		 	</div>
 		</div>
 	</section>
 </div>

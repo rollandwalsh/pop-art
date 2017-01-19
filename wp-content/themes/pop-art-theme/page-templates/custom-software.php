@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="small-12 columns">
 			<h1>Software solutions as unique as you are.</h1>
 
-			<h6><span>Our favorite challenges are the one’s we haven’t seen yet. Where</span> <span>you suspect something could be done better, faster, more intuitively,</span> <span>we apply our experience and ingenuity to the task.</span></h6>
+			<h6><span>Our favorite challenges are the ones we haven’t seen yet. Where</span> <span>you suspect something could be done better, faster, more intuitively,</span> <span>we apply our experience and ingenuity to the task.</span></h6>
 		</div>
 	</div>
 </header>

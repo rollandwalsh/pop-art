@@ -38,7 +38,7 @@
 	}
 	
 	h5 {
-		font-size: rem-calc(28);
+		font-size: rem-calc(18);
 		font-weight: 300;
 		
 		@include breakpoint(large) {
@@ -191,6 +191,10 @@
 		color: get-color(secondary);
 	}
 	
+	.slick-slider {
+		width: 100%;
+	}
+	
 	.slick-slide {
 		outline: none;
 	}
@@ -206,6 +210,7 @@
 .home-tw-content {
 	color: get-color(gray);
 	font-size: rem-calc(28);
+	font-weight: 300;
 	
 	margin: ($global-padding * 3) auto;
 	
@@ -231,7 +236,7 @@
 	}
 	
 	p {
-		font-size: rem-calc(14);
+		font-size: rem-calc(16);
 		
 		margin-bottom: rem-calc(100);
 	}
@@ -250,7 +255,7 @@
 	}
 	
 	h4 {
-		font-size: rem-calc(18);
+		font-size: rem-calc(16);
 		font-weight: 600;
 		text-transform: uppercase;
 	}

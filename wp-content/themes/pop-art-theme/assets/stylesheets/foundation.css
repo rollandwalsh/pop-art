@@ -7543,7 +7543,7 @@ a.thumbnail {
   width: 100%; }
   #footer-container .logo {
     margin-left: -0.5rem;
-    width: 10rem; }
+    width: 8.125rem; }
   #footer-container #footer {
     max-width: 75rem;
     margin-right: auto;
@@ -7655,7 +7655,7 @@ body#tinymce {
     font-weight: 600;
     text-transform: capitalize; }
   .page-hero h5 {
-    font-size: 1.375rem;
+    font-size: 1.75rem;
     font-weight: 400; }
     @media print, screen and (min-width: 64em) {
       .page-hero h5 span {
@@ -8413,7 +8413,7 @@ button {
     font-size: 1.75rem;
     font-weight: 600; }
   .home-main-content h5 {
-    font-size: 1.75rem;
+    font-size: 1.125rem;
     font-weight: 300; }
     @media print, screen and (min-width: 64em) {
       .home-main-content h5 span {
@@ -8534,6 +8534,8 @@ button {
     display: block; }
   .home-tw a {
     color: #0099ff; }
+  .home-tw .slick-slider {
+    width: 100%; }
   .home-tw .slick-slide {
     outline: none; }
 
@@ -8545,6 +8547,7 @@ button {
 .home-tw-content {
   color: #464646;
   font-size: 1.75rem;
+  font-weight: 300;
   margin: 3rem auto;
   display: block; }
 
@@ -8559,7 +8562,7 @@ button {
     .home-lwt a:hover {
       color: #d9d9d9; }
   .home-lwt p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin-bottom: 6.25rem; }
   @media print, screen and (min-width: 40em) {
     .home-lwt .columns:nth-of-type(2) {
@@ -8569,7 +8572,7 @@ button {
     font-weight: 600;
     margin-bottom: 1.75rem; }
   .home-lwt h4 {
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase; }
   .home-lwt img {
