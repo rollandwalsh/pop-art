@@ -70,6 +70,5 @@
 	</div>
 
 	<section class="container">
-		<a href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>" class="cta" id="homeCTA">Get In Touch</a>
 		
 		<?php do_action( 'foundationpress_after_header' );

@@ -420,7 +420,7 @@ $mediaobject-image-width-stacked: 100%;
 
 $menu-margin: 0;
 $menu-margin-nested: 1rem;
-$menu-item-padding: 0.7rem 1rem;
+$menu-item-padding: 0.7rem .5rem;
 $menu-item-color-active: $white;
 $menu-item-background-active: $white;
 $menu-icon-spacing: 0.25rem;
@@ -626,4 +626,4 @@ $topbar-background: $white;
 $topbar-submenu-background: $topbar-background;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;
 $topbar-input-width: 200px;
-$topbar-unstack-breakpoint: medium;
+$topbar-unstack-breakpoint: large;

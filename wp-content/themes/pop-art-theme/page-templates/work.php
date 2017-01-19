@@ -4,6 +4,8 @@ Template Name: Work
 */
 get_header(); ?>
 
+<a href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>" class="cta" id="homeCTA">Get In Touch</a>
+
 <div id="pageWork" role="main">
 	<section class="row">
 		<?php do_action( 'foundationpress_before_content' ); ?>

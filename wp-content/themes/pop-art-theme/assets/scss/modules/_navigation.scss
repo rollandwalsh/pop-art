@@ -41,10 +41,15 @@
 	}
 }
 
-.top-bar-right .menu > li {
+.top-bar-right > .menu > li {
 	> a {
 		color: $black;
 		font-weight: 400;
+		text-align: center;
+		
+		width: rem-calc(96);
+		
+		display: inline-block;
 		
 		&:hover,
 		&:focus, {
@@ -76,26 +81,33 @@
 		}
 		
 		> a {
+			color: $black;
 			font-weight: 300;
 			
 			&:hover,
 			&:focus {
 				background: $dark-gray;
-				color: $white 
+				color: $white;
 			}
 		}
 	}
 }
 
-.social-nav .menu > li {
-	> a {
-		color: $dark-gray;
-		
-		padding: .7rem .5rem;
-		
-		&:hover,
-		&:focus {
-			color: map-get($foundation-palette, primary);
+.social-nav {
+	@include breakpoint(medium) {
+		padding-left: $global-padding / 2;
+	}
+	
+	.menu > li {
+		> a {
+			color: $dark-gray;
+			
+			padding: .7rem .5rem;
+			
+			&:hover,
+			&:focus {
+				color: map-get($foundation-palette, primary);
+			}
 		}
 	}
 }

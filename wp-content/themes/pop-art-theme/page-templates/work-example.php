@@ -4,6 +4,8 @@ Template Name: Work Example
 */
 get_header(); ?>
 
+<a href="<?php echo get_permalink( get_page_by_title( 'Contact Us' ) ); ?>" class="cta" id="homeCTA">Get In Touch</a>
+
 <header class="work-example-hero <?php echo $post->post_name; ?>" role="banner">
 	<a href="<?php echo get_permalink( get_page_by_title( 'Work' ) ); ?>"><i class="fa fa-angle-left"></i></a>
 	<div>

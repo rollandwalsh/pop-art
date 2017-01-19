@@ -4741,7 +4741,7 @@ select {
       outline: 0; }
   .menu > li > a {
     display: block;
-    padding: 0.7rem 1rem;
+    padding: 0.7rem 0.5rem;
     line-height: 1; }
   .menu input,
   .menu select,
@@ -4847,7 +4847,7 @@ select {
                 align-items: flex-start; } }
   .menu.simple li {
     display: inline-block;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     line-height: 1; }
   .menu.simple a {
     padding: 0; }
@@ -4883,7 +4883,7 @@ select {
 .menu-text {
   padding-top: 0;
   padding-bottom: 0;
-  padding: 0.7rem 1rem;
+  padding: 0.7rem 0.5rem;
   font-weight: bold;
   line-height: 1;
   color: inherit; }
@@ -6296,7 +6296,7 @@ a.thumbnail {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
     max-width: 100%; }
-  @media print, screen and (min-width: 40em) {
+  @media print, screen and (min-width: 64em) {
     .top-bar {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap; }
@@ -7410,13 +7410,16 @@ a.thumbnail {
         -ms-flex: 0 1 auto !important;
             flex: 0 1 auto !important; } }
 
-.top-bar-right .menu > li > a {
+.top-bar-right > .menu > li > a {
   color: #0a0a0a;
-  font-weight: 400; }
-  .top-bar-right .menu > li > a:hover, .top-bar-right .menu > li > a:focus {
+  font-weight: 400;
+  text-align: center;
+  width: 6rem;
+  display: inline-block; }
+  .top-bar-right > .menu > li > a:hover, .top-bar-right > .menu > li > a:focus {
     font-weight: 600; }
 
-.top-bar-right .menu > li.current-menu-item > a, .top-bar-right .menu > li.current-menu-parent > a {
+.top-bar-right > .menu > li.current-menu-item > a, .top-bar-right > .menu > li.current-menu-parent > a {
   font-weight: 600; }
 
 .menu.vertical > li {
@@ -7427,10 +7430,15 @@ a.thumbnail {
     background: #8a8a8a;
     color: #ffffff; }
   .menu.vertical > li > a {
+    color: #0a0a0a;
     font-weight: 300; }
     .menu.vertical > li > a:hover, .menu.vertical > li > a:focus {
       background: #8a8a8a;
       color: #ffffff; }
+
+@media print, screen and (min-width: 40em) {
+  .social-nav {
+    padding-left: 0.5rem; } }
 
 .social-nav .menu > li > a {
   color: #8a8a8a;
