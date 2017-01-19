@@ -9915,6 +9915,47 @@ button {
   #pageWorkExample .blog-might-like a {
     color: #0a0a0a; }
 
+.work-example-before {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media screen and (max-width: 39.9375em) {
+    .work-example-before {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+  @media print, screen and (min-width: 40em) {
+    .work-example-before {
+      padding-top: 5rem;
+      padding-bottom: 5rem; }
+      .work-example-before .columns:last-of-type {
+        padding-left: 4rem; } }
+
+.work-example-after {
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  @media screen and (max-width: 39.9375em) {
+    .work-example-after {
+      padding-top: 2rem;
+      padding-bottom: 2rem; } }
+  @media print, screen and (min-width: 40em) {
+    .work-example-after {
+      padding-top: 5rem;
+      padding-bottom: 5rem; } }
+
 .work-example-slider-container {
   background: #e6e6e6;
   width: 100%; }
@@ -9926,7 +9967,7 @@ button {
       padding: 0 4rem; } }
 
 .work-example-slider {
-  margin: 3.125rem auto;
+  margin: 0 auto;
   max-width: 100%;
   width: 55rem;
   position: relative; }

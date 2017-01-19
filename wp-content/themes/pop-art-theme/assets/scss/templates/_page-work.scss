@@ -225,6 +225,40 @@ $yogi-inspirations-color: get-color(purple); // Purple
 	}
 }
 
+.work-example-before {
+	@include flex-grid-row();
+	
+	justify-content: space-between;
+	
+	@include breakpoint(small only) {
+		padding-top: $global-padding * 2;
+		padding-bottom: $global-padding * 2;
+	}
+	
+	@include breakpoint(medium) {
+		padding-top: rem-calc(80);
+		padding-bottom: rem-calc(80);
+	
+		.columns:last-of-type {
+			padding-left: rem-calc(64);
+		}
+	}
+}
+
+.work-example-after {
+	@include flex-grid-row();
+	
+	@include breakpoint(small only) {
+		padding-top: $global-padding * 2;
+		padding-bottom: $global-padding * 2;
+	}
+	
+	@include breakpoint(medium) {
+		padding-top: rem-calc(80);
+		padding-bottom: rem-calc(80);
+	}
+}
+
 // SLIDER
 
 .work-example-slider-container {
@@ -242,7 +276,7 @@ $yogi-inspirations-color: get-color(purple); // Purple
 }
 
 .work-example-slider {
-	margin: rem-calc(50) auto;
+	margin: 0 auto;
 	max-width: 100%;
 	width: rem-calc(880);
 	
