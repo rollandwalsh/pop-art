@@ -26,7 +26,7 @@ get_header(); ?>
 	<?php endwhile;?>
 	<?php do_action( 'foundationpress_after_content' ); ?>
 	
-	<section class="solutions-contact parallax slide-grow-element">
+	<section class="solutions-contact">
 		<div class="row">
 			<div class="small-12 columns">
 				<h2>Contact Us Today</h2>
