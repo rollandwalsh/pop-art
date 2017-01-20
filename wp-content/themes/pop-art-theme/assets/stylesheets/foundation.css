@@ -8380,6 +8380,9 @@ button {
 #homeHero {
   height: calc(100vh - 5rem);
   z-index: -1 !important; }
+  #homeHero .vidbg-container {
+    position: fixed !important;
+    top: 77px; }
 
 .home-hero-color {
   background-color: rgba(3, 43, 171, 0.6);
@@ -8394,6 +8397,9 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+
+#pageHome {
+  background: #ffffff; }
 
 .home-main-content {
   -webkit-box-flex: 0;
