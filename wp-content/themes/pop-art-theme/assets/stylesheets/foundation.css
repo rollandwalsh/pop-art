@@ -9292,10 +9292,6 @@ button {
     font-size: 1.75rem;
     font-weight: 600;
     margin-bottom: 0; }
-  .bam-dam img {
-    margin: 4.625rem auto 0; }
-    .bam-dam img:first-of-type {
-      margin-bottom: 3.5rem; }
   .bam-dam h4 {
     font-size: 1.75rem;
     font-weight: 600; }
@@ -9313,14 +9309,18 @@ button {
       color: #ffffff; }
 
 .bam-dam-demo-image img {
+  margin: 2rem auto 0;
+  max-width: 45rem;
   display: none; }
   .bam-dam-demo-image img.current {
     display: block; }
+  .bam-dam-demo-image img:first-of-type {
+    margin-bottom: 3.5rem; }
 
 .bam-dam-demo-nav {
   display: none;
   margin: 1rem auto 2rem;
-  max-width: 60rem;
+  max-width: 45rem;
   width: 100%; }
   .bam-dam-demo-nav.awake {
     display: -webkit-box;

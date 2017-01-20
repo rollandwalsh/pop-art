@@ -119,14 +119,6 @@
 		margin-bottom: 0;
 	}
 	
-	img {
-		margin: rem-calc(74) auto 0;
-		
-		&:first-of-type {
-			margin-bottom: rem-calc(56);
-		}
-	}
-	
 	h4 {
 		font-size: rem-calc(28);
 		font-weight: 600;
@@ -157,10 +149,17 @@
 
 .bam-dam-demo-image {
 	img {
+		margin: rem-calc(32) auto 0;
+		max-width: rem-calc(720);
+		
 		display: none;
 		
 		&.current {
 			display: block;
+		}
+		
+		&:first-of-type {
+			margin-bottom: rem-calc(56);
 		}
 	}
 }
@@ -169,7 +168,7 @@
 	display: none;
 	
 	margin: $global-padding auto ($global-padding * 2);
-	max-width: 60rem; // Match laptop width
+	max-width: rem-calc(720); // Match laptop width
 	width: 100%;
 	
 	&.awake {
