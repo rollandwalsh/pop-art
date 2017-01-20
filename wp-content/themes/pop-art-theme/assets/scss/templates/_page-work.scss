@@ -159,7 +159,7 @@ $yogi-inspirations-color: get-color(purple); // Purple
 	&.smartsource {
 		blockquote {
 			p,
-			cite {color: $fst-color;}
+			cite {color: darken($fst-color, 15%);}
 		}
 	}
 	&.vms-pro {
@@ -254,7 +254,7 @@ $yogi-inspirations-color: get-color(purple); // Purple
 // SLIDER
 
 .work-example-slider-container {
-	background: $white;
+	background: $light-gray;
 	
 	width: 100%;
 	

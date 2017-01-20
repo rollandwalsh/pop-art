@@ -9889,7 +9889,7 @@ button {
 
 #pageWorkExample.smartsource blockquote p,
 #pageWorkExample.smartsource blockquote cite {
-  color: #c4d2da; }
+  color: #95aebd; }
 
 #pageWorkExample.vms-pro blockquote p,
 #pageWorkExample.vms-pro blockquote cite {
@@ -9968,7 +9968,7 @@ button {
       padding-bottom: 5rem; } }
 
 .work-example-slider-container {
-  background: #ffffff;
+  background: #e6e6e6;
   width: 100%; }
   @media screen and (max-width: 39.9375em) {
     .work-example-slider-container {
