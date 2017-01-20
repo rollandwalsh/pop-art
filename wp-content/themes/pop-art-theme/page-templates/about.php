@@ -14,7 +14,7 @@ get_header(); ?>
 </header>
 
 <div id="pageAbout" role="main">
-	<section class="about-capabilities parallax slide-grow-elemen">
+	<section class="about-capabilities">
 		<div class="align-justify">
 			<div id="aboutCapabilitiesContent" class="small-12 medium-7 large-5 small-order-2 medium-order-1 columns">
 				<div class="active" data-section="strategyContent">
@@ -99,54 +99,52 @@ get_header(); ?>
 	</section>
 	
 	<section class="about-management-team">
-		<div class="row parallax slide-element">
+		<div class="row">
 			<div class="large-12 columns">
 				<h2>Management Team</h2>
 				<h5><span>To our thinking, deep and engaged beats wide and remote. We seek long resumes</span> <span>and unique skill sets. And upper management doesn't up and disappear.</span> <span>Pop Art is a pretty personal experience, starting here.</span></h5>
 			</div>
 		</div>
 		
-		<div class="parallax slide-grow-element">
-			<div class="about-management-team-members align-spaced">
-				<div class="about-management-team-member" data-name="tom">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/tom-paul-portrait.png" alt="Tom Paul">
-					<h4>Tom Paul</h4>
-					<h6>CEO</h6>
-				</div>
-				
-				<div class="about-management-team-bio" data-name="tom">
-					<p>Tom has a corner office. That’s pretty much where the formality ends. He’s deeply involved in asking, listening and shaping long-term vision and strategy. Tom brings diverse experience with results-driven technology and marketing solutions to bear. He’s around, deeply connected with all active projects and the primary contact for new partnerships and opportunities.</p>
-					<p>Tom was Chief Operating Officer at Pop Art from 2008 until 2015, forging the agency’s vision while guiding Pop Art to a variety of industry awards. We proudly remain on the “best places to work in Oregon” roster. In 2015 he completed the purchase of a majority of the company’s stock to become its sole director. He continues to solidify client relationships while strengthening Pop Art’s across the board systems: project management, human resources, finance and operations.</p>
-					<p>Tom has a B.A. in Arts & Letters from Portland State University. He also graduated from the Stanford Executive Institute. Before Pop Art, Tom served in the Army and worked in the translation industry, with degrees from the Defense Language Institute at the Presidio of Monterey and Ft. Bragg’s John F. Kennedy Special Warfare Center and School. He’s a Portland native and Wilson High grad.</p>
-					<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
-				</div>
-				
-				<div class="about-management-team-member" data-name="ethan">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/ethan-brown-portrait.png" alt="Ethan Brown">
-					<h4>Ethan Brown</h4>
-					<h6>Director of Engineering</h6>
-				</div>
-				
-				<div class="about-management-team-bio" data-name="ethan">
-					<p>Ethan Brown joined Pop Art as a Software Engineer in 2011 and quickly fell in love with the pace of innovation. Starting with Freightliner, Pacific Natural Foods, Skedco and the RoseyAwards, he began engineering client websites and web applications.</p>
-					<p>In 2014 his book “Web Development with Node and Express” was published, earning high ratings on both O’Reilly and Amazon websites. Thanks to its success, a second book, “Learning JavaScript, 3 rd edition” was commissioned and published in 2016.</p>
-					<p>Amidst these banner years, Pop Art recognized Ethan’s unique skills and commitment by promoting him to Director of Engineering. Meanwhile, he’s scheduled to complete an MBA program later this year, adding a business framework to his engineering acumen.</p>
-					<p>Prior to Pop Art, Ethan gained deep engineering experience working at IBM, Oracle, Informix, as well as defense contractors Computer Sciences Corporation and Xybion. He holds undergraduate degrees in Mathematics and Computer Science from Virginia Commonwealth University.</p>
-					<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
-				</div>
-				
-				<div class="about-management-team-member" data-name="noah">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/noah-oken-berg-portrait.png" alt="Noah Oken-Berg">
-					<h4>Noah Oken-Berg</h4>
-					<h6>Director of Business Development</h6>
-				</div>
-				
-				<div class="about-management-team-bio" data-name="noah">
-					<p>Noah serves as liaison and ambassador for Pop Art’s expanding client, supplier and collaborator networks to bridge gaps and drive efficiency. He has a proven record of aligning multiple stakeholders on complex issues toward high yield, happy outcomes. He strives, in a nutshell, to make relationships and software hum.</p>
-					<p>He brings an innate passion for both technology and business, starting with programming games on the family Apple and sweeping raffle sales prizes in elementary school. He’s been guided through a string of entrepreneurial successes by one driving principal: “help technology connect the natural world in ways previously impossible, then get the heck out the way.”</p>
-					<p>Noah orchestrated and operated an independent B2B wireless agency for most of the 2000’s, helping to bring the then-emerging smart phone technologies and “high-speed” wireless laptop cards into the market. Since then, Noah has directed rapid-growth, global business development efforts in the custom and licensed software space. He graduated from Whitman College with a BA in Sociology and Studio Art, including abroad studies in Russia and Zimbabwe.</p>
-					<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
-				</div>
+		<div class="about-management-team-members align-spaced">
+			<div class="about-management-team-member" data-name="tom">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/tom-paul-portrait.png" alt="Tom Paul">
+				<h4>Tom Paul</h4>
+				<h6>CEO</h6>
+			</div>
+			
+			<div class="about-management-team-bio" data-name="tom">
+				<p>Tom has a corner office. That’s pretty much where the formality ends. He’s deeply involved in asking, listening and shaping long-term vision and strategy. Tom brings diverse experience with results-driven technology and marketing solutions to bear. He’s around, deeply connected with all active projects and the primary contact for new partnerships and opportunities.</p>
+				<p>Tom was Chief Operating Officer at Pop Art from 2008 until 2015, forging the agency’s vision while guiding Pop Art to a variety of industry awards. We proudly remain on the “best places to work in Oregon” roster. In 2015 he completed the purchase of a majority of the company’s stock to become its sole director. He continues to solidify client relationships while strengthening Pop Art’s across the board systems: project management, human resources, finance and operations.</p>
+				<p>Tom has a B.A. in Arts & Letters from Portland State University. He also graduated from the Stanford Executive Institute. Before Pop Art, Tom served in the Army and worked in the translation industry, with degrees from the Defense Language Institute at the Presidio of Monterey and Ft. Bragg’s John F. Kennedy Special Warfare Center and School. He’s a Portland native and Wilson High grad.</p>
+				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
+			</div>
+			
+			<div class="about-management-team-member" data-name="ethan">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/ethan-brown-portrait.png" alt="Ethan Brown">
+				<h4>Ethan Brown</h4>
+				<h6>Director of Engineering</h6>
+			</div>
+			
+			<div class="about-management-team-bio" data-name="ethan">
+				<p>Ethan Brown joined Pop Art as a Software Engineer in 2011 and quickly fell in love with the pace of innovation. Starting with Freightliner, Pacific Natural Foods, Skedco and the RoseyAwards, he began engineering client websites and web applications.</p>
+				<p>In 2014 his book “Web Development with Node and Express” was published, earning high ratings on both O’Reilly and Amazon websites. Thanks to its success, a second book, “Learning JavaScript, 3 rd edition” was commissioned and published in 2016.</p>
+				<p>Amidst these banner years, Pop Art recognized Ethan’s unique skills and commitment by promoting him to Director of Engineering. Meanwhile, he’s scheduled to complete an MBA program later this year, adding a business framework to his engineering acumen.</p>
+				<p>Prior to Pop Art, Ethan gained deep engineering experience working at IBM, Oracle, Informix, as well as defense contractors Computer Sciences Corporation and Xybion. He holds undergraduate degrees in Mathematics and Computer Science from Virginia Commonwealth University.</p>
+				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
+			</div>
+			
+			<div class="about-management-team-member" data-name="noah">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/management-team/noah-oken-berg-portrait.png" alt="Noah Oken-Berg">
+				<h4>Noah Oken-Berg</h4>
+				<h6>Director of Business Development</h6>
+			</div>
+			
+			<div class="about-management-team-bio" data-name="noah">
+				<p>Noah serves as liaison and ambassador for Pop Art’s expanding client, supplier and collaborator networks to bridge gaps and drive efficiency. He has a proven record of aligning multiple stakeholders on complex issues toward high yield, happy outcomes. He strives, in a nutshell, to make relationships and software hum.</p>
+				<p>He brings an innate passion for both technology and business, starting with programming games on the family Apple and sweeping raffle sales prizes in elementary school. He’s been guided through a string of entrepreneurial successes by one driving principal: “help technology connect the natural world in ways previously impossible, then get the heck out the way.”</p>
+				<p>Noah orchestrated and operated an independent B2B wireless agency for most of the 2000’s, helping to bring the then-emerging smart phone technologies and “high-speed” wireless laptop cards into the market. Since then, Noah has directed rapid-growth, global business development efforts in the custom and licensed software space. He graduated from Whitman College with a BA in Sociology and Studio Art, including abroad studies in Russia and Zimbabwe.</p>
+				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="#"><i class="fa fa-linkedin"></i></a></p>
 			</div>
 		</div>
 	</section>
@@ -176,9 +174,13 @@ get_header(); ?>
 	</section>
 	
 	<section class="about-blog-strip">
-		<div class="row align-middle">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pop-art-spark_icon.png" alt="Pop Art">
-			<p>Looking for more great content? <a href="/blog">Check out our blog</a>.</p>
+		<div class="row align-center">
+			<div class="small-12 medium-10 large-8 columns">
+				<div class="row align-middle">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pop-art-spark_icon.png" alt="Pop Art">
+					<p>Looking for more great content? <a href="/blog">Check out our blog</a>.</p>
+				</div>
+			</div>
 		</div>
 	</section>
 	
