@@ -9889,7 +9889,7 @@ button {
 
 #pageWorkExample.smartsource blockquote p,
 #pageWorkExample.smartsource blockquote cite {
-  color: #95aebd; }
+  color: #7696a9; }
 
 #pageWorkExample.vms-pro blockquote p,
 #pageWorkExample.vms-pro blockquote cite {
@@ -10123,7 +10123,7 @@ button {
       margin-bottom: 1.75rem; }
     #pageContactUs .entry-content .columns p {
       color: #e6e6e6;
-      font-size: 0.875rem;
+      font-size: 1rem;
       margin-bottom: 3.875rem; }
       #pageContactUs .entry-content .columns p:last-of-type {
         margin-bottom: 0; }
@@ -10151,7 +10151,7 @@ button {
     font-weight: 600;
     margin-bottom: 1rem; }
   .contact-page-form p {
-    font-size: 0.875rem; }
+    font-size: 1rem; }
   .contact-page-form form {
     margin: 5rem 0; }
   .contact-page-form textarea {
@@ -10206,7 +10206,7 @@ button {
     font-weight: 600;
     text-transform: uppercase; }
   .job-app p {
-    font-size: 0.875rem;
+    font-size: 1rem;
     margin-bottom: 2rem; }
   .job-app ul {
     list-style: none; }
