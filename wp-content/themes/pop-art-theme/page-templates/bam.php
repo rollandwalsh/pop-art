@@ -145,9 +145,9 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="bam-endorsement">
-		<h2>The Future is 3rd Party Endorsement</h2>
-		<div class="bam-endorsement-image">
+	<section class="bam-endorsement align-justify">
+		<div class="small-12 columns"><h2>The Future is 3rd Party Endorsement</h2></div>
+		<div class="bam-endorsement-image small-12 medium-8 large-6 columns">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content" data-bedemo="0" class="current">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/create.png" alt="Campaigns" data-bedemo="1">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/endorsement/network.png" alt="Network" data-bedemo="2">
@@ -165,7 +165,7 @@ get_header(); ?>
 				<li data-bedemo="6">Publish</li>
 			</ul>
 		</div>
-		<div class="bam-endorsement-content">
+		<div class="bam-endorsement-content small-12 medium-4 large-5 columns">
 			<div class="current"  data-bedemo="0">
 				<h4>Harnessing user-generated content.</h4>
 				<p>The hard truth: your users are more credible than you. It’s why top brands are collecting and curating brand-related consumer generated content - tweets, images, comments, videos, reviews, etc.</p>

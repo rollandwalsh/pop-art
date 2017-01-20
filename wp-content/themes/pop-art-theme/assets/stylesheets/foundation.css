@@ -9293,7 +9293,7 @@ button {
     .bam-dam img:first-of-type {
       margin-bottom: 3.5rem; }
   .bam-dam h4 {
-    font-size: rem-cacl(24);
+    font-size: 1.75rem;
     font-weight: 600; }
   .bam-dam p {
     font-size: 0.875rem;
@@ -9316,7 +9316,7 @@ button {
 .bam-dam-demo-nav {
   display: none;
   margin: 1rem auto 2rem;
-  max-width: 75rem;
+  max-width: 60rem;
   width: 100%; }
   .bam-dam-demo-nav.awake {
     display: -webkit-box;
@@ -9344,7 +9344,7 @@ button {
     @media print, screen and (min-width: 64em) {
       .bam-dam-demo-nav li {
         font-size: 1rem;
-        padding: 1rem 2rem; } }
+        padding: 1rem; } }
     .bam-dam-demo-nav li.current {
       color: #0099ff; }
 
@@ -9390,7 +9390,7 @@ button {
   display: flex; }
   .bam-benefit img {
     margin-right: 1rem;
-    width: 7.5rem; }
+    width: 5rem; }
   .bam-benefit span {
     font-weight: 600;
     text-transform: uppercase;
@@ -9402,20 +9402,22 @@ button {
     display: block; }
 
 .bam-endorsement {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  max-width: 75rem;
+  margin-right: auto;
+  margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
   @media screen and (max-width: 39.9375em) {
     .bam-endorsement {
-      padding: 1rem 0; } }
+      padding-top: 1rem;
+      padding-bottom: 1rem; } }
   @media print, screen and (min-width: 40em) {
     .bam-endorsement {
-      padding: 3.75rem 0 0; } }
+      padding-top: 3.75rem;
+      padding-bottom: 3.75rem; } }
   .bam-endorsement h2 {
     font-size: 1.75rem;
     font-weight: 600;
@@ -9436,6 +9438,9 @@ button {
 
 .bam-endorsement-image img {
   display: none; }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .bam-endorsement-image img {
+      margin-left: calc(-10% - 2.5rem); } }
   .bam-endorsement-image img.current {
     display: block; }
   .bam-endorsement-image img:first-of-type {
@@ -9443,13 +9448,13 @@ button {
 
 .bam-endorsement-nav {
   display: none;
-  margin: 1rem auto 2.75rem;
-  max-width: 75rem;
-  width: 100%; }
+  margin: 1rem auto 2.75rem; }
   .bam-endorsement-nav.awake {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
   .bam-endorsement-nav li {
@@ -9476,16 +9481,14 @@ button {
     .bam-endorsement-nav li.current {
       color: #0099ff; }
 
-.bam-endorsement-content {
-  max-width: 37.5rem;
-  padding: 5rem 2rem;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 16rem;
-          flex: 1 1 16rem; }
-  .bam-endorsement-content div {
-    display: none; }
-    .bam-endorsement-content div.current {
-      display: block; }
+@media print, screen and (min-width: 64em) {
+  .bam-endorsement-content {
+    padding-right: 6.25rem; } }
+
+.bam-endorsement-content div {
+  display: none; }
+  .bam-endorsement-content div.current {
+    display: block; }
 
 .bam-endorsement-buttons {
   font-size: 0.875rem;

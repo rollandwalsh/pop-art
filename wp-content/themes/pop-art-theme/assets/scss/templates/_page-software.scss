@@ -128,7 +128,7 @@
 	}
 	
 	h4 {
-		font-size: rem-cacl(24);
+		font-size: rem-calc(28);
 		font-weight: 600;
 	}
 	
@@ -169,7 +169,7 @@
 	display: none;
 	
 	margin: $global-padding auto ($global-padding * 2);
-	max-width: $global-width;
+	max-width: 60rem; // Match laptop width
 	width: 100%;
 	
 	&.awake {
@@ -204,7 +204,7 @@
 		@include breakpoint(large) {
 			font-size: rem-calc(16);
 			
-			padding: $global-padding ($global-padding * 2);
+			padding: $global-padding;
 		}
 	
 		&.current {
@@ -277,7 +277,7 @@
 	
 	img {
 		margin-right: $global-padding;
-		width: rem-calc(120);
+		width: rem-calc(80);
 	}
 	
 	span {
@@ -300,17 +300,18 @@
 // ENDORESMENT
 
 .bam-endorsement {
-	align-items: flex-start;
-	display: flex;
-	flex-wrap: wrap;
-	
+	@include flex-grid-row();
+
 	@include breakpoint(small only) {
-		padding: $global-padding 0;
+		padding-top: $global-padding;
+		padding-bottom: $global-padding;
 	}
 	
 	@include breakpoint(medium) {
-		padding: rem-calc(60) 0 0;
+		padding-top: rem-calc(60);
+		padding-bottom: rem-calc(60);
 	}
+
 	
 	h2 {
 		font-size: rem-calc(28);
@@ -347,6 +348,10 @@
 	img {
 		display: none;
 		
+		@include breakpoint(medium only) {
+			margin-left: calc(-10% - #{rem-calc(40)});
+		}
+		
 		&.current {
 			display: block;
 		}
@@ -361,11 +366,10 @@
 	display: none;
 	
 	margin: $global-padding auto rem-calc(44);
-	max-width: $global-width;
-	width: 100%;
 	
 	&.awake {
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-around;
 	}
 	
@@ -406,10 +410,9 @@
 }
 
 .bam-endorsement-content {
-	max-width: $global-width / 2;
-	padding: rem-calc(80) ($global-padding * 2);
-	
-	flex: 1 1 rem-calc(256);
+	@include breakpoint(large) {
+		padding-right: rem-calc(100);
+	}
 	
 	div {
 		display: none;
