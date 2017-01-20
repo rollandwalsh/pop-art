@@ -114,7 +114,7 @@
 		img,
 		blockquote {
 			@include breakpoint(medium) {
-				margin-bottom: rem-calc(100);
+				margin-bottom: rem-calc(80);
 			}
 		}
 	
@@ -142,6 +142,10 @@
 			p {
 				color: get-color(green);	
 			}
+		}
+		
+		.green {
+			color: get-color(green);
 		}
 		
 		cite {
@@ -194,7 +198,7 @@
 	}
 	
 	h5 {
-		font-size: rem-calc(14);
+		font-size: rem-calc(16);
 	}
 }
 	

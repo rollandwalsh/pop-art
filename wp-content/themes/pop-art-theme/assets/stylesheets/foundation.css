@@ -8688,7 +8688,7 @@ button {
     .solutions-accordion .accordion-content ul,
     .solutions-accordion .accordion-content img,
     .solutions-accordion .accordion-content blockquote {
-      margin-bottom: 6.25rem; } }
+      margin-bottom: 5rem; } }
   .solutions-accordion .accordion-content h3 {
     color: #0a0a0a;
     font-size: 1.25rem;
@@ -8705,6 +8705,8 @@ button {
     padding: 0; }
     .solutions-accordion .accordion-content blockquote p {
       color: #00a651; }
+  .solutions-accordion .accordion-content .green {
+    color: #00a651; }
   .solutions-accordion .accordion-content cite {
     color: #636363;
     font-style: normal;
@@ -8735,7 +8737,7 @@ button {
     font-size: 1.75rem;
     font-weight: 600; }
   .solutions-form h5 {
-    font-size: 0.875rem; }
+    font-size: 1rem; }
 
 #issueFormContent {
   margin: 1rem 0;

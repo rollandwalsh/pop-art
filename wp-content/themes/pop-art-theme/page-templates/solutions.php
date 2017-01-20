@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="small-12 columns">
 			<h1>Solutions to a wide range of business problems.</h1>
 
-			<h5><span>No two challenges are alike. But maybe some of the following will</span> <span>ring familiar. Or, maybe, bring us a new one to solve.</span></h5>
+			<h6><span>No two challenges are alike. But maybe some of the following will</span> <span>ring familiar. Or, maybe, bring us a new one to solve.</span></h6>
 		</div>
 	</div>
 </header>

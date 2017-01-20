@@ -19,7 +19,7 @@ get_header(); ?>
 	<div class="row align-center">
 		<div class="large-12 columns">
 			<h1>Trends and Topics</h1>
-			<h5>Things that spark our interest. Check back. It's always evolving.</h5>
+			<h6>Things that spark our interest. Check back. It's always evolving.</h6>
 		</div>
 	</div>
 </header>
