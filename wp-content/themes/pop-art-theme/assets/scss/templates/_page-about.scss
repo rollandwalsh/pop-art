@@ -205,7 +205,7 @@
 	}
 	
 	h5 {
-		font-size: rem-calc(18) !important;
+		font-size: rem-calc(16) !important;
 		font-weight: 400;
 		
 		margin-bottom: rem-calc(72);
@@ -280,6 +280,10 @@
 	
 	a {
 		color: get-color(secondary);
+		
+		i {
+			padding-right: 2px;
+		}
 	}
 	
 	@include breakpoint(small only) {

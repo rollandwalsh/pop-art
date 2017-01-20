@@ -8992,7 +8992,7 @@ button {
     font-size: 1.75rem;
     font-weight: 600; }
   .about-management-team h5 {
-    font-size: 1.125rem !important;
+    font-size: 1rem !important;
     font-weight: 400;
     margin-bottom: 4.5rem; }
 
@@ -9091,6 +9091,8 @@ button {
       padding-left: 0.9375rem; } }
   .about-management-team-bio a {
     color: #0099ff; }
+    .about-management-team-bio a i {
+      padding-right: 2px; }
   @media screen and (max-width: 39.9375em) {
     .about-management-team-bio {
       margin-bottom: 2rem;
