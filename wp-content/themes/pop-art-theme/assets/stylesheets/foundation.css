@@ -10350,66 +10350,41 @@ button {
   .blog-subscribe input {
     margin-bottom: 2rem; }
 
-#single-post .blog-pop-art {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 91.66667%;
-          flex: 0 0 91.66667%;
-  max-width: 91.66667%;
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
-  max-width: 91.66667%;
-  margin-bottom: 2rem; }
-  @media print, screen and (min-width: 40em) {
-    #single-post .blog-pop-art {
-      padding-right: 0.9375rem;
-      padding-left: 0.9375rem; } }
-  #single-post .blog-pop-art h4 {
-    font-size: 0.875rem;
-    font-weight: 600;
-    text-transform: uppercase; }
-  #single-post .blog-pop-art p {
-    font-size: 0.875rem; }
-
-#single-post .entry-title {
-  font-size: 2.5rem;
-  font-weight: 600; }
-
-#single-post .byline {
-  margin-bottom: 0; }
-  #single-post .byline a {
-    color: #0a0a0a;
-    font-weight: 600;
-    text-transform: capitalize; }
-
-#single-post time {
-  color: #8a8a8a;
-  margin-bottom: 2rem;
-  display: block; }
-
-@media screen and (max-width: 39.9375em) {
-  #single-post #featured-hero {
-    margin-bottom: 2rem; } }
-
-@media print, screen and (min-width: 40em) {
-  #single-post #featured-hero {
-    margin-bottom: 6rem; } }
-
-#single-post .entry-content {
-  margin-bottom: 6.25rem; }
-
-#single-post .blog-comment {
-  background: #464646;
-  color: #ffffff; }
+#single-post {
+  padding-top: 3rem; }
+  #single-post .entry-title {
+    font-size: 2.5rem;
+    font-weight: 600; }
+  #single-post .byline {
+    margin-bottom: 0; }
+    #single-post .byline a {
+      color: #0a0a0a;
+      font-weight: 600;
+      text-transform: capitalize; }
+  #single-post time {
+    color: #8a8a8a;
+    margin-bottom: 2rem;
+    display: block; }
   @media screen and (max-width: 39.9375em) {
-    #single-post .blog-comment {
-      padding: 1rem 0; } }
+    #single-post #featured-hero {
+      margin-bottom: 2rem; } }
   @media print, screen and (min-width: 40em) {
-    #single-post .blog-comment {
-      padding: 5rem 0; } }
-  #single-post .blog-comment label {
+    #single-post #featured-hero {
+      margin-bottom: 6rem; } }
+  #single-post .entry-content {
+    margin-bottom: 6.25rem; }
+  #single-post .blog-comment {
+    background: #464646;
     color: #ffffff; }
-
-#single-post .blog-might-like {
-  background: #ffffff; }
+    @media screen and (max-width: 39.9375em) {
+      #single-post .blog-comment {
+        padding: 1rem 0; } }
+    @media print, screen and (min-width: 40em) {
+      #single-post .blog-comment {
+        padding: 5rem 0; } }
+    #single-post .blog-comment label {
+      color: #ffffff; }
+  #single-post .blog-might-like {
+    background: #ffffff; }
 
 /*# sourceMappingURL=foundation.css.map */

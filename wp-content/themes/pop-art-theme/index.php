@@ -36,7 +36,8 @@ get_header(); ?>
 			<li class="active"><a href="#">All</a></li>
 			<?php 
 			$args = array(
-				'title_li' => ''
+				'title_li'		=> '',
+				'hide_empty'	=> 0,
 			);
 			
 			echo wp_list_categories($args);
@@ -72,13 +73,6 @@ get_header(); ?>
 		<?php endif; ?>
 
 	</article>
-
-<!--
-	<div class="row">
-		<?php get_sidebar(); ?>
-	</div>
--->
-
 </div>
 	
 <section class="blog-subscribe">
@@ -95,5 +89,53 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+
+<script>
+	const filterList = Array.from(document.querySelectorAll('#blogFilterList a'));
+	const blogPosts = Array.from(document.querySelectorAll('blogpost-entry'));
+	
+	function fadeOut(el){
+	  el.style.opacity = 1;
+	
+	  (function fade() {
+	    if ((el.style.opacity -= .1) < 0) {
+	      el.style.display = "none";
+	    } else {
+	      requestAnimationFrame(fade);
+	    }
+	  })();
+	}
+	
+	function fadeIn(el, display){
+	  el.style.opacity = 0;
+	  el.style.display = display || "block";
+	
+	  (function fade() {
+	    var val = parseFloat(el.style.opacity);
+	    if (!((val += .1) > 1)) {
+	      el.style.opacity = val;
+	      requestAnimationFrame(fade);
+	    }
+	  })();
+	}
+	
+	function filterBlogs(e) {
+		e.preventDefault();
+		let selected = e.target.textContent;
+		selected = selected.replace(/\s+/g, '-').toLowerCase();
+		selectedClass = 'category-' + selected;
+		
+		blogPosts.forEach(blogPost => {
+			console.log(blogPost);
+			if (blogPost.classList.contains(selectedClass)) {
+				fadeIn(blogPost);
+			} else {
+				fadeOut(blogPost);
+			}
+		});
+	}
+	
+	filterList.forEach(filterItem => filterItem.addEventListener('click', filterBlogs));
+</script>
 
 <?php get_footer();

@@ -1,19 +1,5 @@
 #single-post {
-	.blog-pop-art {
-		@include flex-grid-column(11);
-		
-		margin-bottom: rem-calc(32);
-		
-		h4 {
-			font-size: rem-calc(14);
-			font-weight: 600;
-			text-transform: uppercase;
-		}
-		
-		p {
-			font-size: rem-calc(14);
-		}
-	}
+	padding-top: rem-calc(48);
 	
 	.entry-title {
 		font-size: rem-calc(40);
