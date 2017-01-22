@@ -110,7 +110,7 @@
 .bam-dam {
 	text-align: center;
 	
-	padding: rem-calc(80) 0;
+	padding: rem-calc(80) 0 rem-calc(112);
 	
 	h2 {
 		font-size: rem-calc(28);
@@ -145,7 +145,7 @@
 			color: $white;
 		}
 	}
-}
+	}
 
 .bam-dam-demo-image {
 	img {
@@ -167,7 +167,7 @@
 .bam-dam-demo-nav {
 	display: none;
 	
-	margin: $global-padding auto ($global-padding * 2);
+	margin: $global-padding auto 0;
 	max-width: rem-calc(720); // Match laptop width
 	width: 100%;
 	
@@ -235,13 +235,12 @@
 .bam-dam-demo-buttons {
 	font-size: rem-calc(14);
 	font-weight: 600;
-	text-align: center;
 	
 	display: none;
 	
 	a {
 		color: $dark-gray;
-		padding: $global-padding;
+		padding: $global-padding $global-padding $global-padding 0;
 		
 		&:hover {
 			color: get-color(secondary);

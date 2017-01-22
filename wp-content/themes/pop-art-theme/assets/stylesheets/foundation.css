@@ -9291,7 +9291,7 @@ button {
 
 .bam-dam {
   text-align: center;
-  padding: 5rem 0; }
+  padding: 5rem 0 7rem; }
   .bam-dam h2 {
     font-size: 1.75rem;
     font-weight: 600;
@@ -9323,7 +9323,7 @@ button {
 
 .bam-dam-demo-nav {
   display: none;
-  margin: 1rem auto 2rem;
+  margin: 1rem auto 0;
   max-width: 45rem;
   width: 100%; }
   .bam-dam-demo-nav.awake {
@@ -9369,11 +9369,10 @@ button {
 .bam-dam-demo-buttons {
   font-size: 0.875rem;
   font-weight: 600;
-  text-align: center;
   display: none; }
   .bam-dam-demo-buttons a {
     color: #8a8a8a;
-    padding: 1rem; }
+    padding: 1rem 1rem 1rem 0; }
     .bam-dam-demo-buttons a:hover {
       color: #0099ff; }
 

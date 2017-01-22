@@ -169,7 +169,8 @@ get_header(); ?>
 			<p>Over the years, we’ve morphed from digital marketers to a team of technology service partners and innovators. We create software, apps, mobile tools, asset management platforms, whatever the moment calls for to keep our clients digitally agile, nimble and vital.</p>
 			<p>And those clients are often the kind who need us most:  industry leaders faced with daunting digital challenges and opportunities.</p>
 			<p>Today’s digital content can swamp you. Or set you free. Likewise, social networks can define you. Or you can write your own story. That’s where we come in.</p>
-			<p>We help you author your own brand. On a global canvas.<br>At digital speed.</p>
+			<p>We help you author your own brand. On a global canvas.</p>
+			<p>At digital speed.</p>
 		</div>
 	</section>
 	
