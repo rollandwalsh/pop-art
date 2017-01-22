@@ -27,8 +27,8 @@ get_header(); ?>
 <div id="pageBAM" role="main">
 	<section class="software-testimonial">
 		<div class="row">
-			<div class="small-12 columns parallax slide-element">
-				<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”<cite>First Last<br>Title<br>Company</cite></blockquote>
+			<div class="small-12 columns">
+				<blockquote>I am continuously impressed by Pop Art's commitment to understanding our products and, most importantly, our customers. In so doing, they've exceeded our expectations by addressing our business needs in a way that truly resonates with our customers.”<cite>Elizabeth Robledo<br>Marketing Analyst<br>Freightliner Trucks</cite></blockquote>
 			</div>
 		</div>
 	</section>
@@ -80,22 +80,22 @@ get_header(); ?>
 	<section class="custom-software-projects">
 		<h2>Custom Projects</h2>
 		
-		<article class="custom-software-vms-pro parallax slide-element">
+		<article class="custom-software-vms-pro">
 			<div class="custom-software-project-image">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/vms-pro.png" alt="VMS Pro">
 			</div>
 			
 			<div class="custom-software-project-content">
-				<h4 class="parallax slide-element">VMSPro. World Class Value Management Software</h4>
-				<p class="parallax slide-element">Pop Art worked with VMS Consulting to design and build a standardized platform for the management of value engineering programs and activities. It blends powerful analytic tools and state of the art functionality that allows team to collaborate to improve value. This software has been leveraged to guide the development of projects, product and processes helping organizations get the most out of limited resources. Developed based on use-cases and user testing, this platform includes a wide array of planning, analysis and reporting tools that are easy and intuitive for a businesses to incorporate into their planning processes.</p>
+				<h4>VMSPro. World Class Value Management Software</h4>
+				<p>Pop Art worked with VMS Consulting to design and build a standardized platform for the management of value engineering programs and activities. Robust planning, analysis, and reporting tools facilitate intuitive collaboration to help teams improve value. VMSPro has been leveraged to guide the development of projects, products, and processes, helping organizations get the most out of limited resources.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'VMS Pro' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
 		
-		<article class="custom-software-fst parallax slide-element">
+		<article class="custom-software-fst">
 			<div class="custom-software-project-content">
-				<h4 class="parallax slide-element">Freightliner Sales Tool App</h4>
-				<p class="parallax slide-element">Freightliner deals in highly customizable configurations, involving hundreds of exterior, interior, and add-on choices. Together we created a leading-edge mobile app that puts real-time specs, comparison charts, even 3D renderings of over 6000 truck configurations at field rep’s fingertips, all linked to a data management hub.</p>
+				<h4>Freightliner Sales Tool App</h4>
+				<p>Freightliner deals in highly customizable configurations, involving hundreds of exterior, interior, and add-on choices. Together we created a leading-edge mobile app that puts real-time specs, comparison charts, even 3D renderings of over 6000 truck configurations at field rep’s fingertips, all linked to a data management hub.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'FST' ) ); ?>" class="button hollow gray">Learn More</a>
 			</div>
 			
@@ -104,21 +104,21 @@ get_header(); ?>
 			</div>
 		</article>
 		
-		<article class="custom-software-onboarding-assistant parallax slide-element">
+		<article class="custom-software-onboarding-assistant">
 			<div class="custom-software-project-image">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/onboarding-assistant.png" alt="Onboarding Assistant">
 			</div>
 			
 			<div class="custom-software-project-content">
-				<h4 class="parallax slide-element">Onboarding Assistant</h4>
-				<p class="parallax slide-element">For Daimler North America, we created a simple checklist-style interface. Managers can run through an onboarding list of desk assignments, phones, computers, work buddies, first day agendas, etc in under 5 minutes, monitoring everything new hires need to succeed.</p>
+				<h4>Onboarding Assistant</h4>
+				<p>For Daimler North America, we created a simple checklist-style interface. Managers can run through an onboarding list of desk assignments, phones, computers, work buddies, first day agendas, etc in under 5 minutes, monitoring everything new hires need to succeed.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'HR Assistant' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
 	</section>
 	
 	<section class="custom-software-blog-strip">
-		<div class="row align-middle align-center parallax slide-element">
+		<div class="row align-middle align-center">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pop-art-spark_icon.png" alt="Pop Art">
 			<p>Looking for more great content? <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Check out our blog</a>.</p>
 		</div>

@@ -10061,7 +10061,7 @@ button {
 
 .work-example-next a {
   font-size: 1.25rem;
-  padding: 3rem 1rem 1rem;
+  padding: 2rem 1rem;
   width: 100%;
   display: block; }
   .work-example-next a:hover {
@@ -10307,8 +10307,16 @@ button {
       padding-right: 0.9375rem;
       padding-left: 0.9375rem; } }
 
-#pageBlog img {
-  margin-bottom: 1.5rem; }
+#pageBlog .blog-post-thumbnail {
+  background-position: center center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  margin-bottom: 1.5rem;
+  display: block; }
+  #pageBlog .blog-post-thumbnail:before {
+    content: '';
+    display: block;
+    padding-top: 75%; }
 
 #pageBlog .blog-category {
   color: #8a8a8a;
