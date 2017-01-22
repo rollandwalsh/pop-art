@@ -32,7 +32,7 @@ function twitterSlide(id) {
 	$('#' + id).slick({
 		dots: true,
 		autoplay: true,
-		autoplaySpeed: 4500,
+		autoplaySpeed: 4500, // Time each slide is visible
 		speed: 1500
 	});
 }

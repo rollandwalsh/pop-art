@@ -8665,7 +8665,7 @@ button {
       left: 0; }
   @media print, screen and (min-width: 40em) {
     .solutions-accordion .accordion-content {
-      padding: 7rem 0; } }
+      padding: 5rem 0; } }
   .solutions-accordion .accordion-content a {
     color: #0099ff; }
     .solutions-accordion .accordion-content a:hover, .solutions-accordion .accordion-content a:focus {
@@ -8686,9 +8686,8 @@ button {
   @media print, screen and (min-width: 40em) {
     .solutions-accordion .accordion-content p,
     .solutions-accordion .accordion-content ul,
-    .solutions-accordion .accordion-content img,
     .solutions-accordion .accordion-content blockquote {
-      margin-bottom: 5rem; } }
+      margin-bottom: 3rem; } }
   .solutions-accordion .accordion-content h3 {
     color: #0a0a0a;
     font-size: 1.25rem;
@@ -8698,6 +8697,9 @@ button {
   .solutions-accordion .accordion-content img {
     max-width: 15rem;
     width: 100%; }
+    @media print, screen and (min-width: 40em) {
+      .solutions-accordion .accordion-content img {
+        margin-bottom: 1rem; } }
   .solutions-accordion .accordion-content blockquote {
     border: none;
     color: #00a651;
@@ -8707,6 +8709,8 @@ button {
       color: #00a651; }
   .solutions-accordion .accordion-content .green {
     color: #00a651; }
+    .solutions-accordion .accordion-content .green a {
+      color: #00a651; }
   .solutions-accordion .accordion-content cite {
     color: #636363;
     font-style: normal;
@@ -10336,8 +10340,6 @@ button {
     font-size: 1.75rem;
     font-weight: 600;
     margin-bottom: 2rem; }
-  .blog-subscribe p {
-    font-size: 1rem; }
   .blog-subscribe input {
     margin-bottom: 2rem; }
 
