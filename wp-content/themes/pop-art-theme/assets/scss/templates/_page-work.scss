@@ -119,6 +119,14 @@ $yogi-inspirations-color: get-color(purple); // Purple
 		background: $yogi-inspirations-color;
 		
 		a {color: $white}
+		
+		@include breakpoint(small) {
+			max-width: 66%;
+		}
+		
+		@include breakpoint(large) {
+			max-width: calc(#{$global-width} - 22px - (#{$global-padding} * 2));
+		}
 	}
 	
 	&.fst,
@@ -135,6 +143,14 @@ $yogi-inspirations-color: get-color(purple); // Purple
 	
 	a {
 		font-size: rem-calc(32);
+		
+		@include breakpoint(small) {
+			padding-left: $global-padding / 2;
+		}
+		
+		@include breakpoint(large) {
+			padding-left: 0;
+		}
 	}
 	
 	div {

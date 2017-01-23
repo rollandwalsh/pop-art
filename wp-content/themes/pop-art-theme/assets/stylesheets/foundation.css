@@ -9553,8 +9553,16 @@ button {
       color: #0099ff; }
 
 .blog-might-like {
-  background: #e6e6e6;
-  padding: 6.625rem 0 7.125rem; }
+  background: #e6e6e6; }
+  @media screen and (max-width: 39.9375em) {
+    .blog-might-like {
+      padding: 1rem 0; } }
+  @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+    .blog-might-like {
+      padding: 3rem 0; } }
+  @media print, screen and (min-width: 64em) {
+    .blog-might-like {
+      padding: 6.625rem 0 7.125rem; } }
   .blog-might-like h3 {
     font-size: 1.75rem;
     font-weight: 600;
@@ -9914,15 +9922,23 @@ button {
     .work-example-hero.vms-pro a {
       color: #0a0a0a; }
   .work-example-hero.yogi-inspirations {
-    background: #440e62; }
+    background: #440e62;
+    max-width: 66%; }
     .work-example-hero.yogi-inspirations a {
       color: #ffffff; }
+    @media print, screen and (min-width: 64em) {
+      .work-example-hero.yogi-inspirations {
+        max-width: calc(75rem - 22px - (1rem * 2)); } }
   .work-example-hero.fst, .work-example-hero.dtnahr-com, .work-example-hero.hr-assistant, .work-example-hero.vms-pro {
     padding: 3.125rem 0; }
   .work-example-hero.smartsource, .work-example-hero.yogi-inspirations {
     padding-top: 1rem; }
   .work-example-hero a {
-    font-size: 2rem; }
+    font-size: 2rem;
+    padding-left: 0.5rem; }
+    @media print, screen and (min-width: 64em) {
+      .work-example-hero a {
+        padding-left: 0; } }
   .work-example-hero div {
     text-align: center;
     max-width: calc(75rem - 22px - (1rem * 2));
