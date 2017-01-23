@@ -12,3 +12,7 @@ $(function() {
 		shuffle: true
 	})
 });
+
+$('.accordion-title').on('click', function(event) {
+   $('html,body').animate({scrollTop: $(event.target).offset().top}, 'slow');
+});
