@@ -7381,11 +7381,18 @@ a.thumbnail {
   #mobile-menu, .title-bar {
     display: none !important; } }
 
+.sticky {
+  z-index: 1; }
+
 .site-header {
   width: 100%; }
 
 body.blog .sticky,
 body.single .sticky {
+  background: #e6e6e6 !important; }
+
+body.blog .title-bar,
+body.single .title-bar {
   background: #e6e6e6 !important; }
 
 body.blog .top-bar,
@@ -7395,23 +7402,32 @@ body.single .top-bar {
   body.single .top-bar ul {
     background: #e6e6e6; }
 
-.top-bar {
-  height: 100vh;
-  -ms-flex-line-pack: start;
-      align-content: flex-start; }
-  @media print, screen and (min-width: 40em) {
-    .top-bar {
-      height: calc(5rem - 2rem);
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; } }
+@media screen and (max-width: 39.9375em) {
+  .top-bar {
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
+@media print, screen and (min-width: 40em) {
+  .top-bar {
+    height: calc(5rem - 2rem);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
 
 .menu > li > a {
   -webkit-transition: 200ms ease-in-out all;
   transition: 200ms ease-in-out all; }
+  @media screen and (max-width: 39.9375em) {
+    .menu > li > a {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem; } }
 
 .menu > li.opens-left > .is-dropdown-submenu {
   left: 0 !important;
@@ -7425,6 +7441,12 @@ body.single .top-bar {
     -webkit-box-flex: 0 !important;
         -ms-flex: 0 1 auto !important;
             flex: 0 1 auto !important; } }
+
+@media screen and (max-width: 39.9375em) {
+  .top-bar-right {
+    -webkit-box-flex: 1 !important;
+        -ms-flex: 1 1 auto !important;
+            flex: 1 1 auto !important; } }
 
 .top-bar-right > .menu > li > a {
   color: #0a0a0a;
@@ -7643,18 +7665,33 @@ body#tinymce {
         -ms-transform: translateY(0);
             transform: translateY(0); }
   .page-hero h1 {
-    font-size: 2.5rem;
     font-weight: 600;
     text-transform: capitalize; }
+    @media screen and (max-width: 39.9375em) {
+      .page-hero h1 {
+        font-size: 1.75rem; } }
+    @media print, screen and (min-width: 40em) {
+      .page-hero h1 {
+        font-size: 2.5rem; } }
   .page-hero h5 {
-    font-size: 1.75rem;
     font-weight: 400; }
+    @media screen and (max-width: 39.9375em) {
+      .page-hero h5 {
+        font-size: 1.125rem; } }
+    @media print, screen and (min-width: 40em) {
+      .page-hero h5 {
+        font-size: 1.75rem; } }
     @media print, screen and (min-width: 64em) {
       .page-hero h5 span {
         display: block; } }
   .page-hero h6 {
-    font-size: 1.125rem;
     font-weight: 400; }
+    @media screen and (max-width: 39.9375em) {
+      .page-hero h6 {
+        font-size: 0.875rem; } }
+    @media print, screen and (min-width: 40em) {
+      .page-hero h6 {
+        font-size: 1.125rem; } }
     @media print, screen and (min-width: 64em) {
       .page-hero h6 span {
         display: block; } }
@@ -8552,16 +8589,24 @@ button {
 .home-lwt {
   background: #0099ff;
   color: #ffffff;
-  text-align: center;
-  padding: 5rem 0; }
+  text-align: center; }
+  @media screen and (max-width: 39.9375em) {
+    .home-lwt {
+      padding: 2rem 0; } }
+  @media print, screen and (min-width: 40em) {
+    .home-lwt {
+      padding: 5rem 0; } }
   .home-lwt a {
     color: #ffffff;
     font-size: 1rem; }
     .home-lwt a:hover {
       color: #d9d9d9; }
-  .home-lwt p {
-    font-size: 1rem;
-    margin-bottom: 6.25rem; }
+  @media print, screen and (min-width: 40em) {
+    .home-lwt p {
+      margin-bottom: 6.25rem; } }
+  @media screen and (max-width: 39.9375em) {
+    .home-lwt .columns:nth-of-type(2) {
+      margin-top: 1rem; } }
   @media print, screen and (min-width: 40em) {
     .home-lwt .columns:nth-of-type(2) {
       border-left: 1px solid #ffffff; } }

@@ -8,6 +8,10 @@
 	@include hide-for(medium);
 }
 
+.sticky {
+	z-index: 1;
+}
+
 .site-header {
 	width: 100%;
 }
@@ -15,6 +19,10 @@
 body.blog,
 body.single {
 	.sticky {
+		background: $light-gray !important;
+	}
+	
+	.title-bar {
 		background: $light-gray !important;
 	}
 	
@@ -28,10 +36,9 @@ body.single {
 }
 
 .top-bar {
-	@include breakpoint(small) {
-		height: 100vh;
-		
+	@include breakpoint(small only) {
 		align-content: flex-start;
+		flex-direction: column;
 	}
 	
 	@include breakpoint(medium) {
@@ -45,6 +52,11 @@ body.single {
 .menu > li {
 	> a {
 		transition: 200ms ease-in-out all;
+		
+		@include breakpoint(small only) {
+			padding-top: 1.5rem;
+			padding-bottom: 1.5rem;
+		}
 	}
 	
 	&.opens-left > .is-dropdown-submenu {
@@ -65,32 +77,38 @@ body.single {
 	}
 }
 
-.top-bar-right > .menu > li {
-	> a {
-		color: $black;
-		font-weight: 400;
-		text-align: center;
-		
-		width: rem-calc(100);
-		
-		display: inline-block;
-		
-		&:hover,
-		&:focus, {
-			font-weight: 600;
-		}
+.top-bar-right {
+	@include breakpoint(small only) {
+		flex: 1 1 auto !important;
 	}
 	
-	&:last-of-type {
-		a:hover {
-			color: get-color(primary);
-		}
-	}
-	
-	&.current-menu-item,
-	&.current-menu-parent {
+	&> .menu > li {
 		> a {
-			font-weight: 600;
+			color: $black;
+			font-weight: 400;
+			text-align: center;
+			
+			width: rem-calc(100);
+			
+			display: inline-block;
+			
+			&:hover,
+			&:focus, {
+				font-weight: 600;
+			}
+		}
+		
+		&:last-of-type {
+			a:hover {
+				color: get-color(primary);
+			}
+		}
+		
+		&.current-menu-item,
+		&.current-menu-parent {
+			> a {
+				font-weight: 600;
+			}
 		}
 	}
 }

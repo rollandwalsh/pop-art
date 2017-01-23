@@ -233,7 +233,13 @@
 	color: $white;
 	text-align: center;
 	
-	padding: ($global-padding * 5) 0;
+	@include breakpoint(small only) {
+		padding: ($global-padding * 2) 0;
+	}
+	
+	@include breakpoint(medium) {
+		padding: ($global-padding * 5) 0;
+	}
 	
 	a {
 		color: $white;
@@ -245,13 +251,18 @@
 	}
 	
 	p {
-		font-size: rem-calc(16);
-		
-		margin-bottom: rem-calc(100);
+		@include breakpoint(medium) {
+			margin-bottom: rem-calc(100);
+		}
 	}
 	
-	@include breakpoint(medium) {
-		.columns:nth-of-type(2) {
+
+	.columns:nth-of-type(2) {
+		@include breakpoint(small only) {
+			margin-top: 1rem;
+		}
+
+		@include breakpoint(medium) {
 			border-left: 1px solid $white;
 		}
 	}

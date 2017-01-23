@@ -33,6 +33,7 @@ function twitterSlide(id) {
 		dots: true,
 		autoplay: true,
 		autoplaySpeed: 4500, // Time each slide is visible
-		speed: 1500
+		speed: 1500,
+		arrows: false
 	});
 }
