@@ -473,7 +473,9 @@
 		text-align: center;
 		text-transform: capitalize;
 		
-		margin-bottom: rem-calc(78);
+		@include breakpoint(medium) {
+			margin-bottom: rem-calc(78);
+		}
 	}
 	
 	a {
