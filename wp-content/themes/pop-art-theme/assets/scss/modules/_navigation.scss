@@ -142,7 +142,7 @@ body.single {
 }
 
 .social-nav {
-	@include breakpoint(small) {
+	@include breakpoint(small only) {
 		border-top: 1px solid $black;
 		
 		width: 100%;

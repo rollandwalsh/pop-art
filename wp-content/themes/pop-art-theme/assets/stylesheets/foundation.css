@@ -7477,27 +7477,30 @@ body.single .top-bar {
       background: #8a8a8a;
       color: #ffffff; }
 
-.social-nav {
-  border-top: 1px solid #0a0a0a;
-  width: 100%; }
-  .social-nav .menu {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
-    .social-nav .menu > li > a {
-      padding: 1.5rem 1rem; }
-  @media print, screen and (min-width: 40em) {
-    .social-nav {
-      padding-left: 0.5rem; }
+@media screen and (max-width: 39.9375em) {
+  .social-nav {
+    border-top: 1px solid #0a0a0a;
+    width: 100%; }
+    .social-nav .menu {
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
       .social-nav .menu > li > a {
-        padding: .7rem .5rem; } }
-  .social-nav .menu > li > a {
-    color: #8a8a8a; }
-    .social-nav .menu > li > a:hover, .social-nav .menu > li > a:focus {
-      color: #f24949; }
+        padding: 1.5rem 1rem; } }
+
+@media print, screen and (min-width: 40em) {
+  .social-nav {
+    padding-left: 0.5rem; }
+    .social-nav .menu > li > a {
+      padding: .7rem .5rem; } }
+
+.social-nav .menu > li > a {
+  color: #8a8a8a; }
+  .social-nav .menu > li > a:hover, .social-nav .menu > li > a:focus {
+    color: #f24949; }
 
 .title-bar-title img {
   width: 8rem; }
