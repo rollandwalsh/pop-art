@@ -121,11 +121,15 @@ $yogi-inspirations-color: get-color(purple); // Purple
 		a {color: $white}
 		
 		@include breakpoint(small) {
-			max-width: 66%;
+			div {
+				max-width: 66%;
+			}
 		}
 		
 		@include breakpoint(large) {
-			max-width: calc(#{$global-width} - 22px - (#{$global-padding} * 2));
+			div {
+				max-width: calc(#{$global-width} - 22px - (#{$global-padding} * 2));
+			}
 		}
 	}
 	

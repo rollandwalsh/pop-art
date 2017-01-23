@@ -9922,12 +9922,13 @@ button {
     .work-example-hero.vms-pro a {
       color: #0a0a0a; }
   .work-example-hero.yogi-inspirations {
-    background: #440e62;
-    max-width: 66%; }
+    background: #440e62; }
     .work-example-hero.yogi-inspirations a {
       color: #ffffff; }
+    .work-example-hero.yogi-inspirations div {
+      max-width: 66%; }
     @media print, screen and (min-width: 64em) {
-      .work-example-hero.yogi-inspirations {
+      .work-example-hero.yogi-inspirations div {
         max-width: calc(75rem - 22px - (1rem * 2)); } }
   .work-example-hero.fst, .work-example-hero.dtnahr-com, .work-example-hero.hr-assistant, .work-example-hero.vms-pro {
     padding: 3.125rem 0; }
