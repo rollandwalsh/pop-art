@@ -31,7 +31,7 @@ get_header(); ?>
 	
 	<section class="home-tw">
 		<div class="row align-center">
-			<div class="large-8 medium-11 columns">
+			<div class="small-12 large-8 medium-11 columns">
 				<i class="fa fa-2x fa-twitter parallax grow-element"></i>
 				
 				<div id="homeTwitterSlider" class="parallax slide-element"></div>
@@ -41,14 +41,14 @@ get_header(); ?>
 	
 	<section class="home-lwt">
 		<div class="row align-center">
-			<div class="large-8 columns">
+			<div class="small-12 large-8 columns">
 				<h2>Let's Work Together</h2>
 				<p>Let’s talk. Better yet, meet. Tell us your pain points. Show us your wish lists. It’s likely we’ve wrestled with challenges similar enough to give us both a running start. Collaboration, we’ve learned, conquers all.</p>
 			</div>
 		</div>
 			
 		<div class="row align-center">
-			<div class="large-4 medium-6 columns">
+			<div class="small-12 large-4 medium-6 columns">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rocket_icon.svg" alt="New Business" class="parallax grow-element" style="height: 2.25rem">
 				<div>
 					<h4>New Business</h4>
@@ -57,7 +57,7 @@ get_header(); ?>
 				</div>
 			</div>
 			
-			<div class="large-4 medium-6 columns">
+			<div class="small-12 large-4 medium-6 columns">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/star_icon.svg" alt="Join Our Team" class="parallax grow-element" style="height: 2rem">
 				<div>
 					<h4>Join Our Team</h4>

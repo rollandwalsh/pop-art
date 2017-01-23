@@ -336,6 +336,10 @@
 	.button {
 		color: $white;
 		
+		@include breakpoint(medium) {
+			align-self: flex-start;
+		}
+		
 		&:hover {
 			color: $white;
 		}
@@ -355,7 +359,7 @@
 		}
 		
 		&:first-of-type {
-			margin-bottom: rem-calc(120);
+			margin-bottom: rem-calc(64);
 		}
 	}
 }
@@ -363,7 +367,7 @@
 .bam-endorsement-nav {
 	display: none;
 	
-	margin: $global-padding auto rem-calc(44);
+	margin: $global-padding auto 0;
 	
 	&.awake {
 		display: flex;
@@ -408,6 +412,12 @@
 }
 
 .bam-endorsement-content {
+	@include breakpoint(medium) {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	
 	@include breakpoint(large) {
 		padding-right: rem-calc(100);
 	}
@@ -424,16 +434,15 @@
 .bam-endorsement-buttons {
 	font-size: rem-calc(14);
 	font-weight: 600;
-	text-align: center;
 	
 	display: none;
 	
 	max-width: $global-width / 2;
-	margin-top: rem-calc(120);
+	margin-bottom: rem-calc(18);
 	
 	a {
 		color: $dark-gray;
-		padding: $global-padding;
+		padding: $global-padding $global-padding $global-padding 0;
 		
 		&:hover {
 			color: get-color(secondary);
