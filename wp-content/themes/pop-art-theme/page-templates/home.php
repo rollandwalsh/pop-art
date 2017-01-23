@@ -9,7 +9,7 @@ get_header(); ?>
 <header id="homeHero" class="page-hero" role="banner">
 	<div class="home-hero-color">
 		<div class="row align-center">
-			<div class="large-12 columns">
+			<div class="small-12 columns">
 				<h1>Behind Every Inefficiency, Opportunity.</h1>
 				<h5><span>At today's pace, even the most celebrated companies struggle to optimize</span> <span>efficiencies. Assets may be in chaos. Legacy technology outdated.</span> <span>New hire onboarding laborious and slow. That's where we come in.</span></h5>
 			</div>
