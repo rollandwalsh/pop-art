@@ -9577,8 +9577,16 @@ button {
     text-transform: uppercase; }
     .blog-might-like a:hover {
       text-decoration: underline; }
-  .blog-might-like img {
-    margin-bottom: 1rem; }
+  .blog-might-like .blog-post-thumbnail {
+    background-position: center center;
+    -webkit-background-size: cover;
+            background-size: cover;
+    margin-bottom: 1rem;
+    display: block; }
+    .blog-might-like .blog-post-thumbnail:before {
+      content: '';
+      display: block;
+      padding-top: 75%; }
   .blog-might-like p {
     font-size: 0.875rem; }
   .blog-might-like span {

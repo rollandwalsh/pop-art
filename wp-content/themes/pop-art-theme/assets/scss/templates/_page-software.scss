@@ -488,8 +488,19 @@
 		}
 	}
 		
-	img {
+	.blog-post-thumbnail {
+		background-position: center center;
+		background-size: cover;
+		
 		margin-bottom: $global-padding;
+		
+		display: block;
+		
+		&:before {
+			content: '';
+			display: block;
+			padding-top: 75%;
+		}
 	}
 	
 	p {

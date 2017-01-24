@@ -214,31 +214,29 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="blog-might-like">
-		<h3>You Might Like</h3>
-		<div class="row align-center">
-			<div class="small-9 medium-4 columns parallax slide-element">
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
-					<p>Case Study<span>Title</span></p>
-				</a>
+	<?php
+		$args = array(
+			'post_count'	=> 3,
+			'post_name__in'	=> get_post_meta(get_the_ID(), 'you_might_like', false),
+		);
+		
+		$query = new WP_Query($args);
+		
+		if ( $query->have_posts() ) : ?>
+		<section class="blog-might-like">
+			<h3>You Might Like</h3>
+			<div class="row align-center">
+				<?php while( $query->have_posts() ) : $query->the_post(); ?>
+					<div class="small-9 medium-4 columns parallax slide-element">
+						<?php get_template_part( 'template-parts/content-might-like', get_post_format() ); ?>
+					</div>
+				<?php endwhile ?>
 			</div>
-			
-			<div class="small-9 medium-4 columns parallax slide-element">
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
-					<p>Case Study<span>Title</span></p>
-				</a>
-			</div>
-			
-			<div class="small-9 medium-4 columns parallax slide-element">
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
-					<p>Case Study<span>Title</span></p>
-				</a>
-			</div>
-		</div>
-	</section>
+		</section>
+	<?php 
+		wp_reset_postdata();
+		endif;
+	?>
 	
 	<section class="solutions-contact">
 		<div class="row">
