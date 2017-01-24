@@ -111,7 +111,7 @@ get_header(); ?>
 			
 			<div class="custom-software-project-content">
 				<h4>Onboarding Assistant</h4>
-				<p>For Daimler North America, we created a simple checklist-style interface. Managers can run through an onboarding list of desk assignments, phones, computers, work buddies, first day agendas, etc in under 5 minutes, monitoring everything new hires need to succeed.</p>
+				<p>For Daimler Trucks North America, we created a simple checklist-style interface. Managers can run through an onboarding list of desk assignments, phones, computers, work buddies, first day agendas, etc in under 5 minutes, monitoring everything new hires need to succeed.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'HR Assistant' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
@@ -120,7 +120,7 @@ get_header(); ?>
 	<section class="custom-software-blog-strip">
 		<div class="row align-middle align-center">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pop-art-spark_icon.png" alt="Pop Art">
-			<p>Looking for more great content? <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Check out our blog</a>.</p>
+			<p>Looking for more great content? <a href="<?php echo get_permalink( get_page_by_title( 'Blog' ) ); ?>">Check out our blog.</a></p>
 		</div>
 	</section>
 	

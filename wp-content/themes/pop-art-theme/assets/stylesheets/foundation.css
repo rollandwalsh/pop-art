@@ -7373,7 +7373,7 @@ a.thumbnail {
   My custom styles:
   Add your scss files below to structure your project styles
 */
-@media screen and (max-width: 39.9375em) {
+@media screen and (max-width: 63.9375em) {
   .desktop-menu, .top-bar-left {
     display: none !important; } }
 
@@ -7444,6 +7444,7 @@ body.single .top-bar {
 
 @media screen and (max-width: 63.9375em) {
   .top-bar-right {
+    width: 100%;
     -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
             flex: 1 1 auto !important; } }

@@ -1,7 +1,7 @@
 // Navigation breakpoints
 
 .desktop-menu, .top-bar-left {
-	@include show-for(medium);
+	@include show-for(large);
 }
 
 #mobile-menu, .title-bar {
@@ -79,6 +79,8 @@ body.single {
 
 .top-bar-right {
 	@include breakpoint(medium down) {
+		width: 100%;
+		
 		flex: 1 1 auto !important;
 	}
 	
