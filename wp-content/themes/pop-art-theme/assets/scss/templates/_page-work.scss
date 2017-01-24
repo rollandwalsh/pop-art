@@ -107,6 +107,18 @@ $yogi-inspirations-color: get-color(purple); // Purple
 		background: $smartsource-color;
 		
 		a {color: $white}
+		
+		@include breakpoint(small) {
+			div {
+				max-width: 66%;
+			}
+		}
+		
+		@include breakpoint(large) {
+			div {
+				max-width: calc(#{$global-width} - 22px - (#{$global-padding} * 2));
+			}
+		}
 	}
 	
 	&.vms-pro {

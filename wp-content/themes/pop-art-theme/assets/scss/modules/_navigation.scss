@@ -36,12 +36,12 @@ body.single {
 }
 
 .top-bar {
-	@include breakpoint(small only) {
+	@include breakpoint(medium down) {
 		align-content: flex-start;
 		flex-direction: column;
 	}
 	
-	@include breakpoint(medium) {
+	@include breakpoint(large) {
 		height: calc(#{rem-calc(80)} - 2rem);
 		
 		align-items: center;
@@ -53,7 +53,7 @@ body.single {
 	> a {
 		transition: 200ms ease-in-out all;
 		
-		@include breakpoint(small only) {
+		@include breakpoint(medium down) {
 			padding-top: 1.5rem;
 			padding-bottom: 1.5rem;
 		}
@@ -72,13 +72,13 @@ body.single {
 		}
 	}
 	
-	@include breakpoint(medium) {
+	@include breakpoint(large) {
 		flex: 0 1 auto !important;
 	}
 }
 
 .top-bar-right {
-	@include breakpoint(small only) {
+	@include breakpoint(medium down) {
 		flex: 1 1 auto !important;
 	}
 	
@@ -142,7 +142,7 @@ body.single {
 }
 
 .social-nav {
-	@include breakpoint(small only) {
+	@include breakpoint(medium down) {
 		border-top: 1px solid $black;
 		
 		width: 100%;
@@ -159,7 +159,7 @@ body.single {
 		}
 	}
 	
-	@include breakpoint(medium) {
+	@include breakpoint(large) {
 		padding-left: $global-padding / 2;
 		
 		.menu > li > a {

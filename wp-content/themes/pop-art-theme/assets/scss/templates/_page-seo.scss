@@ -1,0 +1,16 @@
+// HERO TEXT
+
+#seoHero {
+	background-position: center center;
+	background-size: cover;
+	
+	height: rem-calc(600);
+}
+
+// CONTENT
+
+.seo-content {
+	@include flex-grid-row();
+	
+	margin-bottom: 4rem;
+}
