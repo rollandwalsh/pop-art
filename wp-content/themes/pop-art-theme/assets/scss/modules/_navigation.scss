@@ -5,7 +5,7 @@
 }
 
 #mobile-menu, .title-bar {
-	@include hide-for(medium);
+	@include hide-for(large);
 }
 
 .sticky {
@@ -95,6 +95,10 @@ body.single {
 			&:hover,
 			&:focus, {
 				font-weight: 600;
+			}
+			
+			&[href="#"] {
+				cursor: default;
 			}
 		}
 		

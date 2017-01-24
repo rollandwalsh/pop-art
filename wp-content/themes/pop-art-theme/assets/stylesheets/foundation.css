@@ -7377,7 +7377,7 @@ a.thumbnail {
   .desktop-menu, .top-bar-left {
     display: none !important; } }
 
-@media print, screen and (min-width: 40em) {
+@media print, screen and (min-width: 64em) {
   #mobile-menu, .title-bar {
     display: none !important; } }
 
@@ -7456,6 +7456,8 @@ body.single .top-bar {
   display: inline-block; }
   .top-bar-right > .menu > li > a:hover, .top-bar-right > .menu > li > a:focus {
     font-weight: 600; }
+  .top-bar-right > .menu > li > a[href="#"] {
+    cursor: default; }
 
 .top-bar-right > .menu > li:last-of-type a:hover {
   color: #f24949; }

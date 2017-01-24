@@ -35,7 +35,7 @@
 		<div data-sticky data-options="marginTop:0;" style="width:100%; background-color: #fff; padding: 1rem 0;">
 			<div class="row">
 				<header id="masthead" class="site-header" role="banner">
-					<div class="title-bar" data-responsive-toggle="site-navigation">
+					<div class="title-bar" data-responsive-toggle="site-navigation" data-hide-for="large">
 						<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
 						<div class="title-bar-title">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="<?php bloginfo( 'name' ); ?>"></a>
