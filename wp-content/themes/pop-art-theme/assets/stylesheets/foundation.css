@@ -9318,15 +9318,30 @@ button {
     float: right; }
 
 .bam-dam {
-  text-align: center;
-  padding: 5rem 0 7rem; }
+  text-align: center; }
+  @media screen and (max-width: 39.9375em) {
+    .bam-dam {
+      padding: 2rem 0; } }
+  @media print, screen and (min-width: 40em) {
+    .bam-dam {
+      padding: 5rem 0 7rem; } }
   .bam-dam h2 {
-    font-size: 1.75rem;
     font-weight: 600;
     margin-bottom: 0; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-dam h2 {
+        font-size: 1.25rem; } }
+    @media print, screen and (min-width: 40em) {
+      .bam-dam h2 {
+        font-size: 1.75rem; } }
   .bam-dam h4 {
-    font-size: 1.75rem;
     font-weight: 600; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-dam h4 {
+        font-size: 1.25rem; } }
+    @media print, screen and (min-width: 40em) {
+      .bam-dam h4 {
+        font-size: 1.75rem; } }
   .bam-dam p {
     font-size: 0.875rem;
     margin-bottom: 2rem; }
@@ -9343,6 +9358,7 @@ button {
 .bam-dam-demo-image img {
   margin: 2rem auto 0;
   max-width: 45rem;
+  width: 100%;
   display: none; }
   .bam-dam-demo-image img.current {
     display: block; }
@@ -9358,8 +9374,13 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-dam-demo-nav.awake {
+        margin-bottom: 1rem; } }
   .bam-dam-demo-nav li {
     color: #8a8a8a;
     font-weight: 600;
@@ -9371,7 +9392,8 @@ button {
       .bam-dam-demo-nav li {
         font-size: 0.75rem;
         text-align: center;
-        padding: 1rem 0; } }
+        padding: 0.25rem 0;
+        width: calc(100% / 3); } }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       .bam-dam-demo-nav li {
         font-size: 0.875rem;
@@ -9454,18 +9476,35 @@ button {
       padding-top: 3.75rem;
       padding-bottom: 3.75rem; } }
   .bam-endorsement h2 {
-    font-size: 1.75rem;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 4.8125rem;
     width: 100%; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-endorsement h2 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem; } }
+    @media print, screen and (min-width: 40em) {
+      .bam-endorsement h2 {
+        font-size: 1.75rem;
+        margin-bottom: 4.8125rem; } }
   .bam-endorsement h4 {
     font-size: 1.125rem;
-    font-weight: 600;
-    margin-bottom: 3rem; }
+    font-weight: 600; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-endorsement h4 {
+        text-align: center;
+        margin-bottom: 1rem; } }
+    @media print, screen and (min-width: 40em) {
+      .bam-endorsement h4 {
+        margin-bottom: 3rem; } }
   .bam-endorsement p {
-    font-size: 0.875rem;
-    margin-bottom: 2rem; }
+    font-size: 0.875rem; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-endorsement p {
+        margin-bottom: 0.5rem; } }
+    @media print, screen and (min-width: 40em) {
+      .bam-endorsement p {
+        margin-bottom: 2rem; } }
   .bam-endorsement .button {
     color: #ffffff; }
     @media print, screen and (min-width: 40em) {
@@ -9482,8 +9521,12 @@ button {
       margin-left: calc(-10% - 2.5rem); } }
   .bam-endorsement-image img.current {
     display: block; }
-  .bam-endorsement-image img:first-of-type {
-    margin-bottom: 4rem; }
+  @media screen and (max-width: 39.9375em) {
+    .bam-endorsement-image img:first-of-type {
+      margin-bottom: 1rem; } }
+  @media print, screen and (min-width: 40em) {
+    .bam-endorsement-image img:first-of-type {
+      margin-bottom: 4rem; } }
 
 .bam-endorsement-nav {
   display: none;
@@ -9495,7 +9538,13 @@ button {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
-        justify-content: space-around; }
+        justify-content: space-around;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      .bam-endorsement-nav.awake {
+        margin-left: -1rem;
+        padding-right: 5rem; } }
   .bam-endorsement-nav li {
     color: #8a8a8a;
     font-weight: 600;
@@ -9507,7 +9556,10 @@ button {
       .bam-endorsement-nav li {
         font-size: 0.75rem;
         text-align: center;
-        padding: 1rem 0; } }
+        padding: 0.25rem 0; } }
+    @media screen and (max-width: 63.9375em) {
+      .bam-endorsement-nav li {
+        width: calc(100% / 3); } }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       .bam-endorsement-nav li {
         font-size: 0.875rem;
@@ -9548,6 +9600,9 @@ button {
   display: none;
   max-width: 37.5rem;
   margin-bottom: 1.125rem; }
+  @media screen and (max-width: 39.9375em) {
+    .bam-endorsement-buttons {
+      text-align: center; } }
   .bam-endorsement-buttons a {
     color: #8a8a8a;
     padding: 1rem 1rem 1rem 0; }
