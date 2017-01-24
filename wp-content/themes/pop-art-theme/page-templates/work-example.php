@@ -25,31 +25,33 @@ get_header(); ?>
 	<?php endwhile;?>
 	<?php do_action( 'foundationpress_after_content' ); ?>
 	
-	<section class="blog-might-like">
-		<h3>You Might Like</h3>
-		<div class="row align-center">
-			<div class="small-9 medium-4 columns">
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
-					<p>Case Study<span>Title</span></p>
-				</a>
+	<?php
+		$posts = get_post_meta(get_the_ID(), 'you_might_like', false);
+		$postIDs = array();
+		foreach($posts as $post) {array_push($postIDs, get_page_by_title($post, OBJECT, 'post')->ID);}
+		
+		$args = array(
+			'posts_per_page'	=> 3,
+			'post__in'			=> $postIDs
+		);
+		
+		$query = new WP_Query($args);
+		
+		if ( $query->have_posts() ) : ?>
+		<section class="blog-might-like">
+			<h3>You Might Like</h3>
+			<div class="row align-center">
+				<?php while( $query->have_posts() ) : $query->the_post(); ?>
+					<div class="small-9 medium-4 columns parallax slide-element">
+						<?php get_template_part( 'template-parts/content-might-like', get_post_format() ); ?>
+					</div>
+				<?php endwhile ?>
 			</div>
-			
-			<div class="small-9 medium-4 columns">
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
-					<p>Case Study<span>Title</span></p>
-				</a>
-			</div>
-			
-			<div class="small-9 medium-4 columns">
-				<a href="#">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content">
-					<p>Case Study<span>Title</span></p>
-				</a>
-			</div>
-		</div>
-	</section>
+		</section>
+	<?php 
+		wp_reset_postdata();
+		endif;
+	?>
 	
 	<section class="work-blog-strip">
 		<div class="row align-middle align-center">

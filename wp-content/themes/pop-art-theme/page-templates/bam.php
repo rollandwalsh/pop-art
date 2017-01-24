@@ -215,9 +215,13 @@ get_header(); ?>
 	</section>
 	
 	<?php
+		$posts = get_post_meta(get_the_ID(), 'you_might_like', false);
+		$postIDs = array();
+		foreach($posts as $post) {array_push($postIDs, get_page_by_title($post, OBJECT, 'post')->ID);}
+		
 		$args = array(
-			'post_count'	=> 3,
-			'post_name__in'	=> get_post_meta(get_the_ID(), 'you_might_like', false),
+			'posts_per_page'	=> 3,
+			'post__in'			=> $postIDs
 		);
 		
 		$query = new WP_Query($args);
