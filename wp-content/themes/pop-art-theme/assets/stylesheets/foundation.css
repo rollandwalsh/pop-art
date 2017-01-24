@@ -9590,7 +9590,7 @@ button {
   .blog-might-like p {
     font-size: 0.875rem; }
   .blog-might-like span {
-    font-size: rem-cacl(16);
+    font-size: 1rem;
     font-weight: 600;
     display: block; }
 
