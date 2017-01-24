@@ -11,7 +11,7 @@ get_header(); ?>
 		<div class="row align-center">
 			<div class="small-12 columns">
 				<h1>Behind Every Inefficiency, Opportunity.</h1>
-				<h5><span>At today's pace, even the most celebrated companies struggle to optimize</span> <span>efficiencies. Assets may be in chaos. Legacy technology outdated.</span> <span>New hire onboarding laborious and slow. That's where we come in.</span></h5>
+				<h5><?php echo get_post_meta(get_the_ID(), 'subtitle', true); ?></h5>
 			</div>
 		</div>
 	</div>
