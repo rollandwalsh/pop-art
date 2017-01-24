@@ -90,52 +90,6 @@ get_header(); ?>
 	</div>
 </section>
 
-<script>
-	const filterList = Array.from(document.querySelectorAll('#blogFilterList a'));
-	const blogPosts = Array.from(document.querySelectorAll('blogpost-entry'));
-	
-	function fadeOut(el){
-	  el.style.opacity = 1;
-	
-	  (function fade() {
-	    if ((el.style.opacity -= .1) < 0) {
-	      el.style.display = "none";
-	    } else {
-	      requestAnimationFrame(fade);
-	    }
-	  })();
-	}
-	
-	function fadeIn(el, display){
-	  el.style.opacity = 0;
-	  el.style.display = display || "block";
-	
-	  (function fade() {
-	    var val = parseFloat(el.style.opacity);
-	    if (!((val += .1) > 1)) {
-	      el.style.opacity = val;
-	      requestAnimationFrame(fade);
-	    }
-	  })();
-	}
-	
-	function filterBlogs(e) {
-		e.preventDefault();
-		let selected = e.target.textContent;
-		selected = selected.replace(/\s+/g, '-').toLowerCase();
-		selectedClass = 'category-' + selected;
-		
-		blogPosts.forEach(blogPost => {
-			console.log(blogPost);
-			if (blogPost.classList.contains(selectedClass)) {
-				fadeIn(blogPost);
-			} else {
-				fadeOut(blogPost);
-			}
-		});
-	}
-	
-	filterList.forEach(filterItem => filterItem.addEventListener('click', filterBlogs));
-</script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/blog.js"></script>
 
 <?php get_footer();
