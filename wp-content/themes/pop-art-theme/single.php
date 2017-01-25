@@ -15,7 +15,7 @@ get_header(); ?>
 		<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
 			<?php do_action( 'foundationpress_post_before_entry_content' ); ?>
 			<div class="row align-center">
-				<header class="small-10 columns">
+				<header class="small-10 medium-9 columns">
 					<h1 class="entry-title"><?php the_title(); ?></h1>
 					<?php foundationpress_entry_meta(); ?>
 				</header>
@@ -23,12 +23,18 @@ get_header(); ?>
 			
 			<?php get_template_part( 'template-parts/featured-image' ); ?>
 			
-			<div class="row align-center">
-				<div class="entry-content small-10 columns">
+			<div class="row" id="singlePost">
+				<ul class="entry-social">
+					<li><h6>Share</h6></li>
+					<li><i class="fa fa-heart-o"></i></li>
+					<li><i class="fa fa-twitter"></i></li>
+					<li><i class="fa fa-facebook"></i></li>
+				</ul>
+				<div class="entry-content small-10 medium-9 columns">
 					<?php the_content(); ?>
 					<?php edit_post_link( __( 'Edit', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
 				</div>
-				<footer class="small-10 columns">
+				<footer class="small-10 medium-9 columns">
 					<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
 					<p><?php the_tags(); ?></p>
 				</footer>
@@ -92,5 +98,16 @@ get_header(); ?>
 	</section>
 </div>
 
-<!-- <?php get_sidebar(); ?> -->
+<script>
+$elem = $('#singlePost .entry-social');
+$elemHeight = $('#singlePost .entry-social').outerHeight();
+$contentHeight = $('#singlePost .entry-content').outerHeight() - 250;
+
+$(window).scroll(function(){
+	if ($(window).scrollTop() <= ($contentHeight - $elemHeight)) {
+		$elem.css('top', $(window).scrollTop());
+	}
+}).trigger('scroll');	
+</script>
+
 <?php get_footer();

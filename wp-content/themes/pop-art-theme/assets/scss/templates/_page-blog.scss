@@ -110,6 +110,52 @@
 	}
 }
 
+// POST
+
+#singlePost {
+	position: relative;
+	
+	@include breakpoint(small only) {
+		justify-content: flex-end;
+	}
+	
+	@include breakpoint(medium) {
+		justify-content: center;
+	}
+	
+	.entry-social {
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+		margin: 0;
+		
+		list-style: none;
+		
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		
+		h6 {
+			color: $dark-gray;
+			font-size: rem-calc(14);
+			font-weight: 600;
+			text-transform: uppercase;
+			
+			margin-bottom: $global-padding;
+		}
+		
+		i {
+			color: $dark-gray;
+			font-size: rem-calc(24);
+			
+			margin-bottom: $global-padding;
+			
+			cursor: pointer;
+		}
+	}
+}
+
 // SUBSCRIBE
 	
 .blog-subscribe {
