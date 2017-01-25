@@ -138,3 +138,16 @@
 		margin-bottom: $global-padding * 2;
 	}
 }
+
+// COMMENT
+
+#respond {
+	h3 {
+		font-size: rem-calc(28);
+		font-weight: 600;
+	}
+	
+	textarea {
+		min-height: rem-calc(160);
+	}
+}
