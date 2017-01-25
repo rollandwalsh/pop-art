@@ -795,8 +795,11 @@
 }
 
 .custom-software-project-content {
-	@include breakpoint(large) {
-		@include flex-grid-column(6, 8rem);
+	@include breakpoint(medium down) {
+		@include flex-grid-column(12);
+		
+		padding-top: $global-padding;
+		padding-bottom: $global-padding;
 	}
 	
 	@include breakpoint(medium) {
@@ -810,6 +813,10 @@
 		p {
 			margin-bottom: rem-calc(50);
 		}
+	}
+	
+	@include breakpoint(large) {
+		@include flex-grid-column(6, 8rem);
 	}
 	
 	.button.white {
