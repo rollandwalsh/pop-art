@@ -800,6 +800,9 @@
 		
 		padding-top: $global-padding;
 		padding-bottom: $global-padding;
+		
+		display: flex;
+		flex-direction: column;
 	}
 	
 	@include breakpoint(medium) {
@@ -820,6 +823,10 @@
 	}
 	
 	.button.white {
+		@include breakpoint(medium down) {
+			align-self: center;
+		}
+		
 		&:hover,
 		&:focus {
 			border-color: $medium-gray !important;
@@ -845,6 +852,10 @@
 	}
 	
 	a {
+		@include breakpoint(small only) {
+			display: block;
+		}
+		
 		font-weight: 900;
 		
 		&:hover {

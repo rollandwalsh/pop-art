@@ -9869,7 +9869,14 @@ button {
     padding-left: 0.625rem;
     max-width: 100%;
     padding-top: 1rem;
-    padding-bottom: 1rem; } }
+    padding-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
   @media screen and (max-width: 63.9375em) and (min-width: 40em) {
     .custom-software-project-content {
       padding-right: 0.9375rem;
@@ -9893,6 +9900,12 @@ button {
     padding-left: 4rem;
     max-width: 50%; } }
 
+@media screen and (max-width: 63.9375em) {
+  .custom-software-project-content .button.white {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center; } }
+
 .custom-software-project-content .button.white:hover, .custom-software-project-content .button.white:focus {
   border-color: #cccccc !important;
   color: #cccccc !important; }
@@ -9909,6 +9922,9 @@ button {
     margin-bottom: 0; }
   .custom-software-blog-strip a {
     font-weight: 900; }
+    @media screen and (max-width: 39.9375em) {
+      .custom-software-blog-strip a {
+        display: block; } }
     .custom-software-blog-strip a:hover {
       text-decoration: underline; }
 
