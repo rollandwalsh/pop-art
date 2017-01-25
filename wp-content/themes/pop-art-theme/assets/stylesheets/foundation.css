@@ -7611,6 +7611,12 @@ body.single .top-bar {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between; }
+      @media screen and (max-width: 39.9375em) {
+        #footer-container #footer .f-privacy {
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column; } }
       #footer-container #footer .f-privacy a {
         color: #cccccc;
         padding-left: 0.5rem; }
@@ -8839,7 +8845,8 @@ button {
   #issueFormSubmit .button {
     color: #ffffff;
     font-family: proxima-nova, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
-    font-size: 0.875rem; }
+    font-size: 0.875rem;
+    margin-left: 1rem; }
 
 .solutions-contact {
   background: #0099ff;

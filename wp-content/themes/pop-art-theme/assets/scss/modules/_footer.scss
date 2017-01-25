@@ -60,6 +60,10 @@
 			display: flex;
 			justify-content: space-between;
 			
+			@include breakpoint(small only) {
+				flex-direction: column;
+			}
+			
 			a {
 				color: $medium-gray;
 				padding-left: $global-padding / 2;
