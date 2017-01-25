@@ -27,9 +27,9 @@
 						<ul>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">BAM! Platform</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'Custom Software' ) ); ?>">Custom Software</a></li>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">Digital Asset Management</a></li>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">User-Generated Content</a></li>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">Sales Enablement Tools</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'Digital Asset Management' ) ); ?>">Digital Asset Management</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'User-Generated Content' ) ); ?>">User-Generated Content</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'Sales Enablement Tools' ) ); ?>">Sales Enablement Tools</a></li>
 						</ul>
 					</div>
 					<div class="footer-columns">
