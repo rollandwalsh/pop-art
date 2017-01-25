@@ -22,7 +22,7 @@
 .blog-filter {
 	@include flex-grid-row();
 	
-	margin-bottom: rem-calc(48);
+	margin-bottom: rem-calc(32);
 	
 	ul {
 		margin: 0;
@@ -32,10 +32,13 @@
 		
 		align-items: center;
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: center;
 	}
 	
 	li {
+		margin-bottom: $global-padding;
+		
 		a {
 			color: $black;
 			font-weight: 600;
