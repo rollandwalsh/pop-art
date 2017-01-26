@@ -24,12 +24,17 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/featured-image' ); ?>
 			
 			<div class="row" id="singlePost">
-				<ul class="entry-social">
-					<li><h6>Share</h6></li>
-					<li><i class="fa fa-heart-o"></i></li>
-					<li><i class="fa fa-twitter"></i></li>
-					<li><i class="fa fa-facebook"></i></li>
-				</ul>
+				<div class="small-2 medium-1 columns" data-sticky-container>
+					<div class="sticky" data-sticky data-anchor="singlePost">
+						<ul class="entry-social">
+							<li><h6>Share</h6></li>
+							<li><i class="fa fa-heart-o"></i></li>
+							<li><i class="fa fa-twitter"></i></li>
+							<li><i class="fa fa-facebook"></i></li>
+						</ul>
+					</div>
+				</div>
+
 				<div class="entry-content small-10 medium-9 columns">
 					<?php the_content(); ?>
 					<?php edit_post_link( __( 'Edit', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
@@ -97,17 +102,5 @@ get_header(); ?>
 		</div>
 	</section>
 </div>
-
-<script>
-$elem = $('#singlePost .entry-social');
-$elemHeight = $('#singlePost .entry-social').outerHeight();
-$contentHeight = $('#singlePost .entry-content').outerHeight() - 250;
-
-$(window).scroll(function(){
-	if ($(window).scrollTop() <= ($contentHeight - $elemHeight)) {
-		$elem.css('top', $(window).scrollTop());
-	}
-}).trigger('scroll');	
-</script>
 
 <?php get_footer();

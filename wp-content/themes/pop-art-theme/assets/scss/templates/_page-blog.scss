@@ -116,21 +116,23 @@
 // POST
 
 #singlePost {
-	position: relative;
-	
-	@include breakpoint(small only) {
-		justify-content: flex-end;
-	}
-	
 	@include breakpoint(medium) {
-		justify-content: center;
+		justify-content: flex-start;
 	}
 	
-	.entry-social {
-		position: absolute;
-		top: 0;
-		left: 0;
+	.sticky-container {
+		z-index: -2;
+	}
+	
+	.sticky {
+		background: white !important;
 		
+		&.is-at-top {
+			top: rem-calc(80) !important; // Offsets sticky header
+		}
+	}
+	
+	.entry-social {		
 		margin: 0;
 		
 		list-style: none;
