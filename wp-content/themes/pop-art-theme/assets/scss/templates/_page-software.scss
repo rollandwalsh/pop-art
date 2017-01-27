@@ -2,11 +2,19 @@
 
 #bamHero,
 #customSoftwareHero {
-	background-attachment: fixed;
 	background-position: center center;
 	background-size: cover;
+
 	
-	height: rem-calc(690);
+	@include breakpoint(small only) {
+		height: rem-calc(380);
+	}
+	
+	@include breakpoint(medium) {
+		background-attachment: fixed;
+		
+		height: rem-calc(690);
+	}
 }
 
 // SOFTWARE BREADCRUMBS

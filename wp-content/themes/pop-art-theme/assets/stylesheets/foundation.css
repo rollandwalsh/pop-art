@@ -9270,11 +9270,18 @@ button {
 
 #bamHero,
 #customSoftwareHero {
-  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
-          background-size: cover;
-  height: 43.125rem; }
+          background-size: cover; }
+  @media screen and (max-width: 39.9375em) {
+    #bamHero,
+    #customSoftwareHero {
+      height: 23.75rem; } }
+  @media print, screen and (min-width: 40em) {
+    #bamHero,
+    #customSoftwareHero {
+      background-attachment: fixed;
+      height: 43.125rem; } }
 
 .software-breadcrumbs {
   max-width: 75rem;
