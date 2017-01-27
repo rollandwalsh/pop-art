@@ -693,6 +693,8 @@
 	@include breakpoint(small only) {
 		@include flex-grid-column(12, 0);
 		
+		margin-bottom: $global-padding * 2;
+		
 		order: 1;
 	}
 
