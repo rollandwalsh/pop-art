@@ -791,8 +791,10 @@
 }
 
 .custom-software-project-image {
-	@include breakpoint(small only) {
+	@include breakpoint(medium down) {
 		margin-bottom: $global-padding;
+		
+		order: 0;
 	}
 	
 	@include breakpoint(large) {
@@ -813,6 +815,7 @@
 		
 		display: flex;
 		flex-direction: column;
+		order: 1;
 	}
 	
 	@include breakpoint(medium) {
