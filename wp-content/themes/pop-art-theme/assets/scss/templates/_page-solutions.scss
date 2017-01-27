@@ -79,6 +79,10 @@
 */
 	
 	.accordion-content {
+		@include breakpoint(small only) {
+			padding: ($global-padding * 2) 0;
+		}
+		
 		@include breakpoint(medium) {
 			padding: rem-calc(80 0);
 		}
@@ -112,6 +116,10 @@
 		p,
 		ul,	
 		blockquote {
+			@include breakpoint(small only) {
+				margin-bottom: $global-padding * 2;
+			}
+			
 			@include breakpoint(medium) {
 				margin-bottom: rem-calc(48);
 			}
@@ -129,10 +137,8 @@
 		img {
 			max-width: rem-calc(240);
 			width: 100%;
-			
-			@include breakpoint(medium) {
-				margin-bottom: 1rem;
-			}
+				
+			margin-bottom: 1rem;
 		}
 		
 		blockquote {
@@ -232,11 +238,16 @@
 			&:last-of-type {
 				display: none;
 			}
+			
+			&.wpcf7-form-control-wrap {
+				margin-bottom: $global-padding * 2;
+			}
 		}
 		
 		@include breakpoint(large) {
 			font-size: rem-calc(30);
 		}
+		
 	}
 	
 	input {

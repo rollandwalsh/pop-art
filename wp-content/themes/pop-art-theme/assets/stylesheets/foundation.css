@@ -8702,6 +8702,9 @@ button {
       width: calc(100% - 1rem);
       top: 60%;
       left: 0; }
+  @media screen and (max-width: 39.9375em) {
+    .solutions-accordion .accordion-content {
+      padding: 2rem 0; } }
   @media print, screen and (min-width: 40em) {
     .solutions-accordion .accordion-content {
       padding: 5rem 0; } }
@@ -8722,6 +8725,11 @@ button {
         position: absolute;
         top: 1px;
         left: -0.5rem; }
+  @media screen and (max-width: 39.9375em) {
+    .solutions-accordion .accordion-content p,
+    .solutions-accordion .accordion-content ul,
+    .solutions-accordion .accordion-content blockquote {
+      margin-bottom: 2rem; } }
   @media print, screen and (min-width: 40em) {
     .solutions-accordion .accordion-content p,
     .solutions-accordion .accordion-content ul,
@@ -8735,10 +8743,8 @@ button {
     margin-bottom: 1rem; }
   .solutions-accordion .accordion-content img {
     max-width: 15rem;
-    width: 100%; }
-    @media print, screen and (min-width: 40em) {
-      .solutions-accordion .accordion-content img {
-        margin-bottom: 1rem; } }
+    width: 100%;
+    margin-bottom: 1rem; }
   .solutions-accordion .accordion-content blockquote {
     border: none;
     color: #00a651;
@@ -8804,7 +8810,9 @@ button {
     font-size: 1.75rem; }
     @media screen and (max-width: 39.9375em) {
       #issueFormContent span:last-of-type {
-        display: none; } }
+        display: none; }
+      #issueFormContent span.wpcf7-form-control-wrap {
+        margin-bottom: 2rem; } }
     @media print, screen and (min-width: 64em) {
       #issueFormContent span {
         font-size: 1.875rem; } }
