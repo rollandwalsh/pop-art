@@ -9930,7 +9930,7 @@ button {
     max-width: 50%; } }
 
 @media screen and (max-width: 63.9375em) {
-  .custom-software-project-content .button.white {
+  .custom-software-project-content .button {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center; } }

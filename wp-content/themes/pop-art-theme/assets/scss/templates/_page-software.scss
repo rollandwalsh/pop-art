@@ -832,15 +832,17 @@
 		@include flex-grid-column(6, 8rem);
 	}
 	
-	.button.white {
+	.button {
 		@include breakpoint(medium down) {
 			align-self: center;
 		}
 		
-		&:hover,
-		&:focus {
-			border-color: $medium-gray !important;
-			color: $medium-gray !important;
+		&.white {
+			&:hover,
+			&:focus {
+				border-color: $medium-gray !important;
+				color: $medium-gray !important;
+			}
 		}
 	}
 }
