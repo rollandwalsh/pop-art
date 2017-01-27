@@ -7604,7 +7604,6 @@ body.single .top-bar {
     #footer-container #footer .f-privacy {
       font-size: 0.875rem;
       font-weight: 600;
-      margin-top: 2rem;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -7617,9 +7616,14 @@ body.single .top-bar {
           -webkit-box-direction: normal;
               -ms-flex-direction: column;
                   flex-direction: column; } }
+      @media print, screen and (min-width: 40em) {
+        #footer-container #footer .f-privacy {
+          margin-top: 2rem; } }
       #footer-container #footer .f-privacy a {
-        color: #cccccc;
-        padding-left: 0.5rem; }
+        color: #cccccc; }
+        @media print, screen and (min-width: 40em) {
+          #footer-container #footer .f-privacy a {
+            padding-left: 0.5rem; } }
 
 .sidebar {
   width: 100%;

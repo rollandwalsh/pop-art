@@ -55,8 +55,6 @@
 			font-size: rem-calc(14);
 			font-weight: 600;
 			
-			margin-top: $global-padding * 2;
-			
 			display: flex;
 			justify-content: space-between;
 			
@@ -64,9 +62,16 @@
 				flex-direction: column;
 			}
 			
+			@include breakpoint(medium) {
+				margin-top: $global-padding * 2;
+			}
+			
 			a {
 				color: $medium-gray;
-				padding-left: $global-padding / 2;
+				
+				@include breakpoint(medium) {
+					padding-left: $global-padding / 2;
+				}
 			}
 		}
 	}
