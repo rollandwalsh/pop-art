@@ -299,6 +299,12 @@
 		
 		margin-left: rem-calc(16); // Offset ajax loader
 	}
+	
+	br {
+		@include breakpoint(small only) {
+			display: none;
+		}
+	}
 }
 
 // CONTACT

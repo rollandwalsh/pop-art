@@ -8859,6 +8859,9 @@ button {
     font-family: proxima-nova, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
     font-size: 0.875rem;
     margin-left: 1rem; }
+  @media screen and (max-width: 39.9375em) {
+    #issueFormSubmit br {
+      display: none; } }
 
 .solutions-contact {
   background: #0099ff;
@@ -8887,11 +8890,16 @@ button {
         margin-top: 3rem; } }
 
 #aboutHero {
-  background-attachment: fixed;
   background-position: center center;
   -webkit-background-size: cover;
-          background-size: cover;
-  height: 43.125rem; }
+          background-size: cover; }
+  @media screen and (max-width: 39.9375em) {
+    #aboutHero {
+      height: 23.75rem; } }
+  @media print, screen and (min-width: 40em) {
+    #aboutHero {
+      background-attachment: fixed;
+      height: 43.125rem; } }
 
 .about-capabilities {
   background: #343434;
@@ -9086,7 +9094,8 @@ button {
       max-width: 83.33333%;
       padding-right: 0.625rem;
       padding-left: 0.625rem;
-      max-width: 83.33333%; } }
+      max-width: 83.33333%;
+      margin-bottom: 1.5rem; } }
   @media screen and (max-width: 39.9375em) and (min-width: 40em) {
     .about-management-team-member {
       padding-right: 0.9375rem;
