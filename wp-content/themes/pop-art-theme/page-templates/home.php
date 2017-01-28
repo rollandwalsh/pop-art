@@ -32,9 +32,9 @@ get_header(); ?>
 	<section class="home-tw">
 		<div class="row align-center">
 			<div class="small-12 large-8 medium-11 columns">
-				<i class="fa fa-2x fa-twitter parallax grow-element"></i>
+				<i class="fa fa-2x fa-twitter" data-aos="zoom-in-up"></i>
 				
-				<div id="homeTwitterSlider" class="parallax slide-element"></div>
+				<div id="homeTwitterSlider" data-aos="fade-up" data-aos-anchor-placement="top-bottom"></div>
 			</div>
 		</div>
 	</section>
@@ -49,7 +49,7 @@ get_header(); ?>
 			
 		<div class="row align-center">
 			<div class="small-12 large-4 medium-6 columns">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rocket_icon.svg" alt="New Business" class="parallax grow-element" style="height: 2.25rem">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/rocket_icon.svg" alt="New Business" data-aos="zoom-in-up" data-aos-duration="1500" style="height: 2.75rem">
 				<div>
 					<h4>New Business</h4>
 					<span class="home-lwt-phone">+1 (503) 347 4700</span>
@@ -58,7 +58,7 @@ get_header(); ?>
 			</div>
 			
 			<div class="small-12 large-4 medium-6 columns">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/star_icon.svg" alt="Join Our Team" class="parallax grow-element" style="height: 2rem">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/star_icon.svg" alt="Join Our Team" data-aos="zoom-in-up" data-aos-duration="1500" style="height: 2.5rem">
 				<div>
 					<h4>Join Our Team</h4>
 					<span class="home-lwt-phone">+1 (503) 242 4292</span>
@@ -101,6 +101,7 @@ $.getJSON('<?php echo get_template_directory_uri(); ?>/assets/javascript/tweets_
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/hero-text.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/home.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/node_modules/aos/dist/aos.js"></script>
+<script>AOS.init();</script>
 
 <?php get_footer();

@@ -33,21 +33,21 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="custom-software-tiles parallax slide-element">
+	<section class="custom-software-tiles" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 		<div class="custom-software-tile-image">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/built-to-work.jpg" alt="Built to Work">
 		</div>
 		
 		<div class="custom-software-tile-content">
-			<h4 class="parallax slide-element">Built to Work</h4>
-			<p class="parallax slide-element">No two businesses are alike, and no single off-the-shelf tool generally suffices. We specialize in custom development for business and communication. Employing proven technology stacks, and leveraging building blocks in our library, we design and develop tools for specific challenges. Requirements definition, iterative prototyping and agile development ensure highly usable, predictable and scalable software solutions.</p>
+			<h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Built to Work</h4>
+			<p  data-aos="fade-up" data-aos-anchor-placement="top-bottom">No two businesses are alike, and no single off-the-shelf tool generally suffices. We specialize in custom development for business and communication. Employing proven technology stacks, and leveraging building blocks in our library, we design and develop tools for specific challenges. Requirements definition, iterative prototyping and agile development ensure highly usable, predictable and scalable software solutions.</p>
 		</div>
 	</section>
 	
-	<section class="custom-software-tiles parallax slide-element">
+	<section class="custom-software-tiles" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 		<div class="custom-software-tile-content">
-			<h4 class="parallax slide-element">Designed for the User</h4>
-			<p class="parallax slide-element">Plain and simple, good UX design makes tools usable. Everything starts with a clear understanding of the specific needs of the customer. Research and rigorous testing together with interactive prototyping, help us evolve designs that are intuitive, pragmatic and fit for the job at hand resulting in high satisfaction and adoption by the end customer.</p>
+			<h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Designed for the User</h4>
+			<p data-aos="fade-up" data-aos-anchor-placement="top-bottom">Plain and simple, good UX design makes tools usable. Everything starts with a clear understanding of the specific needs of the customer. Research and rigorous testing together with interactive prototyping, help us evolve designs that are intuitive, pragmatic and fit for the job at hand resulting in high satisfaction and adoption by the end customer.</p>
 		</div>
 		
 		<div class="custom-software-tile-image">
@@ -55,21 +55,21 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="custom-software-tiles parallax slide-element">	
+	<section class="custom-software-tiles" data-aos="fade-up" data-aos-anchor-placement="top-bottom">	
 		<div class="custom-software-tile-image">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/custom-software/iterative-prototyping.jpg" alt="Iterative Prototyping">
 		</div>
 		
 		<div class="custom-software-tile-content">
-			<h4 class="parallax slide-element">Iterative Prototyping</h4>
-			<p class="parallax slide-element">We deliver prototypes and working software early and often, incorporating user feedback at every stage to refine functionality and ease of use. This cost-effective approach ensures you get the right end-product, one fully embraced by customers, both within and outside the organization.</p>
+			<h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Iterative Prototyping</h4>
+			<p data-aos="fade-up" data-aos-anchor-placement="top-bottom">We deliver prototypes and working software early and often, incorporating user feedback at every stage to refine functionality and ease of use. This cost-effective approach ensures you get the right end-product, one fully embraced by customers, both within and outside the organization.</p>
 		</div>
 	</section>
 	
-	<section class="custom-software-tiles parallax slide-element">
+	<section class="custom-software-tiles" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 		<div class="custom-software-tile-content">
-			<h4 class="parallax slide-element">Agile Development</h4>
-			<p class="parallax slide-element">For the highest degree of predictability and value, Pop Art develops software in an agile manner releasing working software at regular intervals integrating the highest features deemed highest value in each release. You will always be in control of how much you choose to invest in software using agile methodology. You have control over how much you spend on each phase. You can scale the team up or down, depending on what factors are most important to you feature sets, timelines and budgets.</p>
+			<h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Agile Development</h4>
+			<p data-aos="fade-up" data-aos-anchor-placement="top-bottom">For the highest degree of predictability and value, Pop Art develops software in an agile manner releasing working software at regular intervals integrating the highest features deemed highest value in each release. You will always be in control of how much you choose to invest in software using agile methodology. You have control over how much you spend on each phase. You can scale the team up or down, depending on what factors are most important to you feature sets, timelines and budgets.</p>
 		</div>
 		
 		<div class="custom-software-tile-image">
@@ -149,6 +149,7 @@ get_header(); ?>
 </div>
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/hero-text.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/node_modules/aos/dist/aos.js"></script>
+<script>AOS.init();</script>
 
 <?php get_footer();

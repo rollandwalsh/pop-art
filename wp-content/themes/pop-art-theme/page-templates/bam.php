@@ -33,7 +33,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
 					<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-					<div class="entry-content parallax slide-element">
+					<div class="entry-content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 						<?php the_content(); ?>
 					</div>
 				</article>
@@ -92,11 +92,11 @@ get_header(); ?>
 	<section class="bam-benefits">
 		<div class="row align-justify">
 			<div class="small-12 columns">
-				<h2 class="parallax slide-element">BAM! Benefits</h2>
+				<h2 data-aos="fade-up" data-aos-anchor-placement="top-bottom">BAM! Benefits</h2>
 			</div>
 			
 			<div class="small-12 medium-5 columns">
-				<div class="bam-benefit parallax slide-element">
+				<div class="bam-benefit" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/amplify.png" alt="Amplify">
 					<div class="copy">
 						<span>Amplify the voice of your best customers.</span>
@@ -104,7 +104,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="bam-benefit parallax slide-element">
+				<div class="bam-benefit" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/assets.png" alt="Assets">
 					<div class="copy">
 						<span>All assets up to date and easy to find.</span>
@@ -112,7 +112,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="bam-benefit parallax slide-element">
+				<div class="bam-benefit" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/sales.png" alt="Sales">
 					<div class="copy">
 						<span>Close more sales.</span>
@@ -122,7 +122,7 @@ get_header(); ?>
 			</div>
 			
 			<div class="small-12 medium-5 columns">
-				<div class="bam-benefit parallax slide-element">
+				<div class="bam-benefit" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/align.png" alt="Align">
 					<div class="copy">
 						<span>Align in real-time.</span>
@@ -130,7 +130,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="bam-benefit parallax slide-element">
+				<div class="bam-benefit" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/employees.png" alt="Employees">
 					<div class="copy">
 						<span>Engage and retain employees.</span>
@@ -138,7 +138,7 @@ get_header(); ?>
 					</div>
 				</div>
 				
-				<div class="bam-benefit parallax slide-element">
+				<div class="bam-benefit" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/benefits/socail.png" alt="Social">
 					<div class="copy">
 						<span>Turn social fans into ambassadors.</span>
@@ -235,7 +235,7 @@ get_header(); ?>
 			<h3>You Might Like</h3>
 			<div class="row align-center">
 				<?php while( $query->have_posts() ) : $query->the_post(); ?>
-					<div class="small-9 medium-4 columns parallax slide-element">
+					<div class="small-9 medium-4 columns" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 						<?php get_template_part( 'template-parts/content-might-like', get_post_format() ); ?>
 					</div>
 				<?php endwhile ?>
@@ -258,7 +258,8 @@ get_header(); ?>
 </div>
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/hero-text.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/bam.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/node_modules/aos/dist/aos.js"></script>
+<script>AOS.init();</script>
 
 <?php get_footer();

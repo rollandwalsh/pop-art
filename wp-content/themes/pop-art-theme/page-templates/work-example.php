@@ -42,7 +42,7 @@ get_header(); ?>
 			<h3>You Might Like</h3>
 			<div class="row align-center">
 				<?php while( $query->have_posts() ) : $query->the_post(); ?>
-					<div class="small-9 medium-4 columns parallax slide-element">
+					<div class="small-9 medium-4 columns" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
 						<?php get_template_part( 'template-parts/content-might-like', get_post_format() ); ?>
 					</div>
 				<?php endwhile ?>
@@ -86,6 +86,7 @@ get_header(); ?>
 		});
 	});
 </script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/parallax.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/node_modules/aos/dist/aos.js"></script>
+<script>AOS.init();</script>
 	
 <?php get_footer();
