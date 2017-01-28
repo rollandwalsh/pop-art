@@ -196,7 +196,7 @@ get_header(); ?>
 
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/hero-text.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/about.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/node_modules/aos/dist/aos.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/aos/aos.js"></script>
 <script>AOS.init();</script>
 
 <?php get_footer();

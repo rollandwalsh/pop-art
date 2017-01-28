@@ -19,7 +19,7 @@
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css">
-		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/node_modules/aos/dist/aos.css">
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/stylesheets/aos.css">
 	</head>
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
