@@ -73,7 +73,7 @@ get_header(); ?>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 <script>
-	$(document).ready(function(){
+	var slickInit = function() {
 		$('.work-example-slider').slick({
 			slidesToShow: 1,
 			slidesToScroll: 1,
@@ -84,9 +84,14 @@ get_header(); ?>
 			nextArrow: '<i class="fa fa-angle-right"></i>',
 			prevArrow: '<i class="fa fa-angle-left"></i>'
 		});
+	}
+	
+	$(document).ready(function(){
+		$.when(slickInit()).done(function() {
+			AOS.init();
+		})
 	});
 </script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/javascript/aos/aos.js"></script>
-<script>AOS.init();</script>
 	
 <?php get_footer();
