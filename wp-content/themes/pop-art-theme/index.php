@@ -83,7 +83,7 @@ get_header(); ?>
 		</div>
 		
 		<div class="small-12 medium-6 large-5 columns">
-			[contact-form-7 id="662" title="Subscribe to our Newsletter"]
+			<?php echo do_shortcode( '[contact-form-7 id="662" title="Subscribe to our Newsletter"]' ); ?>
 		</div>
 	</div>
 </section>
