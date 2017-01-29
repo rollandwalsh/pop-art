@@ -17,7 +17,7 @@
 			}
 			
 			&:last-of-type {
-				background: get-color(tertiary);
+				background: get-color(secondary);
 				
 				@include breakpoint(large) {
 					display: flex;

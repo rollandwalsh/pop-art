@@ -44,7 +44,7 @@ get_header(); ?>
 	
 	<div class="row">
 		<div class="small-12 columns">
-			<section class="bam-dam">
+			<section class="bam-dam" id="DAM">
 				<h2>Digital Asset Management. Ease is the new state-of-the-art.</h2>
 				<div class="bam-dam-demo-image">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/dam-overview.png" alt="DAM" data-bddemo="0" class="current">

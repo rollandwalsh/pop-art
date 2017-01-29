@@ -10254,7 +10254,7 @@ button {
               -ms-flex-pack: end;
                   justify-content: flex-end; } }
     #pageContactUs .entry-content .columns:last-of-type {
-      background: #343434; }
+      background: #0099ff; }
       @media print, screen and (min-width: 64em) {
         #pageContactUs .entry-content .columns:last-of-type {
           display: -webkit-box;
