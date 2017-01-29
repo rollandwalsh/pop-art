@@ -83,9 +83,7 @@ get_header(); ?>
 		</div>
 		
 		<div class="small-12 medium-6 large-5 columns">
-			<input type="text" placeholder="Your Name">
-			<input type="email" placeholder="Email">
-			<a href="#" class="button">Subscribe Now</a>
+			[contact-form-7 id="662" title="Subscribe to our Newsletter"]
 		</div>
 	</div>
 </section>
