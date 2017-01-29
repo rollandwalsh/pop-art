@@ -28,8 +28,14 @@ get_header(); ?>
 	<?php
 		$posts = get_post_meta(get_the_ID(), 'you_might_like', false);
 		$postIDs = array();
-		foreach($posts as $post) {array_push($postIDs, get_page_by_title($post, OBJECT, 'post')->ID);}
-		
+		foreach($posts as $post) {
+			if (is_numeric($post)) {
+				array_push($postIDs, $post);
+			} else {
+				array_push($postIDs, get_page_by_title($post, OBJECT, 'post')->ID);
+			}
+		}
+				
 		$args = array(
 			'posts_per_page'	=> 3,
 			'post__in'			=> $postIDs
