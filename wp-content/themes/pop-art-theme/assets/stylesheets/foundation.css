@@ -10558,6 +10558,10 @@ button {
 #respond textarea {
   min-height: 10rem; }
 
+.pagination-centered {
+  text-align: center;
+  width: 100%; }
+
 #seoHero {
   background-position: center center;
   -webkit-background-size: cover;

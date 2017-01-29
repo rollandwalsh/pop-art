@@ -149,7 +149,7 @@ get_header(); ?>
 		</div>
 	</section>
 	
-	<section class="bam-endorsement align-justify">
+	<section class="bam-endorsement align-justify" id="UGC">
 		<div class="small-12 columns"><h2>The Future is 3rd Party Endorsement</h2></div>
 		<div class="bam-endorsement-image small-12 medium-8 large-6 columns">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/user-generated-content.png" alt="User Generated Content" data-bedemo="0" class="current">
