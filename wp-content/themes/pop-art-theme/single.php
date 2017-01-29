@@ -24,16 +24,7 @@ get_header(); ?>
 			<?php get_template_part( 'template-parts/featured-image' ); ?>
 			
 			<div class="row" id="singlePost">
-				<div class="small-2 medium-1 columns" data-sticky-container>
-					<div class="sticky" data-sticky data-anchor="singlePost">
-						<ul class="entry-social">
-							<li><h6>Share</h6></li>
-							<li><i class="fa fa-heart-o"></i></li>
-							<li><i class="fa fa-twitter"></i></li>
-							<li><i class="fa fa-facebook"></i></li>
-						</ul>
-					</div>
-				</div>
+				<?php dynamic_sidebar( 'single-sidebar-widgets' ); ?>
 
 				<div class="entry-content small-10 medium-9 columns">
 					<?php the_content(); ?>
