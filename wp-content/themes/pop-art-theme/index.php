@@ -88,13 +88,13 @@ get_header(); ?>
 				<form action="//popart.us14.list-manage.com/subscribe/post?u=13499979ff8372f1fd7000922&amp;id=f4bc239e8f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
 						<div class="mc-field-group">
-							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email*">
+							<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email*" style="margin-bottom: .25rem">
 						</div>
 						<div class="mc-field-group">
-							<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name">
+							<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name" style="margin-bottom: .25rem">
 						</div>
 						<div class="mc-field-group">
-							<input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name">
+							<input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name" style="margin-bottom: .25rem">
 						</div>
 						<div id="mce-responses" class="clear">
 							<div class="response" id="mce-error-response" style="display:none"></div>
