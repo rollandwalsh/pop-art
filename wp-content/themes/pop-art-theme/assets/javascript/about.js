@@ -19,7 +19,9 @@ function switchCapability(e) {
 	contentSection.classList.add('active');
 }
 
-listItems.forEach(function(listItem) {listItem.addEventListener('mouseenter', switchCapability)});
+$('#aboutCapabilitiesList li').each(function(listItem) {
+	listItem.on('hover', switchCapability);
+});
 
 // MEMBERS
 
