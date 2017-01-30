@@ -792,6 +792,7 @@
 .custom-software-project-image {
 	@include breakpoint(medium down) {
 		margin-bottom: $global-padding;
+		width: 100%;
 		
 		order: 0;
 	}
