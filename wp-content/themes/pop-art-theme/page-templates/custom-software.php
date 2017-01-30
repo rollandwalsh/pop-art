@@ -88,7 +88,7 @@ get_header(); ?>
 			<div class="custom-software-project-content">
 				<h4>VMSPro</h4>
 				<p>Pop Art worked with VMS Consulting to design and build a standardized platform for the management of value engineering programs and activities. Robust planning, analysis, and reporting tools facilitate intuitive collaboration to help teams improve value. VMSPro has been leveraged to guide the development of projects, products, and processes, helping organizations get the most out of limited resources.</p>
-				<a href="<?php echo get_permalink( get_page_by_title( 'VMS Pro' ) ); ?>" class="button hollow white">Learn More</a>
+				<a href="<?php echo get_permalink( get_page_by_title( 'VMSPro' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
 		
@@ -96,7 +96,7 @@ get_header(); ?>
 			<div class="custom-software-project-content">
 				<h4>Freightliner Sales Tool</h4>
 				<p>FST is a sales enablement tool for iPad that helps Freightliner have the most informed sales force in the industry. FST contains comprehensive product information about Freightliner’s state-of-the-art on-highway and vocational trucks, including 3D renderings, resource libraries, comparison calculators, and much more.</p>
-				<a href="<?php echo get_permalink( get_page_by_title( 'FST' ) ); ?>" class="button hollow gray">Learn More</a>
+				<a href="<?php echo get_permalink( get_page_by_title( 'Freightliner Sales Tool' ) ); ?>" class="button hollow gray">Learn More</a>
 			</div>
 			
 			<div class="custom-software-project-image">
@@ -112,7 +112,7 @@ get_header(); ?>
 			<div class="custom-software-project-content">
 				<h4>Onboarding Assistant</h4>
 				<p>The Onboarding Assistant built for Daimler Trucks North America makes new employee onboarding better than ever. The interactive checklist-style web app allows HR to ensure easy, thorough, and effective onboarding for all new DTNA employees.</p>
-				<a href="<?php echo get_permalink( get_page_by_title( 'HR Assistant' ) ); ?>" class="button hollow white">Learn More</a>
+				<a href="<?php echo get_permalink( get_page_by_title( 'Onboarding Assistant' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
 	</section>
