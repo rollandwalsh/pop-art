@@ -1,7 +1,7 @@
 // TYPED.JS
 
-const array1 = ['Website navigation', 'Ad ROI', 'App interface', 'Specs volume'];
-const array2 = ['up the wall', 'batty', 'crazy', 'insane'];
+var array1 = ['Website navigation', 'Ad ROI', 'App interface', 'Specs volume'];
+var array2 = ['up the wall', 'batty', 'crazy', 'insane'];
 
 $(function() {
 	$('#issueInput1').typed({
@@ -26,12 +26,12 @@ $('.accordion-title').on('click', function(event) {
 
 // FORM INPUTS
 
-const input1 = document.getElementById('issueInput1');
+var input1 = document.getElementById('issueInput1');
 input1.addEventListener('focus', function() {
 	if(array1.indexOf(input1.value) > -1) { input1.value = ''; }
 });
 
-const input2 = document.getElementById('issueInput2');
+var input2 = document.getElementById('issueInput2');
 input2.addEventListener('focus', function() {
 	if(array2.indexOf(input2.value) > -1) { input2.value = ''; }
 });
