@@ -7,7 +7,6 @@ function changeActive(e) {
 }
 
 function filterBlogs(e) {
-	e.preventDefault();
 	let selected = e.target.textContent;
 	selected = selected.replace(/\s+/g, '-').toLowerCase();
 	selectedClass = 'category-' + selected;
@@ -25,4 +24,7 @@ function filterBlogs(e) {
 	changeActive(e)
 }
 
-filterList.forEach(filterItem => filterItem.addEventListener('click', filterBlogs));
+$('#blogFilterList a').on('click', function(e) {
+	e.preventDefault();
+	filterBlogs(e);
+})
