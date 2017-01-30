@@ -207,7 +207,7 @@ get_header(); ?>
 			</div>
 			<div data-bedemo="6">
 				<h4>Publish</h4>
-				<p>Create endpoints that link to your website, mobile app, and other digital platforms.</p>
+				<p>Create endpoints that publish instantly to your website, mobile app, social media and other digital platforms.</p>
 				<p>Drag and drop functionality is intuitive and requires no experience.</p>
 				<p>View version history and publish to multiple locations.</p>
 			</div>
