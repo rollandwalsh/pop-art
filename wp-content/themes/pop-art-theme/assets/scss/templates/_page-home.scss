@@ -127,7 +127,7 @@
 	background-position: center center;
 	background-size: cover;
 	
-	&.yogi {background-image: url(../images/recent-projects/yogi.jpg)}
+	&.yogi {background-image: url(../images/recent-projects/yogi.png)}
 	&.onboarding-assist {background-image: url(../images/recent-projects/onboarding_assist.png)}
 	&.smartsource {background-image: url(../images/recent-projects/smartsource.png)}
 	&.bam {background-image: url(../images/recent-projects/bam.png)}
@@ -152,13 +152,7 @@
 }
 
 .home-rp-hover {
-	color: $white;
-	
 	opacity: 0; // Hide down by default
-	
-	&:hover {
-		color: $white;
-	}
 	
 	&.purple {background-color: get-color(purple);}
 	&.green {background-color: get-color(green);}
