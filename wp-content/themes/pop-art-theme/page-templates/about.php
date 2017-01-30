@@ -14,7 +14,7 @@ get_header(); ?>
 </header>
 
 <div id="pageAbout" role="main">
-	<section class="about-capabilities">
+	<section class="about-capabilities" id="capabilities">
 		<div class="align-justify">
 			<div id="aboutCapabilitiesContent" class="small-12 medium-7 large-5 small-order-2 medium-order-1 columns">
 				<div class="active" data-section="strategyContent">
@@ -98,7 +98,7 @@ get_header(); ?>
 		<?php do_action( 'foundationpress_after_content' ); ?>
 	</section>
 	
-	<section class="about-management-team">
+	<section class="about-management-team" id="managementTeam">
 		<div class="row">
 			<div class="large-12 columns">
 				<h2>Management Team</h2>
