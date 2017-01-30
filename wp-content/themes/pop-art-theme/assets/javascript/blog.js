@@ -1,5 +1,5 @@
-const filterList = Array.from(document.querySelectorAll('#blogFilterList a'));
-const posts = Array.from(document.querySelectorAll('.post'));
+var filterList = Array.from(document.querySelectorAll('#blogFilterList a'));
+var posts = Array.from(document.querySelectorAll('.post'));
 
 function changeActive(e) {
 	document.querySelector('#blogFilterList li.active').classList.remove('active');
@@ -12,7 +12,7 @@ function filterBlogs(e) {
 	selected = selected.replace(/\s+/g, '-').toLowerCase();
 	selectedClass = 'category-' + selected;
 	if (selectedClass == 'category-all') {selectedClass = 'post'}
-	const animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+	var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
 	
 	posts.forEach(post => {
 		if (post.classList.contains(selectedClass)) {
