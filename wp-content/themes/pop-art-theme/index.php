@@ -97,8 +97,8 @@ get_header(); ?>
 							<input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name" style="margin-bottom: .5rem">
 						</div>
 						<div id="mce-responses" class="clear">
-							<div class="response" id="mce-error-response" style="display:none"></div>
-							<div class="response" id="mce-success-response" style="display:none"></div>
+							<div class="response" id="mce-error-response" style="display:none; margin-bottom: .5rem"></div>
+							<div class="response" id="mce-success-response" style="display:none; margin-bottom: .5rem"></div>
 						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_13499979ff8372f1fd7000922_f4bc239e8f" tabindex="-1" value=""></div>
 						<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
