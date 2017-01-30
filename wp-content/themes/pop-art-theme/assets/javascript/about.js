@@ -6,12 +6,12 @@ function removeActive(e) {
 
 // CAPABILITIES
 
-const listItems = Array.from(document.getElementById('aboutCapabilitiesList').childNodes);
-const contentItems = Array.from(document.getElementById('aboutCapabilitiesContent').childNodes);
+var listItems = Array.from(document.getElementById('aboutCapabilitiesList').childNodes);
+var contentItems = Array.from(document.getElementById('aboutCapabilitiesContent').childNodes);
 
 function switchCapability(e) {
-	const contentSectionName = e.target.dataset.section;
-	const contentSection = document.querySelector('div[data-section=' + contentSectionName + 'Content]');
+	var contentSectionName = e.target.dataset.section;
+	var contentSection = document.querySelector('div[data-section=' + contentSectionName + 'Content]');
 
 	listItems.forEach(listItem => removeActive(listItem));
 	e.target.classList.add('active');
@@ -23,9 +23,9 @@ listItems.forEach(listItem => listItem.addEventListener('mouseenter', switchCapa
 
 // MEMBERS
 
-const memberContainer = document.querySelector('div.about-management-team-members');
-const members = Array.from(document.getElementsByClassName('about-management-team-member'));
-const bios = Array.from(document.getElementsByClassName('about-management-team-bio'));
+var memberContainer = document.querySelector('div.about-management-team-members');
+var members = Array.from(document.getElementsByClassName('about-management-team-member'));
+var bios = Array.from(document.getElementsByClassName('about-management-team-bio'));
 
 function showBio(e) {
 	if (e.target.classList.contains('about-management-team-member')) {
@@ -38,8 +38,8 @@ function showBio(e) {
 		memberContainer.classList.add('active');
 	}
 
-	const name = selectedMember.dataset.name;
-	const selectedBio = document.querySelector('div.about-management-team-bio[data-name=' + name + ']');
+	var name = selectedMember.dataset.name;
+	var selectedBio = document.querySelector('div.about-management-team-bio[data-name=' + name + ']');
 	
 	members.forEach(member => removeActive(member));
 	selectedMember.classList.add('active');
