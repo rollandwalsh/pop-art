@@ -212,6 +212,12 @@
 	
 	h5 {
 		font-size: rem-calc(16);
+		
+		span {
+			@include breakpoint(large) {
+				display: block;
+			}
+		}
 	}
 }
 	

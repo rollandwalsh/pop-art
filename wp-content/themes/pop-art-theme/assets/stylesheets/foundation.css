@@ -8730,6 +8730,9 @@ button {
     font-weight: 600; }
   .solutions-form h5 {
     font-size: 1rem; }
+    @media print, screen and (min-width: 64em) {
+      .solutions-form h5 span {
+        display: block; } }
 
 #issueFormContent {
   margin: 1rem 0;
