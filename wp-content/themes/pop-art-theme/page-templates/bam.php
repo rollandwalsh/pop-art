@@ -9,7 +9,7 @@ get_header(); ?>
 		<div class="small-12 columns">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bam/bam_logo_white.png" alt="BAM" style="margin-bottom: 1rem">
 			
-			<h1>Bam!&trade; Assets Managed. Assets Mobilized.</h1>
+			<h1>BAM!&trade; Assets Managed. Assets Mobilized.</h1>
 
 			<h6><span>Introducing BAM!. A powerful, proprietary, content organization and</span> <span>mobilization platform that streamlines your path to digital agility and efficacy.</span></h6>
 		</div>
@@ -77,7 +77,7 @@ get_header(); ?>
 					<p data-bddemo="1"><span>Upload a wide variety of content, from photos and videos to tweets and blog posts.</span> <span>Add metadata to aid file categorization and search optimization.</span> <span>Create custom thumbnails and assign content owners.</span></p>
 					<p data-bddemo="2"><span>Intuitive search functions help you find exactly what you need.</span> <span>Predictive search engine saves you time and effort.</span> <span>Results can be easily categorized and filtered.</span></p>
 					<p data-bddemo="3"><span>Toggle between grid-view and list-view to best suit your device screen.</span> <span>Results refresh live, saving time and unnecessary mouse clicks.</span> <span>Easily filter results by file type, size, keywords, and dates.</span></p>
-					<p data-bddemo="4"><span>Create endpoints that link to your website, mobile app, and other digital platforms.</span> <span>Drag and drop functionality is intuitive and requires no experience.</span> <span>View version history and publish to multiple locations.</span></p>
+					<p data-bddemo="4"><span>Create endpoints that publish instantly to your website, mobile app, social media and other digital platforms.</span> <span>Drag and drop functionality is intuitive and requires no experience.</span> <span>View version history and publish to multiple locations.</span></p>
 					<p data-bddemo="5"><span>Assign user roles, involving the right people at the right time.</span> <span>Customizable workflow builder to fit your unique process.</span> <span>Set alerts and notifications to expedite approvals.</span></p>
 					<p data-bddemo="6"><span>System admins act as gatekeepers to ensure total control.</span> <span>Set permissions based on department or business level.</span> <span>Add, edit, and delete users with admin approval.</span></p>
 				</div>
