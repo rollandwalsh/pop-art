@@ -152,7 +152,13 @@
 }
 
 .home-rp-hover {
+	color: $white;
+	
 	opacity: 0; // Hide down by default
+	
+	&:hover {
+		color: $white;
+	}
 	
 	&.purple {background-color: get-color(purple);}
 	&.green {background-color: get-color(green);}

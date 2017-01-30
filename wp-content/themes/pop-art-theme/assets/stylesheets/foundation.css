@@ -8492,7 +8492,10 @@ button {
         display: block; } }
 
 .home-rp-hover {
+  color: #ffffff;
   opacity: 0; }
+  .home-rp-hover:hover {
+    color: #ffffff; }
   .home-rp-hover.purple {
     background-color: #440e62; }
   .home-rp-hover.green {
