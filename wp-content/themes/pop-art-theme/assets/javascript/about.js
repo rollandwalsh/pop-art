@@ -19,7 +19,7 @@ function switchCapability(e) {
 	contentSection.classList.add('active');
 }
 
-$('#aboutCapabilitiesList li').hover(function(listItem) {
+$('#aboutCapabilitiesList li').on('mouseenter', function(listItem) {
 	switchCapability(listItem);
 });
 
