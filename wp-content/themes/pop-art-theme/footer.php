@@ -20,7 +20,7 @@
 					<div class="footer-columns">
 						<p>123 NE 3rd Ave<br>Suite 309<br>Portland, OR 97232</p>
 						
-						<p><a href="tel:1-503-242-4292">+1 (503) 242 4292</a><br>hello@popart.com</p>
+						<p><a href="tel:1-503-242-4292">+1 (503) 242 4292</a><br><a href="mailto:hello@popart.com">hello@popart.com</a></p>
 					</div>
 					<div class="footer-columns">
 						<h6>Software</h6>
@@ -37,8 +37,8 @@
 						<ul>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'Solutions' ) ); ?>">Solutions</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>">About</a></li>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'Our Work' ) ); ?>">Our Work</a></li>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'BAM' ) ); ?>">Capabilities</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'Work' ) ); ?>">Our Work</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>">Capabilities</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>">Management Team</a></li>
 						</ul>
 					</div>
