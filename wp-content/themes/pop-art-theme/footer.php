@@ -38,8 +38,8 @@
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'Solutions' ) ); ?>">Solutions</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>">About</a></li>
 							<li><a href="<?php echo get_permalink( get_page_by_title( 'Work' ) ); ?>">Our Work</a></li>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>/#capabilities">Capabilities</a></li>
-							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>/#managementTeam">Management Team</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>#capabilities">Capabilities</a></li>
+							<li><a href="<?php echo get_permalink( get_page_by_title( 'About' ) ); ?>#managementTeam">Management Team</a></li>
 						</ul>
 					</div>
 					<div class="footer-columns">
