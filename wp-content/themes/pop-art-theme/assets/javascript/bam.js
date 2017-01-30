@@ -38,7 +38,7 @@ function bamDamAddCurrent(n) {
 
 function bamEndorsementAddCurrent(n) {
 	var newCurrents = Array.from(document.querySelectorAll('[data-bedemo="' + n + '"]'));
-	newCurrents.forEach(functionn(ewCurrent) {newCurrent.classList.add('current')});
+	newCurrents.forEach(function(newCurrent) {newCurrent.classList.add('current')});
 }
 
 function bamDamDemoInit() {
