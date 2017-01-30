@@ -86,7 +86,7 @@ get_header(); ?>
 			</div>
 			
 			<div class="custom-software-project-content">
-				<h4>VMSPro.</h4>
+				<h4>VMSPro</h4>
 				<p>Pop Art worked with VMS Consulting to design and build a standardized platform for the management of value engineering programs and activities. Robust planning, analysis, and reporting tools facilitate intuitive collaboration to help teams improve value. VMSPro has been leveraged to guide the development of projects, products, and processes, helping organizations get the most out of limited resources.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'VMS Pro' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
@@ -96,7 +96,6 @@ get_header(); ?>
 			<div class="custom-software-project-content">
 				<h4>Freightliner Sales Tool</h4>
 				<p>FST is a sales enablement tool for iPad that helps Freightliner have the most informed sales force in the industry. FST contains comprehensive product information about Freightliner’s state-of-the-art on-highway and vocational trucks, including 3D renderings, resource libraries, comparison calculators, and much more.</p>
-				<p>Freightliner deals in highly customizable configurations, involving hundreds of exterior, interior, and add-on choices. Together we created a leading-edge mobile app that puts real-time specs, comparison charts, even 3D renderings of over 6000 truck configurations at field rep’s fingertips, all linked to a data management hub.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'FST' ) ); ?>" class="button hollow gray">Learn More</a>
 			</div>
 			
