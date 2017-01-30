@@ -8877,9 +8877,6 @@ button {
     list-style: none;
     margin: 0;
     padding: 0; }
-    @media screen and (max-width: 39.9375em) {
-      .about-capabilities ol {
-        display: none; } }
     .about-capabilities ol li {
       color: #cccccc;
       padding: 0.5rem 0;
@@ -8901,42 +8898,26 @@ button {
           color: #0099ff;
           font-weight: 400; }
 
-@media print, screen and (min-width: 40em) {
-  #aboutCapabilitiesContent {
-    position: relative; } }
-
-@media screen and (max-width: 39.9375em) {
-  #aboutCapabilitiesContent > div {
-    border-top: 1px solid #464646;
-    margin-bottom: 1rem;
-    padding-top: 1rem; } }
-
-@media print, screen and (min-width: 40em) {
+#aboutCapabilitiesContent {
+  position: relative; }
   #aboutCapabilitiesContent > div {
     position: absolute;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 0s, opacity 0.5s linear; } }
-
-#aboutCapabilitiesContent > div.active {
-  visibility: visible;
-  opacity: 1; }
-
-#aboutCapabilitiesContent img {
-  max-width: 100%; }
-  @media print, screen and (min-width: 40em) {
-    #aboutCapabilitiesContent img {
-      margin-bottom: 3rem; } }
-  @media screen and (max-width: 39.9375em) {
-    #aboutCapabilitiesContent img {
-      margin: 0 auto 2rem;
-      display: block; } }
-
-#aboutCapabilitiesContent h3 {
-  color: #0099ff;
-  font-size: 1.75rem;
-  margin-bottom: 1.5rem; }
+    transition: visibility 0s, opacity 0.5s linear; }
+    #aboutCapabilitiesContent > div.active {
+      visibility: visible;
+      opacity: 1; }
+  #aboutCapabilitiesContent img {
+    max-width: 100%; }
+    @media print, screen and (min-width: 40em) {
+      #aboutCapabilitiesContent img {
+        margin-bottom: 3rem; } }
+  #aboutCapabilitiesContent h3 {
+    color: #0099ff;
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem; }
 
 #pageAbout .main-content {
   width: 100%;
