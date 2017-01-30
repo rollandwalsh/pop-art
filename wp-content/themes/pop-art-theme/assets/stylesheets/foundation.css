@@ -9756,7 +9756,9 @@ button {
     max-width: 50%;
     padding-right: 2rem;
     padding-left: 2rem;
-    max-width: 50%; } }
+    max-width: 50%;
+    padding-top: 1rem;
+    padding-bottom: 1rem; } }
 
 @media print, screen and (min-width: 64em) {
   .custom-software-tile-content {

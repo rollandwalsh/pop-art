@@ -723,6 +723,9 @@
 	
 	@include breakpoint(medium only) {
 		@include flex-grid-column(6, 4rem);
+		
+		padding-top: 1rem;
+		padding-bottom: 1rem;
 	}
 	
 	@include breakpoint(large) {
