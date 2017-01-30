@@ -19,8 +19,8 @@ function switchCapability(e) {
 	contentSection.classList.add('active');
 }
 
-$('#aboutCapabilitiesList li').each(function(listItem) {
-	listItem.on('hover', switchCapability);
+$('#aboutCapabilitiesList li').hover(function(listItem) {
+	switchCapability(listItem);
 });
 
 // MEMBERS
