@@ -19,7 +19,7 @@ get_header(); ?>
 			<div id="aboutCapabilitiesContent" class="small-12 medium-7 large-5 small-order-2 medium-order-1 columns">
 				<div class="active" data-section="strategyContent">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/capabilities/strategy.png" alt="Strategy">
-					<h3>Strategy</h3>
+					<h3>Strategy & Roadmapping</h3>
 					<p>We partner with our clients to help them solve their toughest problems and capitalize on opportunities. We leverage the latest technologies and our own proven platforms as building blocks for custom solutions. Correct problem identification comes first. Then, we are able to deliver the solution that best meets the need and yields the greatest business value.</p>
 				</div>
 				
@@ -49,7 +49,7 @@ get_header(); ?>
 				
 				<div data-section="crossPlatformMobileAppsContent">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/capabilities/cross-platform-mobile-apps.png" alt="Cross Platform Mobile Apps">
-					<h3>Cross Platform Mobile Apps</h3>
+					<h3>Cross-Platform Mobile Apps</h3>
 					<p>We specialize in cross-platform mobile development optimizing for the most widely used iOS and Android platforms and devices. It’s both faster and easier to maintain than leveraging a single codebase. We then customize for specific platforms to optimize the user experience and adoption rates.  </p>
 				</div>
 				
@@ -70,7 +70,7 @@ get_header(); ?>
 				<h2>Capabilities</h2>
 				<ol id="aboutCapabilitiesList">
 					<li class="active" data-section="strategy">Strategy & Roadmapping</li>
-					<li data-section="iterativePrototyping">Iterative Prototyping</li>
+					<li data-section="iterativePrototyping">Iterative Development</li>
 					<li data-section="requirementsDefinition">Requirements Definition</li>
 					<li data-section="responsiveWebsites">Responsive Websites</li>
 					<li data-section="userExperienceDesign">User Experience Design</li>
@@ -117,7 +117,7 @@ get_header(); ?>
 				<p>Tom has a corner office. That’s pretty much where the formality ends. He’s deeply involved in asking, listening and shaping long-term vision and strategy. Tom brings diverse experience with results-driven technology and marketing solutions to bear. He’s around, deeply connected with all active projects and the primary contact for new partnerships and opportunities.</p>
 				<p>Tom was Chief Operating Officer at Pop Art from 2008 until 2015, forging the agency’s vision while guiding Pop Art to a variety of industry awards. We proudly remain on the “best places to work in Oregon” roster. In 2015 he completed the purchase of a majority of the company’s stock to become its sole director. He continues to solidify client relationships while strengthening Pop Art’s across the board systems: project management, human resources, finance and operations.</p>
 				<p>Tom has a B.A. in Arts & Letters from Portland State University. He also graduated from the Stanford Executive Institute. Before Pop Art, Tom served in the Army and worked in the translation industry, with degrees from the Defense Language Institute at the Presidio of Monterey and Ft. Bragg’s John F. Kennedy Special Warfare Center and School. He’s a Portland native and Wilson High grad.</p>
-				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="https://www.linkedin.com/in/tom-paul"><i class="fa fa-linkedin"></i></a></p>
+				<p><a href="mailto:tom.paul@popart.com"><i class="fa fa-envelope"></i></a> <a href="https://www.linkedin.com/in/tom-paul"><i class="fa fa-linkedin"></i></a></p>
 			</div>
 			
 			<div class="about-management-team-member" data-name="ethan">
@@ -131,7 +131,7 @@ get_header(); ?>
 				<p>In 2014 his book “Web Development with Node and Express” was published, earning high ratings on both O’Reilly and Amazon websites. Thanks to its success, a second book, “Learning JavaScript, 3 rd edition” was commissioned and published in 2016.</p>
 				<p>Amidst these banner years, Pop Art recognized Ethan’s unique skills and commitment by promoting him to Director of Engineering. Meanwhile, he’s scheduled to complete an MBA program later this year, adding a business framework to his engineering acumen.</p>
 				<p>Prior to Pop Art, Ethan gained deep engineering experience working at IBM, Oracle, Informix, as well as defense contractors Computer Sciences Corporation and Xybion. He holds undergraduate degrees in Mathematics and Computer Science from Virginia Commonwealth University.</p>
-				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="https://www.linkedin.com/in/ethan-brown-5b74b13a"><i class="fa fa-linkedin"></i></a></p>
+				<p><a href="mailto:ethan.brown@popart.com"><i class="fa fa-envelope"></i></a> <a href="https://www.linkedin.com/in/ethan-brown-5b74b13a"><i class="fa fa-linkedin"></i></a></p>
 			</div>
 			
 			<div class="about-management-team-member" data-name="noah">
@@ -144,7 +144,7 @@ get_header(); ?>
 				<p>Noah serves as liaison and ambassador for Pop Art’s expanding client, supplier and collaborator networks to bridge gaps and drive efficiency. He has a proven record of aligning multiple stakeholders on complex issues toward high yield, happy outcomes. He strives, in a nutshell, to make relationships and software hum.</p>
 				<p>He brings an innate passion for both technology and business, starting with programming games on the family Apple and sweeping raffle sales prizes in elementary school. He’s been guided through a string of entrepreneurial successes by one driving principal: “help technology connect the natural world in ways previously impossible, then get the heck out the way.”</p>
 				<p>Noah orchestrated and operated an independent B2B wireless agency for most of the 2000’s, helping to bring the then-emerging smart phone technologies and “high-speed” wireless laptop cards into the market. Since then, Noah has directed rapid-growth, global business development efforts in the custom and licensed software space. He graduated from Whitman College with a BA in Sociology and Studio Art, including abroad studies in Russia and Zimbabwe.</p>
-				<p><a href="mailto:"><i class="fa fa-envelope"></i></a> <a href="https://www.linkedin.com/in/noahokenberg"><i class="fa fa-linkedin"></i></a></p>
+				<p><a href="mailto:noah@popart.com "><i class="fa fa-envelope"></i></a> <a href="https://www.linkedin.com/in/noahokenberg"><i class="fa fa-linkedin"></i></a></p>
 			</div>
 		</div>
 	</section>
