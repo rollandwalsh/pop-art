@@ -8492,7 +8492,8 @@ button {
         display: block; } }
 
 .home-rp-hover {
-  opacity: 0; }
+  opacity: 0;
+  cursor: pointer; }
   .home-rp-hover.purple {
     background-color: #440e62; }
   .home-rp-hover.green {

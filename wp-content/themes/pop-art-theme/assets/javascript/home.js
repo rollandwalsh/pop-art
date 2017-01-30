@@ -37,3 +37,12 @@ function twitterSlide(id) {
 		arrows: false
 	});
 }
+
+// RECENT PROJECTS
+
+var recentProjects = Array.from(document.querySelectorAll('.home-rp-hover'));
+recentProjects.forEach(function(rp) {
+	rp.addEventListener('click', function() {
+		window.location.href = $(this).find('a').attr('href');
+	});
+});

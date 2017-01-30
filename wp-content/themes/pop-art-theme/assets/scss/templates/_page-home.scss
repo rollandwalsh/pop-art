@@ -154,6 +154,8 @@
 .home-rp-hover {
 	opacity: 0; // Hide down by default
 	
+	cursor: pointer;
+	
 	&.purple {background-color: get-color(purple);}
 	&.green {background-color: get-color(green);}
 	&.blue {background-color: get-color(blue);}
