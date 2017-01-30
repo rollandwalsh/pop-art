@@ -9264,9 +9264,9 @@ button {
     .software-testimonial blockquote:before {
       content: '“';
       position: absolute;
-      left: 0.5rem; }
+      left: .75rem; }
   .software-testimonial cite {
-    color: #0a0a0a;
+    color: #ffffff;
     font-style: normal;
     margin-top: 2rem; }
     .software-testimonial cite:before {

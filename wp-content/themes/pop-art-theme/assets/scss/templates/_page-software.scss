@@ -72,12 +72,12 @@
 		&:before {
 			content: '“';
 			position: absolute;
-			left: $global-padding / 2;
+			left: .75rem;
 		}
 	}
 	
 	cite {
-		color: $black;
+		color: $white;
 		font-style: normal;
 		
 		margin-top: $global-padding * 2;

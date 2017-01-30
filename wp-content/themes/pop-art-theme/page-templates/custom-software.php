@@ -28,7 +28,7 @@ get_header(); ?>
 	<section class="software-testimonial">
 		<div class="row">
 			<div class="small-12 columns">
-				<blockquote>I am continuously impressed by Pop Art's commitment to understanding our products and, most importantly, our customers. In so doing, they've exceeded our expectations by addressing our business needs in a way that truly resonates with our customers.”<cite>Elizabeth Robledo<br>Marketing Analyst<br>Freightliner Trucks</cite></blockquote>
+				<blockquote>I am continuously impressed by Pop Art's commitment to understanding our products and, most importantly, our customers. In so doing, they've exceeded our expectations by addressing our business needs in a way that truly resonates with our customers.”<cite>Marketing Analyst<br>Freightliner Trucks</cite></blockquote>
 			</div>
 		</div>
 	</section>
@@ -40,7 +40,7 @@ get_header(); ?>
 		
 		<div class="custom-software-tile-content">
 			<h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Built to Work</h4>
-			<p  data-aos="fade-up" data-aos-anchor-placement="top-bottom">No two businesses are alike, and no single off-the-shelf tool generally suffices. We specialize in custom development for business and communication. Employing proven technology stacks, and leveraging building blocks in our library, we design and develop tools for specific challenges. Requirements definition, iterative prototyping and agile development ensure highly usable, predictable and scalable software solutions.</p>
+			<p  data-aos="fade-up" data-aos-anchor-placement="top-bottom">No two businesses are alike, and no single off-the-shelf tool generally suffices. We specialize in custom development for business and communication. Employing proven technology stacks, and leveraging building blocks in our library, we design and develop tools for specific challenges. Requirements definition, iterative development and agile development ensure highly usable, predictable and scalable software solutions.</p>
 		</div>
 	</section>
 	
@@ -61,7 +61,7 @@ get_header(); ?>
 		</div>
 		
 		<div class="custom-software-tile-content">
-			<h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Iterative Prototyping</h4>
+			<h4 data-aos="fade-up" data-aos-anchor-placement="top-bottom">Iterative Development</h4>
 			<p data-aos="fade-up" data-aos-anchor-placement="top-bottom">We deliver prototypes and working software early and often, incorporating user feedback at every stage to refine functionality and ease of use. This cost-effective approach ensures you get the right end-product, one fully embraced by customers, both within and outside the organization.</p>
 		</div>
 	</section>
@@ -86,7 +86,7 @@ get_header(); ?>
 			</div>
 			
 			<div class="custom-software-project-content">
-				<h4>VMSPro. World Class Value Management Software</h4>
+				<h4>VMSPro.</h4>
 				<p>Pop Art worked with VMS Consulting to design and build a standardized platform for the management of value engineering programs and activities. Robust planning, analysis, and reporting tools facilitate intuitive collaboration to help teams improve value. VMSPro has been leveraged to guide the development of projects, products, and processes, helping organizations get the most out of limited resources.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'VMS Pro' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
@@ -94,7 +94,8 @@ get_header(); ?>
 		
 		<article class="custom-software-fst">
 			<div class="custom-software-project-content">
-				<h4>Freightliner Sales Tool App</h4>
+				<h4>Freightliner Sales Tool</h4>
+				<p>FST is a sales enablement tool for iPad that helps Freightliner have the most informed sales force in the industry. FST contains comprehensive product information about Freightliner’s state-of-the-art on-highway and vocational trucks, including 3D renderings, resource libraries, comparison calculators, and much more.</p>
 				<p>Freightliner deals in highly customizable configurations, involving hundreds of exterior, interior, and add-on choices. Together we created a leading-edge mobile app that puts real-time specs, comparison charts, even 3D renderings of over 6000 truck configurations at field rep’s fingertips, all linked to a data management hub.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'FST' ) ); ?>" class="button hollow gray">Learn More</a>
 			</div>
@@ -111,7 +112,7 @@ get_header(); ?>
 			
 			<div class="custom-software-project-content">
 				<h4>Onboarding Assistant</h4>
-				<p>For Daimler Trucks North America, we created a simple checklist-style interface. Managers can run through an onboarding list of desk assignments, phones, computers, work buddies, first day agendas, etc in under 5 minutes, monitoring everything new hires need to succeed.</p>
+				<p>The Onboarding Assistant built for Daimler Trucks North America makes new employee onboarding better than ever. The interactive checklist-style web app allows HR to ensure easy, thorough, and effective onboarding for all new DTNA employees.</p>
 				<a href="<?php echo get_permalink( get_page_by_title( 'HR Assistant' ) ); ?>" class="button hollow white">Learn More</a>
 			</div>
 		</article>
