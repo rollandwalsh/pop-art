@@ -154,7 +154,7 @@ get_header(); ?>
 			<h2 class="text-center">Our History</h2>
 		</div>
 		
-		<div class="small-12 medium-5 large-5 columns">
+		<div class="small-12 medium-5 large-5 columns" style="padding-bottom: 1rem">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/office.png" alt="Pop Art History">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/tom-ethan.png" alt="Pop Art History">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/history/dev.png" alt="Pop Art History">
