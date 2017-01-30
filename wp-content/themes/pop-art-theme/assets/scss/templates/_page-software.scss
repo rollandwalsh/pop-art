@@ -5,12 +5,11 @@
 	background-position: center center;
 	background-size: cover;
 
-	
-	@include breakpoint(small only) {
+	@include breakpoint(medium down) {
 		height: rem-calc(380);
 	}
 	
-	@include breakpoint(medium) {
+	@include breakpoint(large) {
 		background-attachment: fixed;
 		
 		height: rem-calc(690);

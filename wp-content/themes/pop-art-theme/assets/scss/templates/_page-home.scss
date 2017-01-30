@@ -6,8 +6,10 @@
 	z-index: -1 !important; // Fixes bug with navigation dropdown
 
 	.vidbg-container {
-		position: fixed !important;
-		top: 77px;
+		@include breakpoint(large) {
+			position: fixed !important;
+			top: 77px;
+		}
 	}
 }
 

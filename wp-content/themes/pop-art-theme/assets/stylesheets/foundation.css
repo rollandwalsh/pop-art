@@ -8352,9 +8352,10 @@ button {
 #homeHero {
   height: calc(100vh - 5rem);
   z-index: -1 !important; }
-  #homeHero .vidbg-container {
-    position: fixed !important;
-    top: 77px; }
+  @media print, screen and (min-width: 64em) {
+    #homeHero .vidbg-container {
+      position: fixed !important;
+      top: 77px; } }
 
 .home-hero-color {
   background-color: rgba(3, 43, 171, 0.6);
@@ -8835,10 +8836,10 @@ button {
   background-position: center center;
   -webkit-background-size: cover;
           background-size: cover; }
-  @media screen and (max-width: 39.9375em) {
+  @media screen and (max-width: 63.9375em) {
     #aboutHero {
       height: 23.75rem; } }
-  @media print, screen and (min-width: 40em) {
+  @media print, screen and (min-width: 64em) {
     #aboutHero {
       background-attachment: fixed;
       height: 43.125rem; } }
@@ -9215,11 +9216,11 @@ button {
   background-position: center center;
   -webkit-background-size: cover;
           background-size: cover; }
-  @media screen and (max-width: 39.9375em) {
+  @media screen and (max-width: 63.9375em) {
     #bamHero,
     #customSoftwareHero {
       height: 23.75rem; } }
-  @media print, screen and (min-width: 40em) {
+  @media print, screen and (min-width: 64em) {
     #bamHero,
     #customSoftwareHero {
       background-attachment: fixed;
