@@ -9837,6 +9837,9 @@ button {
     height: 100%;
     overflow: hidden; } }
 
+.custom-software-project-image img {
+  width: 100%; }
+
 @media screen and (max-width: 63.9375em) {
   .custom-software-project-content {
     -webkit-box-flex: 0;
