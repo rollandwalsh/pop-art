@@ -53,7 +53,9 @@
 		margin: 0; // Removes default spacing
 		padding: 0; // Removes default spacing 
 		
-
+		@include breakpoint(small only) {
+			display: none;
+		}
 		
 		li {
 			color: $medium-gray;
@@ -95,14 +97,19 @@
 }
 
 #aboutCapabilitiesContent {
-	@include breakpoint(small) {
+	@include breakpoint(medium) {
 		position: relative;
 	}
 	
 	> div {
-
+		@include breakpoint(small only) {
+			border-top: 1px solid get-color(gray);
+			
+			margin-bottom: $global-padding;
+			padding-top: $global-padding;
+		}
 		
-		@include breakpoint(small) {
+		@include breakpoint(medium) {
 			position: absolute;
 			
 			visibility: hidden;
@@ -122,7 +129,12 @@
 		@include breakpoint(medium) {
 			margin-bottom: $global-padding * 3;
 		}
-
+		
+		@include breakpoint(small only) {
+			margin: 0 auto ($global-padding * 2);
+			
+			display: block; // Allow img to center horizontally
+		}
 	}
 	
 	h3 {
