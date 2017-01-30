@@ -1,8 +1,8 @@
 // 	 HERO TEXT FADE IN
 
-const heroText = document.querySelector('.page-hero h1');
-const heroSubText = document.querySelector('.page-hero h5');
-const heroSmallSubText = document.querySelector('.page-hero h6');
+var heroText = document.querySelector('.page-hero h1');
+var heroSubText = document.querySelector('.page-hero h5');
+var heroSmallSubText = document.querySelector('.page-hero h6');
 
 function heroTextFadeIn() {
 	heroText.style.opacity = '1';

@@ -13,13 +13,13 @@ function switchCapability(e) {
 	var contentSectionName = e.target.dataset.section;
 	var contentSection = document.querySelector('div[data-section=' + contentSectionName + 'Content]');
 
-	listItems.forEach(listItem => removeActive(listItem));
+	listItems.forEach(function(listItem) {removeActive(listItem)});
 	e.target.classList.add('active');
-	contentItems.forEach(contentItem => removeActive(contentItem));
+	contentItems.forEach(function(contentItem) {removeActive(contentItem)});
 	contentSection.classList.add('active');
 }
 
-listItems.forEach(listItem => listItem.addEventListener('mouseenter', switchCapability));
+listItems.forEach(function(listItem) {listItem.addEventListener('mouseenter', switchCapability)});
 
 // MEMBERS
 
@@ -41,10 +41,10 @@ function showBio(e) {
 	var name = selectedMember.dataset.name;
 	var selectedBio = document.querySelector('div.about-management-team-bio[data-name=' + name + ']');
 	
-	members.forEach(member => removeActive(member));
+	members.forEach(function(member) {removeActive(member)});
 	selectedMember.classList.add('active');
-	bios.forEach(bio => removeActive(bio));
+	bios.forEach(function(bio) {removeActive(bio)});
 	selectedBio.classList.add('active');
 }
 
-members.forEach(member => member.addEventListener('mouseenter', showBio));
+members.forEach(function(member) {member.addEventListener('mouseenter', showBio)});
