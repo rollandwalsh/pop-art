@@ -18,7 +18,7 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-white.svg" alt="Pop Art" class="logo">
 					</div>
 					<div class="footer-columns">
-						<p>123 NE 3rd Ave<br>Suite 309<br>Portland, OR 97232</p>
+						<p><a href="https://www.google.com/maps/place/Eastside+Exchange,+123+NE+3rd+Ave+%23309,+Portland,+OR+97232/@45.5239897,-122.6652431,17z/data=!3m1!4b1!4m5!3m4!1s0x5495a0a8d9d659b1:0xcebf1fd77260c817!8m2!3d45.5239897!4d-122.6630544!6m1!1e1">123 NE 3rd Ave<br>Suite 309<br>Portland, OR 97232</a></p>
 						
 						<p><a href="tel:1-503-242-4292">+1 (503) 242 4292</a><br><a href="mailto:hello@popart.com">hello@popart.com</a></p>
 					</div>
