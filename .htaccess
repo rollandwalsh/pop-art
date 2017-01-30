@@ -10,3 +10,63 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
+
+# BEING redirects
+Redirect 301 https://www.popart.com/our-thinking/i-am-the-10-9-qualities-that-make-a-good-programmer	http://198.199.108.211/2016/10/06/9-qualities-that-make-a-good-programmer/
+Redirect 301 https://www.popart.com/our-thinking/3-keys-for-the-enterprise-realizing-the-promise-of-user-generated-content	http://198.199.108.211/2016/10/07/3-keys-for-the-enterprise-realizing-the-promise-of-user-generated-content/
+Redirect 301 https://www.popart.com/our-thinking/wither-thou-goest-pseudorandom-number-generator-best-practices-for-random-number-generation	http://198.199.108.211/2016/10/10/best-practices-for-random-number-generation/
+Redirect 301 https://www.popart.com/our-thinking/make-your-channel-sales-team-more-effective-4-benefits-of-sales-enablement-tools	http://198.199.108.211/2016/10/12/make-your-channel-sales-team-more-effective-4-benefits-of-sales-enablement-tools/
+Redirect 301 https://www.popart.com/our-thinking/how-to-revolutionize-onboarding-3-benefits-of-employee-generated-content	http://198.199.108.211/2016/10/19/how-to-revolutionize-onboarding-3-benefits-of-employee-generated-content/
+Redirect 301 https://www.popart.com/our-thinking/the-problem-with-email-and-5-tools-you-should-be-using-instead	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/when-is-the-right-time-for-cloud-based-digital-asset-management-dam	http://198.199.108.211/2016/10/26/when-is-the-right-time-for-cloud-based-digital-asset-management-dam/
+Redirect 301 https://www.popart.com/our-thinking/quick-and-dirty-shuffle-best-practices-for-programming-randomization	http://198.199.108.211/2016/10/31/quick-and-dirty-shuffle-best-practices-for-programming-randomization/
+Redirect 301 https://www.popart.com/our-thinking/4-best-practices-for-sales-enablement-content	http://198.199.108.211/2016/11/02/4-best-practices-for-sales-enablement-content/
+Redirect 301 https://www.popart.com/our-thinking/6-more-great-examples-of-brands-leveraging-user-generated-content	http://198.199.108.211/2016/11/07/6-more-great-examples-of-brands-leveraging-user-generated-content/
+Redirect 301 https://www.popart.com/our-thinking/how-to-effectively-qa-a-responsive-website	http://198.199.108.211/2016/11/08/how-to-effectively-qa-a-responsive-website/
+Redirect 301 https://www.popart.com/our-thinking/why-is-enterprise-not-afraid-of-node-the-case-for-node.js	http://198.199.108.211/2016/11/10/why-is-enterprise-not-afraid-of-node-the-case-for-node-js/
+Redirect 301 https://www.popart.com/our-thinking/good-ux-is-good-seo	http://198.199.108.211/2016/11/14/good-ux-is-good-seo/
+Redirect 301 https://www.popart.com/our-thinking/the-art-of-obsolescence	http://198.199.108.211/2016/11/15/the-art-of-obsolescence/
+Redirect 301 https://www.popart.com/our-thinking/configuring-configurability-in-mobile-apps	http://198.199.108.211/2016/11/16/configuring-configurability-in-mobile-apps/
+Redirect 301 https://www.popart.com/our-thinking/pizza-hut-and-the-selfie-stick-agenda	http://198.199.108.211/2016/11/17/pizza-hut-and-the-selfie-stick-agenda/
+Redirect 301 https://www.popart.com/our-thinking/language-throwdown-part-1-javascript-vs.-php	http://198.199.108.211/2016/11/21/language-throwdown-part-1-javascript-vs-php/
+Redirect 301 https://www.popart.com/our-thinking/virtual-interactivity-and-dunbars-number	http://198.199.108.211/2016/11/22/virtual-interactivity-and-dunbars-number/
+Redirect 301 https://www.popart.com/our-thinking/koa-the-internets-latest-warrior	http://198.199.108.211/2016/11/30/koa-the-internets-latest-warrior/
+Redirect 301 https://www.popart.com/our-thinking/5-benefits-of-better-onboarding	http://198.199.108.211/2016/12/01/5-benefits-of-better-onboarding/
+Redirect 301 https://www.popart.com/our-thinking/dont-be-greedy-6-tips-for-better-regular-expressions	http://198.199.108.211/2016/12/05/dont-be-greedy-6-tips-for-better-regular-expressions/
+Redirect 301 https://www.popart.com/our-thinking/5-best-practices-for-onboarding-programs	http://198.199.108.211/2016/12/06/5-best-practices-for-onboarding-programs/
+Redirect 301 https://www.popart.com/our-thinking/market-research-easier-than-ever	http://198.199.108.211/2016/12/08/market-research-easier-than-ever/
+Redirect 301 https://www.popart.com/our-thinking/sales-enablement-technology-8-insights-from-the-salesforce-state-of-sales	http://198.199.108.211/2016/12/12/sales-enablement-technology-8-insights-from-the-salesforce-state-of-sales/
+Redirect 301 https://www.popart.com/our-thinking/an-agency-education-tips-for-a-career-in-the-agency-world	http://198.199.108.211/2016/12/14/an-agency-education-tips-for-a-career-in-the-agency-world/
+Redirect 301 https://www.popart.com/our-thinking/book-marketing-done-right	http://198.199.108.211/2016/12/16/book-marketing-done-right/
+Redirect 301 https://www.popart.com/our-thinking/what-is-sales-enablement	http://198.199.108.211/2016/12/21/what-is-sales-enablement/
+Redirect 301 https://www.popart.com/our-thinking/earning-mindshare-for-your-brand	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/improving-sales-training-with-sales-enablement-tools	http://198.199.108.211/2017/01/18/improving-sales-training-with-sales-enablement-tools/
+Redirect 301 https://www.popart.com/our-thinking/cmo-leadership-putting-your-agencies-to-work-for-you	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/what-you-can-learn-about-sales-and-marketing-from-a-timeshare-presentation	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/interactive-shopping-nordstroms-1-macys-0	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/the-program-is-dead.-long-live-the-program	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/how-trade-associations-facilitate-innovation	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/the-pepsi-strain-viral-cause-marketing-with-social-media-gone-amok	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/how-you-build-what-you-build-8098	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/pop-art-completes-change-of-control-a-fresh-start-for-one-of-americas-first-digital-marketing-agencies-8303	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/interactive-shopping-nordstrom-2-macys-2	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/use-loyalty-programs-to-improve-your-net-promoter-score	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/time-management-strategies-for-creatives-8041	http://198.199.108.211/2015/09/20/11-time-management-strategies-for-creatives/
+Redirect 301 https://www.popart.com/our-thinking/b2b-ipad-apps-trends-and-tips-for-successful-projects	http://198.199.108.211/2015/11/12/b2b-ipad-apps-trends-and-tips-for-successful-projects/
+Redirect 301 https://www.popart.com/our-thinking/insights-into-consumer-psychology-help-i-cant-decide-which-computer-to-buy	http://198.199.108.211/2015/11/30/insights-into-consumer-psychology-help-i-cant-decide-which-computer-to-buy/
+Redirect 301 https://www.popart.com/our-thinking/5-things-about-digital-marketing-that-i-learned-from-visiting-china	http://198.199.108.211/2015/12/03/5-things-about-digital-marketing-that-i-learned-from-visiting-china/
+Redirect 301 https://www.popart.com/our-thinking/a-few-of-my-favorite-node-js-interactive-2015-talks-8215	http://198.199.108.211/2015/12/15/6-great-talks-from-node-js-interactive-2015/
+Redirect 301 https://www.popart.com/our-thinking/think-beyond-taps-mobile-gestures-result-in-better-user-experiences-7350	http://198.199.108.211/2016/01/27/think-beyond-taps-mobile-gestures-result-in-better-user-experiences/
+Redirect 301 https://www.popart.com/our-thinking/4-great-examples-of-how-brands-are-leveraging-user-generated-content-8295	http://198.199.108.211/2016/02/29/4-great-examples-of-brands-leveraging-user-generated-content/
+Redirect 301 https://www.popart.com/our-thinking/5-reasons-to-love-open-source-and-1-fair-warning-8320	http://198.199.108.211/2016/03/02/5-reasons-to-love-open-source-and-1-fair-warning/
+Redirect 301 https://www.popart.com/our-thinking/pop-art-honored-as-one-of-100-best-companies-to-work-for-in-oregon-2016-8917	http://198.199.108.211/2016/03/04/pop-art-honored-as-one-of-100-best-companies-to-work-for-in-oregon-2016/
+Redirect 301 https://www.popart.com/our-thinking/the-tower-of-techno-babel-8023	http://198.199.108.211/2016/05/23/the-tower-of-techno-babel/
+Redirect 301 https://www.popart.com/our-thinking/why-your-brand-needs-a-content-strategy	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/how-your-business-can-use-negative-social-media-to-boost-your-brand	http://198.199.108.211/blog/
+Redirect 301 https://www.popart.com/our-thinking/7-reasons-to-use-vue.js	http://198.199.108.211/2016/06/02/7-reasons-to-use-vue-js/
+Redirect 301 https://www.popart.com/our-thinking/are-you-paying-too-much-for-marketing-collateral	http://198.199.108.211/2016/06/08/are-you-paying-too-much-for-marketing-collateral/
+Redirect 301 https://www.popart.com/our-thinking/driverless-vehicles-will-save-mankind	http://198.199.108.211/2016/08/01/driverless-vehicles-will-save-mankind/
+Redirect 301 https://www.popart.com/our-thinking/4-characteristics-of-the-modern-digital-customer-and-what-it-means-for-your-business	http://198.199.108.211/2016/09/12/4-characteristics-of-the-modern-digital-customer-and-what-it-means-for-your-business/
+Redirect 301 https://www.popart.com/our-thinking/how-user-generated-content-can-improve-seo	http://198.199.108.211/2016/09/20/how-to-improve-seo-with-user-generated-content/
+Redirect 301 https://www.popart.com/our-thinking/no-comment	http://198.199.108.211/2016/10/03/no-comment-tips-for-commenting-out-code/
+# END redirects
