@@ -4,6 +4,7 @@ var posts = Array.from(document.querySelectorAll('.post'));
 function changeActive(e) {
 	$('#blogFilterList li.active').removeClass('active');
 	e.target.closest('li').addClass('active');
+	console.log($(this));
 }
 
 function filterBlogs(e) {
