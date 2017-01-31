@@ -3,7 +3,7 @@ var posts = Array.from(document.querySelectorAll('.post'));
 
 function changeActive(e) {
 	$('#blogFilterList li.active').removeClass('active');
-	console.log($(this));
+	console.log(e.target.closest('li'));
 }
 
 function filterBlogs(e) {
