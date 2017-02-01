@@ -20,8 +20,8 @@ Redirect 301 /what-we-do/sales-enablement-tools/ /sales-enablement
 Redirect 301 /what-we-do/digital-asset-management-software/ /digital-asset-management
 Redirect 301 /what-we-do/custom-software-solutions/ /software/custom-software
 Redirect 301 /our-work/ /work
-RewriteCond %{REQUEST_URI} ^/our-thinking[/]?$
-RewriteRule (.*) /blog [R=301,L]
+RewriteCond /our-thinking[/]?$
+RewriteRule /blog [R=301,L]
 Redirect 301 /careers/ /contact-us
 Redirect 301 /our-thinking/i-am-the-10-9-qualities-that-make-a-good-programmer /2016/10/06/9-qualities-that-make-a-good-programmer/
 Redirect 301 /our-thinking/3-keys-for-the-enterprise-realizing-the-promise-of-user-generated-content /2016/10/07/3-keys-for-the-enterprise-realizing-the-promise-of-user-generated-content/
