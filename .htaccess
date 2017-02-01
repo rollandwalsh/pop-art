@@ -13,15 +13,15 @@ RewriteRule . /index.php [L]
 
 # BEGIN redirects
 
-Redirect 301 /who-we-are /about
-Redirect 301 /what-we-do/bam /software/bam
-Redirect 301 /what-we-do/user-generated-content /user-generated-content
-Redirect 301 /what-we-do/sales-enablement-tools /sales-enablement
-Redirect 301 /what-we-do/digital-asset-management-software /digital-asset-management
-Redirect 301 /what-we-do/custom-software-solutions /software/custom-software
-Redirect 301 /our-work /work
-Redirect 301 /our-thinking /blog
-Redirect 301 /careers /contact-us
+Redirect 301 /who-we-are/?$ /about
+Redirect 301 /what-we-do/bam/?$ /software/bam
+Redirect 301 /what-we-do/user-generated-content/?$ /user-generated-content
+Redirect 301 /what-we-do/sales-enablement-tools/?$ /sales-enablement
+Redirect 301 /what-we-do/digital-asset-management-software/?$ /digital-asset-management
+Redirect 301 /what-we-do/custom-software-solutions/?$ /software/custom-software
+Redirect 301 /our-work/?$ /work
+Redirect 301 /our-thinking/?$ /blog
+Redirect 301 /careers/?$ /contact-us
 Redirect 301 /our-thinking/i-am-the-10-9-qualities-that-make-a-good-programmer /2016/10/06/9-qualities-that-make-a-good-programmer/
 Redirect 301 /our-thinking/3-keys-for-the-enterprise-realizing-the-promise-of-user-generated-content /2016/10/07/3-keys-for-the-enterprise-realizing-the-promise-of-user-generated-content/
 Redirect 301 /our-thinking/wither-thou-goest-pseudorandom-number-generator-best-practices-for-random-number-generation /2016/10/10/best-practices-for-random-number-generation/
