@@ -394,6 +394,10 @@
 	.button {
 		color: $white;
 		
+		@include breakpoint(small only) {
+			align-self: center;
+		}
+		
 		@include breakpoint(medium) {
 			align-self: flex-start;
 		}
@@ -490,6 +494,10 @@
 }
 
 .bam-endorsement-content {
+	@include breakpoint(small only) {
+		text-align: center;
+	}
+	
 	@include breakpoint(medium) {
 		display: flex;
 		flex-direction: column;

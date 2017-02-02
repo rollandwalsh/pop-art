@@ -9489,6 +9489,11 @@ button {
         margin-bottom: 2rem; } }
   .bam-endorsement .button {
     color: #ffffff; }
+    @media screen and (max-width: 39.9375em) {
+      .bam-endorsement .button {
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center; } }
     @media print, screen and (min-width: 40em) {
       .bam-endorsement .button {
         -ms-flex-item-align: start;
@@ -9553,6 +9558,10 @@ button {
         padding: 1rem 0.5rem; } }
     .bam-endorsement-nav li.current {
       color: #0099ff; }
+
+@media screen and (max-width: 39.9375em) {
+  .bam-endorsement-content {
+    text-align: center; } }
 
 @media print, screen and (min-width: 40em) {
   .bam-endorsement-content {
